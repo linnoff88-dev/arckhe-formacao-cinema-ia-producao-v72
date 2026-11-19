@@ -1,0 +1,308 @@
+{
+  "slug": "etica",
+  "num": 7,
+  "menu": "Ética",
+  "titulo": "Ética e lei: rótulo, direito de imagem e voz, licença do modelo",
+  "titulo_curto": "Ética e lei",
+  "minutos": 18,
+  "lead": "Antes de publicar, três perguntas: quem assiste sabe que foi feito com IA? Tudo o que aparece no filme é seu ou autorizado? O que a lei do lugar pede hoje? As leis ainda estão mudando, então esta aula ensina o princípio e dá cada regra com a fonte e a data.",
+  "objetivo": "conferir o seu filme antes de publicar: rótulo, pessoas e vozes, marcas, música, licença do modelo e registro do que foi gerado.",
+  "competencias": [
+    "rotular-conteudo-sintetico",
+    "verificar-direitos",
+    "ler-licenca-de-modelo"
+  ],
+  "aprende": [
+    {
+      "t": "Rotular o que foi feito com IA de um jeito que o público veja"
+    },
+    {
+      "t": "Saber o que a marca d'água invisível resolve e o que ela não resolve"
+    },
+    {
+      "t": "Conferir pessoas, vozes, marcas e música antes de publicar"
+    },
+    {
+      "t": "Ler a licença do modelo e guardar o registro do que foi gerado"
+    }
+  ],
+  "hero_alt": "Mesa escura sob uma luminária com uma pasta fechada e uma caneta, um gravador de voz, uma claquete e um HD externo.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "A conferência antes de publicar",
+      "sub": "Cinco perguntas, nesta ordem. Clique em cada uma.",
+      "estilo": "fluxo",
+      "nos": [
+        {
+          "titulo": "O que há",
+          "sub": "no filme",
+          "icone": "lupa",
+          "detalhe": "Liste o que aparece e o que se ouve: pessoas, rostos, vozes, marcas, lugares, músicas. É a matéria-prima das outras quatro perguntas."
+        },
+        {
+          "titulo": "De quem é",
+          "sub": "direitos",
+          "icone": "usuario",
+          "detalhe": "Rosto e voz de pessoa real só com autorização por escrito. Personagem, marca e obra de outra pessoa: não imite. Música: a licença da ferramenta ou da biblioteca tem de permitir o seu uso."
+        },
+        {
+          "titulo": "O que a lei pede",
+          "sub": "com data",
+          "icone": "escudo",
+          "forte": true,
+          "detalhe": "Na União Europeia, o AI Act (art. 50) vale desde 02/08/2026 e pede rótulo visível em deepfake publicado. Outras regras estão em tramitação; cite sempre o status com a data."
+        },
+        {
+          "titulo": "Rótulo",
+          "sub": "que se veja",
+          "icone": "marca",
+          "detalhe": "Um aviso que quem assiste vê ou ouve: \"vídeo feito com IA\", na tela ou na descrição, conforme o caso. Marca d'água invisível ajuda, mas não basta."
+        },
+        {
+          "titulo": "Registro",
+          "sub": "o que foi gerado",
+          "icone": "pasta",
+          "detalhe": "Guarde prompts, referências, modelo e data de cada plano. É prova de origem e é o que permite refazer o filme se a ferramenta fechar."
+        }
+      ],
+      "legenda": "Leis e regras mudam: cada uma aqui vem com a fonte e a data. O que não está confirmado em fonte oficial aparece como relatado."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "O que a lei e os casos ensinam (out/2026)",
+      "sub": "Princípio primeiro, regra com fonte e data depois.",
+      "passos": [
+        {
+          "titulo": "Rótulo visível",
+          "sub": "AI Act, art. 50",
+          "texto": [
+            "Na União Europeia, o artigo 50 do AI Act vale desde 02/08/2026: quem publica deepfake deve pôr um rótulo visível ou audível. O Código de Prática de marcação e rotulagem saiu em 10/06/2026 e diz que a marca d'água de máquina sozinha não basta.",
+            "Para obra claramente artística ou satírica a exigência é mais branda. Fora da UE, o rótulo é boa prática e muitas plataformas têm regra própria."
+          ]
+        },
+        {
+          "titulo": "Marca d'água e credenciais",
+          "sub": "ajudam, não resolvem",
+          "texto": [
+            "SynthID (Google) é uma marca d'água invisível; C2PA são credenciais de conteúdo gravadas no arquivo. Segundo fonte secundária (mai/2026), o Google anunciou verificação das duas no Search e no Chrome.",
+            "O limite: metadado se remove e a marca d'água só cobre os geradores que participam. Por isso o rótulo que o público vê continua necessário."
+          ]
+        },
+        {
+          "titulo": "Pessoas, vozes e personagens",
+          "sub": "os casos de 2026",
+          "texto": [
+            "O Seedance 2.0 entrou em atrito com a MPA, associação dos estúdios de cinema dos EUA, por gerar atores e personagens. O app do Sora, com os seus \"cameos\" de pessoas reais, fechou em 26/04/2026, e a API, em 24/09/2026.",
+            "Nos EUA, o NO FAKES Act, que protege imagem e voz contra réplicas digitais, passou na comissão do Senado em 18/06/2026 e estava travado no plenário em 07/10/2026."
+          ]
+        },
+        {
+          "titulo": "Brasil e licenças",
+          "sub": "status datado",
+          "texto": [
+            "Brasil, relatado pela imprensa e não confirmado aqui em fonte oficial: o PL 2338/2023 (marco da IA) passou no Senado em 10/12/2024 e seguia na Câmara em 2026; uma resolução do TSE trataria de conteúdo sintético nas eleições de 2026.",
+            "Licença do modelo: Wan 2.2 é Apache 2.0; o LTX-2.3 usa licença comunitária, paga acima de US$ 10 milhões de receita. Leia a licença antes de usar no trabalho."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "A checklist que a página confere e um texto de rótulo para a descrição do vídeo.",
+      "blocos": [
+        {
+          "rot": "checklist.txt (modelo)",
+          "icone": "arquivo",
+          "conteudo": "Rótulo: <onde e como o público fica sabendo que foi feito com IA>\nPessoas: <quem aparece; real com autorização, ou fictício>\nVoz: <de quem é cada voz; autorização>\nMarcas: <alguma marca, logotipo ou personagem de terceiros? qual e por quê>\nMúsica: <origem da trilha e a licença>\nModelo: <geradores usados e a licença de cada um>\nPlataforma: <onde vai publicar e a regra de rótulo de lá>\nRegistro: <onde estão os prompts, as referências e as datas>"
+        },
+        {
+          "rot": "Texto de rótulo (descrição do vídeo)",
+          "icone": "chat",
+          "conteudo": "Vídeo feito com inteligência artificial. Personagens e cenas são fictícios; nenhuma pessoa real foi retratada. Ferramentas: <geradores de imagem, vídeo e voz usados>. Trilha: <origem e licença>."
+        }
+      ]
+    },
+    {
+      "tipo": "conferidor",
+      "titulo": "Confira a sua checklist",
+      "sub": "Cole o arquivo (ou carregue o .txt). Teste antes com o exemplo que passa e com o exemplo com erro.",
+      "arquivo": "checklist.txt",
+      "rot": "Cole aqui a sua checklist (uma linha por item, no formato Item: resposta):",
+      "modelo": "Rótulo: ...\nPessoas: ...",
+      "regras": [
+        {
+          "tipo": "campos",
+          "campos": [
+            "Rótulo",
+            "Pessoas",
+            "Voz",
+            "Marcas",
+            "Música",
+            "Modelo",
+            "Plataforma",
+            "Registro"
+          ],
+          "min": 6
+        }
+      ],
+      "ok": "OK: checklist com {n} respostas",
+      "exemplo": "Rótulo: texto na tela no último plano e na descrição: vídeo feito com IA, personagens fictícios\nPessoas: Dona Lia e o cliente são personagens fictícios; nenhum rosto real\nVoz: a narração é a minha voz, gravada no celular; a fala \"Já vai!\" saiu nativa do gerador\nMarcas: nenhuma; a fachada da padaria não tem letreiro\nMúsica: trilha feita por mim no gerador de música, com licença de uso que permite publicar\nModelo: imagens e vídeos com a licença de cada ferramenta conferida em 19/10/2026\nPlataforma: site da padaria e redes; a rede pede marcar conteúdo realista feito com IA\nRegistro: pasta do projeto com plano, prompts, referências e datas de cada plano",
+      "exemplo_errado": "Rótulo: \nPessoas: personagens fictícios\nVoz: minha\nMúsica: uma música famosa que achei na internet\nModelo: vários\nRegistro: está no meu computador"
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Opcional: conferir no terminal",
+      "sub": "Só para quem já usa terminal. Na pasta do curso baixado do GitHub; para o seu arquivo, troque <code>--exemplo</code> pelo nome dele (<code>checklist.txt</code>).",
+      "blocos": [
+        {
+          "rot": "Terminal (na pasta do curso)",
+          "icone": "terminal",
+          "conteudo": "python3 conferir.py etica --exemplo; echo \"saída: $?\"\npython3 conferir.py etica --errado; echo \"saída: $?\""
+        }
+      ],
+      "saida": {
+        "selo": "real",
+        "abas": [
+          {
+            "rot": "Saída capturada (19/10/2026)",
+            "html": "<pre>$ python3 conferir.py etica --exemplo; echo \"saída: $?\"\nOK: checklist com 8 respostas\nsaída: 0</pre>"
+          },
+          {
+            "rot": "Exemplo com erro (19/10/2026)",
+            "html": "<pre>$ python3 conferir.py etica --errado; echo \"saída: $?\"\nAinda não. O que falta:\n - Falta a linha Rótulo: com a descrição (pelo menos 6 letras).\n - Falta a linha Voz: com a descrição (pelo menos 6 letras).\n - Falta a linha Marcas: com a descrição (pelo menos 6 letras).\n - Falta a linha Plataforma: com a descrição (pelo menos 6 letras).\nsaída: 1</pre>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Prática",
+      "sub": "A checklist do seu filme. A página confere que cada item foi respondido; a resposta certa depende do seu caso.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "Checklist · oito respostas",
+          "min": "20 min",
+          "texto": "Responda os oito itens para o seu filme, um por linha. Cole em \"Confira a sua checklist\" e baixe o checklist.txt para a pasta do projeto.",
+          "pronto": "a página responde <code>OK: checklist com 8 respostas</code> e o checklist.txt está na pasta do projeto."
+        },
+        {
+          "id": "e2",
+          "titulo": "Rótulo · no filme e na descrição",
+          "min": "15 min",
+          "texto": "Adapte o texto de rótulo do modelo ao seu filme, ponha um aviso curto na tela no último plano e guarde o texto da descrição na pasta do projeto como rotulo.txt.",
+          "pronto": "o rotulo.txt está na pasta do projeto e, ao tocar o filme, o aviso de vídeo feito com IA aparece na tela no último plano."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Teste rápido",
+      "sub": "Cinco perguntas. A explicação aparece depois de cada resposta.",
+      "perguntas": [
+        {
+          "p": "Desde quando o artigo 50 do AI Act (rotulagem) vale na União Europeia?",
+          "opcoes": [
+            "Desde 10/12/2024, quando o texto final foi aprovado.",
+            "Ainda não vale: está em tramitação até 2027.",
+            "Desde 02/08/2026.",
+            "Desde 24/09/2026, junto com o fim da API do Sora."
+          ],
+          "certa": 2,
+          "explica": "O art. 50 vale desde 02/08/2026; o Código de Prática de rotulagem saiu em 10/06/2026. As outras datas não são dessa regra: 24/09/2026 é o fim da API do Sora.",
+          "ref": "passos"
+        },
+        {
+          "p": "O seu gerador já põe marca d'água invisível. Precisa de rótulo visível?",
+          "opcoes": [
+            "Sim: o público não vê a marca d'água, e metadado se remove.",
+            "Não: a marca d'água invisível já cumpre qualquer lei de rotulagem, em qualquer país.",
+            "Só se o vídeo passar de um minuto de duração.",
+            "Só quando o vídeo for publicado fora do Brasil."
+          ],
+          "certa": 0,
+          "explica": "Marca d'água e credenciais ajudam a verificar, mas quem assiste não as vê, e o Código de Prática da UE diz que elas sozinhas não bastam em deepfake.",
+          "ref": "passos"
+        },
+        {
+          "p": "Qual voz você pode usar num anúncio feito com IA?",
+          "opcoes": [
+            "A de uma atriz conhecida, se a voz for só parecida.",
+            "A de qualquer pessoa, desde que o vídeo tenha rótulo.",
+            "A de um cliente real, gravada sem ele saber que viraria anúncio.",
+            "A sua, ou a de quem autorizou por escrito esse uso."
+          ],
+          "certa": 3,
+          "explica": "Rótulo não substitui autorização. Imitar a voz de pessoa conhecida é justamente o que casos e leis como o NO FAKES Act tentam barrar.",
+          "ref": "diagrama"
+        },
+        {
+          "p": "Como este curso trata a resolução do TSE sobre conteúdo sintético nas eleições de 2026?",
+          "opcoes": [
+            "Como regra confirmada, com o número e as multas do texto oficial.",
+            "Como relatada pela imprensa e não confirmada aqui em fonte oficial.",
+            "Como lei já revogada, que não vale mais.",
+            "Como regra que só vale para vídeos em inglês."
+          ],
+          "certa": 1,
+          "explica": "A pesquisa do curso não achou o texto no site do TSE, só reportagem. Regra que não foi conferida na fonte entra como relatada, com a data da fonte.",
+          "ref": "passos"
+        },
+        {
+          "p": "Por que guardar prompts, referências e datas de cada plano?",
+          "opcoes": [
+            "Porque o gerador apaga o vídeo se o prompt não for salvo.",
+            "Porque a lei exige publicar o prompt completo junto com o vídeo, na descrição da plataforma.",
+            "Porque provam a origem e permitem refazer o filme se a ferramenta fechar.",
+            "Porque deixam o arquivo de vídeo final mais leve."
+          ],
+          "certa": 2,
+          "explica": "O registro mostra de onde veio cada plano. Quando o app do Sora fechou, em 2026, só quem tinha roteiro, referências e prompts fora dele podia refazer o filme em outra ferramenta.",
+          "ref": "diagrama"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Para guardar",
+      "itens": [
+        {
+          "t": "Rótulo que se vê",
+          "texto": "Na tela ou na descrição. Marca d'água invisível ajuda, mas não basta."
+        },
+        {
+          "t": "Autorização antes",
+          "texto": "Rosto e voz reais só com permissão por escrito; personagem e marca de terceiros, não."
+        },
+        {
+          "t": "Regra com data",
+          "texto": "Leis mudam: cite a fonte e a data; o que não foi confirmado vai como relatado."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir além",
+      "links": [
+        {
+          "t": "Comissão Europeia: Código de Prática de marcação e rotulagem de conteúdo gerado por IA (jun/2026)",
+          "href": "https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content"
+        },
+        {
+          "t": "Daily Journal: NO FAKES Act parado no plenário do Senado dos EUA (07/10/2026)",
+          "href": "https://www.dailyjournal.com/article/395055-no-fakes-act-dead-for-now-as-cruz-objects-to-unanimous-consent-request"
+        },
+        {
+          "t": "9to5Google: a OpenAI anuncia o fim do app Sora (24/03/2026)",
+          "href": "https://9to5google.com/2026/03/24/openai-shutting-down-sora-video-generation-app-but-without-explaining-why/"
+        },
+        {
+          "t": "Licença do LTX-2.3 (Hugging Face)",
+          "href": "https://huggingface.co/Lightricks/LTX-2.3/blob/main/LICENSE"
+        }
+      ]
+    }
+  ]
+}

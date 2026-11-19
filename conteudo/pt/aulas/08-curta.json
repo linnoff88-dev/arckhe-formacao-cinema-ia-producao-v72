@@ -1,0 +1,351 @@
+{
+  "slug": "curta",
+  "num": 8,
+  "menu": "Curta",
+  "titulo": "Seu curta de 30–60 s: do plano ao arquivo final conferido",
+  "titulo_curto": "Seu curta",
+  "minutos": 20,
+  "lead": "Hora de juntar tudo: o plano de edição, o mapa de som, a montagem, a cor e a checklist viram um curta de 30 a 60 segundos. A página confere o arquivo final, e a pasta do projeto guarda o que você decidiu, pronta para refazer o filme em qualquer ferramenta.",
+  "objetivo": "entregar o curta de 30 a 60 s conferido pela página, com plano, mapa de som, receita de cor e checklist na pasta do projeto.",
+  "competencias": [
+    "finalizar-filme",
+    "entregar-em-formatos",
+    "organizar-projeto"
+  ],
+  "aprende": [
+    {
+      "t": "Juntar plano, som, corte, cor e rótulo num filme só"
+    },
+    {
+      "t": "Conferir o arquivo final e a versão para redes"
+    },
+    {
+      "t": "Organizar a pasta do projeto para refazer em outra ferramenta"
+    },
+    {
+      "t": "Planejar as próximas semanas com o gerador de plano"
+    }
+  ],
+  "hero_alt": "Pequena sala de exibição escura com poltronas vazias; na tela, uma padaria de bairro de madrugada com a vitrine acesa.",
+  "secoes": [
+    {
+      "tipo": "mapa",
+      "titulo": "O mapa do curso",
+      "sub": "Quatro degraus que viram o seu curta. Clique num exercício para ver o \"pronto quando\".",
+      "degraus": [
+        {
+          "aula": "plano-edicao",
+          "icone": "lista",
+          "quando": "Aula 1",
+          "titulo": "Plano",
+          "sub": "batidas e entregas",
+          "saida": "plano-edicao.txt conferido.",
+          "passo": "Função, tempo e fonte de cada plano e os formatos de entrega, antes de gastar crédito."
+        },
+        {
+          "aula": "som",
+          "icone": "megafone",
+          "quando": "Aula 2",
+          "titulo": "Som",
+          "sub": "nativo ou separado",
+          "saida": "mapa-som.txt conferido.",
+          "passo": "O que se ouve em cada plano e o que entra na montagem: trilha, narração, mixagem."
+        },
+        {
+          "aula": "cor",
+          "icone": "camadas",
+          "quando": "Aulas 3 a 5",
+          "titulo": "Corte e cor",
+          "sub": "montagem e look",
+          "saida": "montagem conferida e cor.txt.",
+          "passo": "Cortes, legenda e a receita de cor aplicada igual em todos os planos; ou o filme feito só com fotos."
+        },
+        {
+          "aula": "etica",
+          "icone": "escudo",
+          "quando": "Aulas 6 e 7",
+          "titulo": "Rótulo",
+          "sub": "direitos e registro",
+          "saida": "checklist.txt conferido.",
+          "passo": "Rótulo visível, autorização de rosto e voz, licença de música e modelo, registro do que foi gerado."
+        }
+      ],
+      "resultado": {
+        "titulo": "Ao final do curso",
+        "texto": "Um curta de 30 a 60 s conferido pela página e uma pasta com plano, som, cor e checklist.",
+        "total": "8 arquivos"
+      },
+      "rolagem_fim": {
+        "titulo": "O curso inteiro",
+        "texto": "Quatro degraus, cada um com o seu arquivo conferido. O curta desta aula junta todos."
+      },
+      "legenda": "Ordem sugerida: cada degrau usa o que o anterior decidiu."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Como fechar o curta",
+      "sub": "Da pasta de arquivos ao filme conferido.",
+      "passos": [
+        {
+          "titulo": "A pasta do projeto",
+          "sub": "tudo fora da plataforma",
+          "texto": [
+            "Uma pasta por filme, com o plano, o mapa de som, a receita de cor, a checklist, o rótulo, os clipes e o arquivo final. Nomes pelo número do plano.",
+            "É a pasta que permite refazer o filme se uma ferramenta mudar de preço ou fechar, como aconteceu com o Sora em 2026."
+          ],
+          "exemplo": {
+            "rot": "Pasta",
+            "texto": "a-primeira-fornada/ · plano-edicao.txt · mapa-som.txt · cor.txt · checklist.txt · rotulo.txt · clipes/ · curta.mp4"
+          }
+        },
+        {
+          "titulo": "Montar na ordem",
+          "sub": "corte, som, cor, legenda",
+          "texto": [
+            "Corte primeiro (aula 3), depois a trilha e a mixagem (aula 2), depois a cor (aula 4), por último legenda e rótulo. Mexer na cor antes do corte final faz retrabalho.",
+            "Sem clipes gerados? Vale o filme com fotos da aula 5 ou os clipes de ensaio repetidos com uma cartela de título, como o exemplo que passa (32 s). O que se confere é o arquivo."
+          ]
+        },
+        {
+          "titulo": "Conferir e entregar",
+          "sub": "16:9 e 9:16",
+          "texto": [
+            "Exporte em MP4 H.264 e confira abaixo. Se o plano de edição pede corte 9:16, reenquadre à mão (o assunto no centro) e confira também: a página aceita os dois formatos.",
+            "Veja o filme inteiro com fones, de uma vez, de preferência no dia seguinte, antes de publicar."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "conferidor",
+      "titulo": "Confira o seu curta",
+      "sub": "Escolha o MP4 final. A página lê duração e tamanho no seu navegador; nada é enviado. Teste antes com o exemplo que passa (o curta de ensaio da fornada) e com o exemplo com erro.",
+      "arquivo": "curta.mp4",
+      "regras": [
+        {
+          "tipo": "video",
+          "min": 30,
+          "max": 60,
+          "proporcao": [
+            "16:9",
+            "9:16"
+          ],
+          "largura_min": 720
+        }
+      ],
+      "ok": "OK: {s} s · {w}×{h} · {p}",
+      "video_ok": "assets/ensaio/exemplo-curta.webm",
+      "video_erro": "assets/ensaio/exemplo-curta-erro.webm"
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Opcional: conferir no terminal",
+      "sub": "Só para quem já usa terminal e tem o ffmpeg instalado. Na pasta do curso baixado do GitHub; para o seu arquivo, troque <code>--exemplo</code> pelo nome dele (<code>curta.mp4</code>).",
+      "blocos": [
+        {
+          "rot": "Terminal (na pasta do curso)",
+          "icone": "terminal",
+          "conteudo": "python3 conferir.py curta --exemplo; echo \"saída: $?\"\npython3 conferir.py curta --errado; echo \"saída: $?\""
+        }
+      ],
+      "saida": {
+        "selo": "real",
+        "abas": [
+          {
+            "rot": "Saída capturada (19/10/2026)",
+            "html": "<pre>$ python3 conferir.py curta --exemplo; echo \"saída: $?\"\nOK: 32,0 s · 1280×720 · 16:9\nsaída: 0</pre>"
+          },
+          {
+            "rot": "Exemplo com erro (19/10/2026)",
+            "html": "<pre>$ python3 conferir.py curta --errado; echo \"saída: $?\"\nAinda não. O que falta:\n - O vídeo tem 20,0 s; o pedido é de 30 a 60 s.\n - O vídeo é 960×720 (4:3); o pedido é 16:9 / 9:16.\nsaída: 1</pre>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Prática final",
+      "sub": "O seu curta, do plano ao arquivo. Gerar os planos é com a ferramenta que você tiver; fotos e clipes de ensaio também valem.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "Curta · 30 a 60 s conferido",
+          "min": "2 h",
+          "dias": 3,
+          "texto": "Monte o curta seguindo o seu plano de edição, com som, cor, legenda e rótulo, e exporte em MP4 H.264. Escolha o arquivo em \"Confira o seu curta\" e guarde-o na pasta do projeto como curta.mp4.",
+          "pronto": "a página responde <code>OK: [s] s · [w]×[h] · [p]</code>, com a duração entre 30 e 60 s e o formato 16:9 ou 9:16."
+        },
+        {
+          "id": "e2",
+          "titulo": "Entrega · a versão para redes",
+          "min": "40 min",
+          "texto": "Faça a segunda entrega do seu plano (por exemplo, o corte 9:16 reenquadrado à mão) e confira também.",
+          "pronto": "a página responde <code>OK: …</code> para as duas versões, cada uma com o seu formato na resposta."
+        },
+        {
+          "id": "e3",
+          "titulo": "Pasta · o projeto completo",
+          "min": "15 min",
+          "texto": "Confira se a pasta do projeto tem o plano, o mapa de som, a receita de cor, a checklist, o rótulo e o curta.",
+          "pronto": "a pasta tem plano-edicao.txt, mapa-som.txt, cor.txt, checklist.txt, rotulo.txt e curta.mp4, e cada .txt passa de novo no conferidor da sua aula."
+        }
+      ]
+    },
+    {
+      "tipo": "gerador",
+      "titulo": "Gere o seu plano com datas",
+      "sub": "Escolha quando começa e quanto tempo tem por semana. O plano lista os exercícios das oito aulas.",
+      "curso": "Produção: do roteiro ao filme",
+      "horas_padrao": 3,
+      "degraus": [
+        {
+          "titulo": "Aula 1 · Plano de edição",
+          "aula": "plano-edicao"
+        },
+        {
+          "titulo": "Aula 2 · Mapa de som",
+          "aula": "som"
+        },
+        {
+          "titulo": "Aula 3 · Montagem",
+          "aula": "montagem"
+        },
+        {
+          "titulo": "Aula 4 · Receita de cor",
+          "aula": "cor"
+        },
+        {
+          "titulo": "Aula 5 · Filme com fotos",
+          "aula": "fotos"
+        },
+        {
+          "titulo": "Aula 6 · Anúncio",
+          "aula": "anuncio"
+        },
+        {
+          "titulo": "Aula 7 · Checklist",
+          "aula": "etica"
+        },
+        {
+          "titulo": "Aula 8 · Curta",
+          "aula": "curta"
+        }
+      ],
+      "txt": {
+        "titulo": "Plano — Produção: do roteiro ao filme",
+        "inicio": "Início",
+        "ritmo": "Ritmo",
+        "termino": "Término previsto",
+        "ate": "até",
+        "pronto": "pronto quando",
+        "semanas": "semanas",
+        "travou": "## O que travou e a regra que criei",
+        "h": "h por semana",
+        "exs": "exercícios"
+      }
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Teste final",
+      "sub": "Cinco perguntas sobre o curso inteiro. A explicação aparece depois de cada resposta.",
+      "perguntas": [
+        {
+          "p": "Em que ordem fechar o filme na montagem?",
+          "opcoes": [
+            "Cor, depois corte, depois legenda, depois a trilha por último.",
+            "Corte, depois trilha e mixagem, depois cor, por último legenda e rótulo.",
+            "Legenda primeiro, para guiar os cortes pelo texto, e depois a cor, o som e o rótulo.",
+            "Rótulo primeiro, e o resto em qualquer ordem."
+          ],
+          "certa": 1,
+          "explica": "Cor e legenda dependem do corte final; mexer nelas antes gera retrabalho. O rótulo entra no fim, sobre o filme pronto.",
+          "ref": "passos"
+        },
+        {
+          "p": "A página respondeu \"O vídeo tem 24,0 s; o pedido é de 30 a 60 s\". O que fazer?",
+          "opcoes": [
+            "Acelerar o vídeo até ele parecer mais longo.",
+            "Exportar de novo em outro codec, sem mudar a montagem.",
+            "Trocar o formato para 9:16, porque o formato vertical aceita vídeos mais curtos que 30 s.",
+            "Voltar ao plano de edição e ajustar as batidas até a soma dar 30 a 60 s."
+          ],
+          "certa": 3,
+          "explica": "A duração vem do plano: a lista se ajusta à duração do filme. Codec e formato não mudam o tempo do arquivo.",
+          "ref": "conferidor"
+        },
+        {
+          "p": "Qual decisão sai junto com o vídeo gerado e qual entra na montagem?",
+          "opcoes": [
+            "Ambiente e efeito saem junto; trilha e narração longa entram na montagem.",
+            "Tudo sai junto: em 2026 a montagem não mexe mais no som, que já vem pronto do gerador.",
+            "Nada sai junto: o som gerado deve sempre ser apagado.",
+            "Só a trilha sai junto; o resto é gravado à parte."
+          ],
+          "certa": 0,
+          "explica": "O que nasce da ação do plano sai bem como som nativo; o que atravessa planos entra por cima, na montagem (aula 2).",
+          "ref": "mapa"
+        },
+        {
+          "p": "Para que serve o caminho da aula 5 (fotos e narração)?",
+          "opcoes": [
+            "Só para quem não tem nenhuma foto e precisa gerar todas.",
+            "Para substituir o rótulo de IA, já que fotos são reais.",
+            "Para fazer um filme sem gerador de vídeo e sem gastar crédito.",
+            "Para aumentar a resolução dos clipes gerados."
+          ],
+          "certa": 2,
+          "explica": "Fotos e narração com movimento de câmera viram filme em qualquer máquina. Se as imagens forem geradas, o rótulo continua valendo.",
+          "ref": "mapa"
+        },
+        {
+          "p": "Por que a pasta do projeto fica fora da plataforma de geração?",
+          "opcoes": [
+            "Porque as plataformas de geração apagam todos os arquivos do usuário depois de um dia de uso.",
+            "Porque ferramenta muda ou fecha; com o plano e os prompts você refaz o filme.",
+            "Porque a lei proíbe guardar arquivos na nuvem.",
+            "Porque o conferidor só lê arquivos de pastas locais."
+          ],
+          "certa": 1,
+          "explica": "O caso Sora (app fechado em 26/04/2026) mostra que ferramenta some. O que é seu (decisões e arquivos) fica na sua pasta.",
+          "ref": "passos"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "O curso em três frases",
+      "itens": [
+        {
+          "t": "Planeje antes de gerar",
+          "texto": "Batidas, fontes, som e entregas decididos em texto, conferidos pela página."
+        },
+        {
+          "t": "Feche na montagem",
+          "texto": "Corte, som, cor e legenda num editor gratuito; o arquivo final é conferido aqui."
+        },
+        {
+          "t": "Publique com rótulo",
+          "texto": "Direitos resolvidos, rótulo visível e registro guardado."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir além",
+      "links": [
+        {
+          "t": "Curso 3 · Motion por código com agente: HyperFrames e Remotion (o próximo da formação)",
+          "href": "https://inematds.github.io/formacao-cinema-ia-motion-v72/"
+        },
+        {
+          "t": "Curso 1 · Geração: imagem e vídeo com IA em out/2026",
+          "href": "https://inematds.github.io/formacao-cinema-ia-geracao-v72/"
+        },
+        {
+          "t": "Curso 0 · Direção: pensar como diretor antes de gerar",
+          "href": "https://inematds.github.io/formacao-cinema-ia-direcao-v72/"
+        }
+      ]
+    }
+  ]
+}

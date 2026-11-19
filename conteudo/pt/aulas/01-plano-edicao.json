@@ -1,0 +1,340 @@
+{
+  "slug": "plano-edicao",
+  "num": 1,
+  "menu": "Plano",
+  "titulo": "O plano de edição antes de gerar: beat sheet e lista de entregas",
+  "titulo_curto": "Plano de edição",
+  "minutos": 18,
+  "lead": "A decupagem diz o que filmar; o plano de edição diz como o filme corre. Antes de gastar crédito, você decide a função de cada trecho, quanto tempo ele dura, de onde vem cada plano e em que formatos o filme sai. É o mapa que a montagem vai seguir.",
+  "objetivo": "montar o plano de edição do seu filme: batidas com função, tempo e fonte de cada plano, e a lista de entregas por formato.",
+  "competencias": [
+    "planejar-edicao",
+    "decidir-fonte-do-plano",
+    "definir-entregas"
+  ],
+  "aprende": [
+    {
+      "t": "Transformar a decupagem em batidas com função: gancho, virada, fecho"
+    },
+    {
+      "t": "Escolher a fonte de cada plano antes de gerar: gerar, foto, gravar ou tela"
+    },
+    {
+      "t": "Escolher o ritmo de corte pelo tipo de vídeo"
+    },
+    {
+      "t": "Listar as entregas: 16:9, 9:16 e versão sem trilha"
+    }
+  ],
+  "hero_alt": "Parede escura com uma faixa de cartões de papel presos em sequência por alfinetes, ligados por um fio; embaixo, um cronômetro e fita gaffer amarela.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Da decupagem ao plano de edição",
+      "sub": "Cinco decisões antes de gerar o primeiro plano. Clique em cada uma.",
+      "estilo": "fluxo",
+      "nos": [
+        {
+          "titulo": "Intenção",
+          "sub": "o que sentir",
+          "icone": "alvo",
+          "detalhe": "O que o público deve sentir e fazer no fim, e a duração total. Tudo o que vem depois serve a isso. No exemplo do curso: orgulho silencioso de quem acorda antes da cidade, em 45 segundos."
+        },
+        {
+          "titulo": "Batidas",
+          "sub": "função e tempo",
+          "icone": "lista",
+          "forte": true,
+          "detalhe": "Batida (beat) é um trecho com uma função: gancho, apresentação, desenvolvimento, virada, clímax, fecho. A lista de batidas com tempo é o beat sheet. Um plano pode ser uma batida, ou uma batida pode ter dois planos."
+        },
+        {
+          "titulo": "Fonte",
+          "sub": "de onde vem",
+          "icone": "camadas",
+          "detalhe": "Para cada plano: gerar com IA, animar uma foto, gravar com o celular ou capturar a tela. Decidir isso antes evita gastar crédito em plano que uma foto ou uma gravação resolveria."
+        },
+        {
+          "titulo": "Ritmo",
+          "sub": "tempo de corte",
+          "icone": "relogio",
+          "detalhe": "Quanto dura, em média, cada plano. Vídeo curto para redes corta rápido; institucional corta devagar. Quando há fala, o plano dura o tempo da fala: não se corta a frase no meio."
+        },
+        {
+          "titulo": "Entregas",
+          "sub": "formatos",
+          "icone": "pasta",
+          "detalhe": "Em que formatos o filme sai: o principal em 16:9, um corte 9:16 para redes, uma versão sem trilha para reaproveitar, a imagem de capa. Saber antes muda o enquadramento e o tempo de cada plano."
+        }
+      ],
+      "legenda": "O plano de edição é texto e fica na sua pasta, fora de qualquer plataforma: se uma ferramenta fechar, o filme continua planejado."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Como montar o plano, passo a passo",
+      "sub": "O exemplo é a cena que atravessa a formação: \"A primeira fornada\".",
+      "passos": [
+        {
+          "titulo": "Intenção e duração",
+          "sub": "uma frase cada",
+          "texto": [
+            "Escreva numa frase o que o público deve sentir e, em outra, a duração total. Sem duração, não há como somar as batidas.",
+            "Comece pela decupagem do curso 0: ela já tem os planos, a câmera e o som. O plano de edição organiza esses planos no tempo."
+          ],
+          "exemplo": {
+            "rot": "Intenção",
+            "texto": "Orgulho silencioso de quem acorda antes da cidade. Filme de 45 s, para o site e as redes da padaria."
+          }
+        },
+        {
+          "titulo": "Batidas com função",
+          "sub": "gancho primeiro",
+          "texto": [
+            "Dê uma função a cada trecho. O gancho vem nos primeiros 3 segundos: movimento, uma imagem inesperada ou uma pergunta. O fecho deixa uma imagem que funciona parada.",
+            "Se um trecho não tem função, ele sai. Troque algo na tela a cada poucos segundos para o olho não cansar."
+          ],
+          "exemplo": {
+            "rot": "Batida",
+            "texto": "1 | gancho | 3 s | vitrine acesa numa rua escura, vento | fonte: gerar"
+          }
+        },
+        {
+          "titulo": "A fonte de cada plano",
+          "sub": "gerar é uma das opções",
+          "texto": [
+            "Para cada batida, decida de onde vem a imagem: gerar (texto ou imagem para vídeo, curso 1), foto animada (aula 5), gravação própria ou captura de tela.",
+            "Plano de produto e plano de mão costumam sair melhor gravados; paisagem e madrugada vazia, gerados. Essa coluna vira a lista de compras de crédito."
+          ]
+        },
+        {
+          "titulo": "Ritmo e entregas",
+          "sub": "o formato muda o plano",
+          "texto": [
+            "Como ponto de partida, a skill video-plan-editor do INEMA usa cortes de 0,8 a 1,5 s em vídeo viral, 2 a 3 s em promocional e 4 a 6 s em institucional. Ajuste ao seu filme.",
+            "Liste as entregas na primeira linha. Se vai haver corte 9:16, deixe o assunto de cada plano no centro do quadro."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "O formato que a página confere e um pedido para o assistente de IA fazer o rascunho a partir da sua decupagem.",
+      "blocos": [
+        {
+          "rot": "plano-edicao.txt (modelo)",
+          "icone": "arquivo",
+          "conteudo": "Filme: <nome> (<duração> s)\nEntregas: <formato principal>; <outros formatos>; <versão sem trilha?>\n# n | função | duração | o que se vê e se ouve | fonte\n1 | gancho | <n> s | <o que prende nos 3 primeiros segundos> | fonte: <gerar / foto / gravar / tela>\n2 | apresentação | <n> s | <onde e quem> | fonte: <...>\n3 | <função> | <n> s | <...> | fonte: <...>"
+        },
+        {
+          "rot": "Pedido ao assistente de IA (rascunho do plano)",
+          "icone": "chat",
+          "conteudo": "Você é montador de cinema. Leia a decupagem abaixo e proponha um plano de edição de 6 a 8 batidas, uma linha por batida, neste formato:\nn | função | duração | o que se vê e se ouve | fonte: gerar, foto, gravar ou tela\nRegras:\n- a primeira batida é o gancho e prende nos 3 primeiros segundos;\n- a última é o fecho, com uma imagem que funciona parada;\n- a soma das durações dá <duração> segundos;\n- sugira a fonte mais barata que resolve cada plano;\n- não invente personagem, lugar ou objeto que não esteja na decupagem.\nNa primeira linha, liste as entregas: <formatos>.\nDecupagem: <cole aqui a sua decupagem>"
+        }
+      ]
+    },
+    {
+      "tipo": "conferidor",
+      "titulo": "Confira o seu plano de edição",
+      "sub": "Cole o arquivo (ou carregue o .txt). Teste antes com o exemplo que passa e com o exemplo com erro: é o ensaio, sem gastar nada.",
+      "arquivo": "plano-edicao.txt",
+      "rot": "Cole aqui o seu plano (a linha Entregas e uma linha numerada por batida):",
+      "modelo": "Entregas: ...\n1 | gancho | 3 s | ... | fonte: gerar",
+      "regras": [
+        {
+          "tipo": "campos",
+          "campos": [
+            "Entregas"
+          ],
+          "min": 10
+        },
+        {
+          "tipo": "planos",
+          "min": 5,
+          "max": 10
+        },
+        {
+          "tipo": "cada_plano",
+          "grupos": [
+            {
+              "rot": "função",
+              "variar": 4,
+              "termos": [
+                "gancho / hook / gancho inicial",
+                "apresentação / contexto / introdução / setup / intro / presentación / introducción / abertura / opening",
+                "desenvolvimento / development / build-up / desarrollo",
+                "virada / reviravolta / turning point / turn / twist / giro / punto de giro",
+                "clímax / climax / pico / peak",
+                "fecho / desfecho / final / ending / cierre / remate / cta / conclusão / encerramento / conclusion / conclusión"
+              ]
+            },
+            {
+              "rot": "a coluna fonte",
+              "min": 3,
+              "termos": [
+                "fonte: / source: / fuente:"
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "duracao",
+          "min": 30,
+          "max": 60
+        },
+        {
+          "tipo": "termos",
+          "grupos": [
+            {
+              "rot": "o gancho",
+              "termos": [
+                "gancho / hook"
+              ]
+            },
+            {
+              "rot": "o fecho",
+              "termos": [
+                "fecho / desfecho / final / ending / cierre / remate / cta / conclusão / encerramento / conclusion / conclusión"
+              ]
+            }
+          ]
+        }
+      ],
+      "ok": "OK: {n} batidas com função, tempo e fonte · {s} s",
+      "exemplo": "Filme: A primeira fornada (45 s)\nEntregas: master 16:9 em 1920×1080; corte 9:16 de 30 s para redes; versão sem trilha\n# n | função | duração | o que se vê e se ouve | fonte\n1 | gancho | 3 s | Vitrine acesa numa rua escura; vento e um cachorro ao longe. | fonte: gerar (imagem para vídeo)\n2 | apresentação | 7 s | Dona Lia sova a massa na bancada; rádio baixo. | fonte: gerar com a ficha da personagem\n3 | desenvolvimento | 8 s | A porta do forno abre e o vapor sobe; a pá tira a primeira fornada. | fonte: gravar o forno da padaria de verdade\n4 | virada | 6 s | Três batidas na porta de ferro; ela olha o relógio e sorri. | fonte: gerar com fala\n5 | clímax | 9 s | Ela sobe a porta; o primeiro cliente entra e recebe o pão quente. | fonte: gerar\n6 | fecho | 12 s | A rua clareando, a padaria aberta; o nome do filme aparece. | fonte: foto da fachada animada",
+      "exemplo_errado": "Filme: A primeira fornada (45 s)\n1 | apresentação | 7 s | Dona Lia sova a massa. | fonte: gerar\n2 | desenvolvimento | 8 s | O forno abre. | fonte: gravar\n3 | virada | 6 s | Batidas na porta de ferro.\n4 | clímax | 4 s | O primeiro cliente entra. | fonte: gerar\n5 | fecho | 5 s | A rua clareando. | fonte: foto"
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Opcional: conferir no terminal",
+      "sub": "Só para quem já usa terminal. Baixe o curso do GitHub e rode na pasta dele: as regras são as mesmas da página. Para o seu arquivo, troque <code>--exemplo</code> pelo nome dele (<code>plano-edicao.txt</code>); sai 0 quando passa.",
+      "blocos": [
+        {
+          "rot": "Terminal (na pasta do curso)",
+          "icone": "terminal",
+          "conteudo": "python3 conferir.py plano-edicao --exemplo; echo \"saída: $?\"\npython3 conferir.py plano-edicao --errado; echo \"saída: $?\""
+        }
+      ],
+      "saida": {
+        "selo": "real",
+        "abas": [
+          {
+            "rot": "Saída capturada (19/10/2026)",
+            "html": "<pre>$ python3 conferir.py plano-edicao --exemplo; echo \"saída: $?\"\nOK: 6 batidas com função, tempo e fonte · 45 s\nsaída: 0</pre>"
+          },
+          {
+            "rot": "Exemplo com erro (19/10/2026)",
+            "html": "<pre>$ python3 conferir.py plano-edicao --errado; echo \"saída: $?\"\nAinda não. O que falta:\n - Falta a linha Entregas: com a descrição (pelo menos 10 letras).\n - Plano 3: falta a coluna fonte.\n - Falta citar o gancho.\nsaída: 1</pre>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Prática",
+      "sub": "O plano do seu filme. Pode partir do rascunho do assistente, mas a decisão final é sua.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "Plano de edição · o seu filme de 30 a 60 s",
+          "min": "25 min",
+          "texto": "Escreva a linha Entregas e de 5 a 10 batidas no formato do modelo, cada uma com função, duração e fonte. Cole na seção \"Confira o seu plano de edição\" e use \"Baixar o arquivo\" para guardar o plano-edicao.txt na pasta do seu projeto.",
+          "pronto": "a página responde <code>OK: [n] batidas com função, tempo e fonte · [s] s</code>, com a soma entre 30 e 60 s, e o plano-edicao.txt está na pasta do projeto."
+        },
+        {
+          "id": "e2",
+          "titulo": "Fonte · um plano sem gerar",
+          "min": "10 min",
+          "texto": "Troque a fonte de pelo menos um plano de \"gerar\" para \"foto\", \"gravar\" ou \"tela\", o que for mais barato e resolver. Confira de novo.",
+          "pronto": "a página continua respondendo <code>OK: …</code> e, na coluna fonte, pelo menos uma batida não diz gerar."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Teste rápido",
+      "sub": "Quatro perguntas. A explicação aparece depois de cada resposta.",
+      "perguntas": [
+        {
+          "p": "Qual a diferença entre a decupagem e o plano de edição?",
+          "opcoes": [
+            "A decupagem diz o que filmar; o plano diz a função e o tempo de cada trecho.",
+            "A decupagem serve só para o gerador de vídeo; o plano serve só para a música.",
+            "São o mesmo arquivo com nomes diferentes, um em português e o outro em inglês.",
+            "A decupagem vem depois da montagem, para registrar em texto o que já foi cortado e exportado."
+          ],
+          "certa": 0,
+          "explica": "A decupagem (curso 0) descreve câmera, som e duração de cada plano; o plano de edição organiza esses planos no tempo, com função, fonte e entregas. Os dois vêm antes de gerar.",
+          "ref": "diagrama"
+        },
+        {
+          "p": "O seu plano tem 7 batidas e uma delas não tem função clara. O que fazer?",
+          "opcoes": [
+            "Deixar como está, porque mais planos dão mais opções na montagem.",
+            "Gerar a batida duas vezes e escolher a melhor na hora de montar.",
+            "Tirar a batida ou juntá-la à vizinha que tem função.",
+            "Trocar a fonte dessa batida para uma foto animada."
+          ],
+          "certa": 2,
+          "explica": "Trecho sem função alonga o filme e gasta crédito. Trocar a fonte barateia, mas não dá função ao trecho; gerar duas vezes só dobra o gasto.",
+          "ref": "passos"
+        },
+        {
+          "p": "Por que decidir a fonte de cada plano antes de gerar?",
+          "opcoes": [
+            "Porque o gerador recusa plano que não diz a fonte no prompt.",
+            "Porque alguns planos saem melhor e mais baratos com foto, gravação ou tela.",
+            "Porque a montagem só aceita clipes que vieram todos da mesma fonte, gerados na mesma ferramenta.",
+            "Porque o rótulo de IA só é exigido nos planos gerados."
+          ],
+          "certa": 1,
+          "explica": "A coluna fonte é a lista de compras de crédito: produto e mãos costumam sair melhor gravados, e uma foto animada resolve muito plano parado. O rótulo vale para o filme inteiro (aula 7).",
+          "ref": "passos"
+        },
+        {
+          "p": "Você vai entregar o filme em 16:9 e um corte em 9:16. O que muda já no plano?",
+          "opcoes": [
+            "Nada: o corte 9:16 se resolve depois, esticando a imagem na hora de exportar a versão vertical.",
+            "Todos os planos passam a ter o dobro da duração.",
+            "O gancho sai do começo e vai para o fim do filme.",
+            "O assunto de cada plano fica no centro do quadro, para caber no 9:16."
+          ],
+          "certa": 3,
+          "explica": "O corte vertical recorta as laterais. Se o assunto está na borda do 16:9, ele some no 9:16. Esticar a imagem deforma; a duração e o gancho não mudam por causa do formato.",
+          "ref": "diagrama"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Para guardar",
+      "itens": [
+        {
+          "t": "Função antes de plano",
+          "texto": "Cada batida tem uma função; a que não tem sai do filme."
+        },
+        {
+          "t": "Fonte decidida",
+          "texto": "Gerar, foto, gravar ou tela: escolha a mais barata que resolve, antes de gastar crédito."
+        },
+        {
+          "t": "Entregas na primeira linha",
+          "texto": "O formato final muda o enquadramento e o tempo de cada plano."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir além",
+      "links": [
+        {
+          "t": "Curso 0 · Decupagem com som (a lista de planos que este plano organiza)",
+          "href": "https://inematds.github.io/formacao-cinema-ia-direcao-v72/aulas/decupagem/"
+        },
+        {
+          "t": "Curso 1 · Geração: imagem e vídeo com IA em out/2026 (a fonte \"gerar\")",
+          "href": "https://inematds.github.io/formacao-cinema-ia-geracao-v72/"
+        }
+      ]
+    }
+  ]
+}

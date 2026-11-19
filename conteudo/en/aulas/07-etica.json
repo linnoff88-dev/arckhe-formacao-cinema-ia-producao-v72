@@ -1,0 +1,308 @@
+{
+  "slug": "etica",
+  "num": 7,
+  "menu": "Ethics",
+  "titulo": "Ethics and law: label, image and voice rights, model license",
+  "titulo_curto": "Ethics and law",
+  "minutos": 18,
+  "lead": "Before you publish, three questions: do viewers know it was made with AI? Is everything that appears in the film yours or authorized? What does the law where you are require today? The laws are still changing, so this lesson teaches the principle and gives each rule with its source and date.",
+  "objetivo": "check your film before publishing: label, people and voices, brands, music, model license, and a record of what was generated.",
+  "competencias": [
+    "rotular-conteudo-sintetico",
+    "verificar-direitos",
+    "ler-licenca-de-modelo"
+  ],
+  "aprende": [
+    {
+      "t": "Label what was made with AI in a way the audience can see"
+    },
+    {
+      "t": "Know what the invisible watermark solves and what it doesn't"
+    },
+    {
+      "t": "Check people, voices, brands, and music before publishing"
+    },
+    {
+      "t": "Read the model license and keep a record of what was generated"
+    }
+  ],
+  "hero_alt": "Dark desk under a lamp with a closed folder and a pen, a voice recorder, a clapperboard, and an external hard drive.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The check before publishing",
+      "sub": "Five questions, in this order. Click each one.",
+      "estilo": "fluxo",
+      "nos": [
+        {
+          "titulo": "What's in",
+          "sub": "the film",
+          "icone": "lupa",
+          "detalhe": "List what appears and what you hear: people, faces, voices, brands, places, songs. This is the raw material for the other four questions."
+        },
+        {
+          "titulo": "Whose it is",
+          "sub": "rights",
+          "icone": "usuario",
+          "detalhe": "A real person's face and voice only with written permission. Another person's character, brand, and work: don't imitate. Music: the license of the tool or library has to allow your use."
+        },
+        {
+          "titulo": "What the law requires",
+          "sub": "with a date",
+          "icone": "escudo",
+          "forte": true,
+          "detalhe": "In the European Union, the AI Act (art. 50) has applied since 08/02/2026 and requires a visible label on a published deepfake. Other rules are still moving through the process; always cite the status with the date."
+        },
+        {
+          "titulo": "Label",
+          "sub": "that people can see",
+          "icone": "marca",
+          "detalhe": "A notice that viewers see or hear: \"video made with AI\", on screen or in the description, as the case may be. An invisible watermark helps, but it isn't enough."
+        },
+        {
+          "titulo": "Record",
+          "sub": "what was generated",
+          "icone": "pasta",
+          "detalhe": "Save the prompts, references, model and date of each shot. This is proof of origin, and it is what lets you remake the film if the tool shuts down."
+        }
+      ],
+      "legenda": "Laws and rules change: each one here comes with its source and date. What is not confirmed in an official source appears as reported."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "What the law and the cases teach (Oct/2026)",
+      "sub": "Principle first, rule with source and date after.",
+      "passos": [
+        {
+          "titulo": "Visible label",
+          "sub": "AI Act, art. 50",
+          "texto": [
+            "In the European Union, Article 50 of the AI Act has applied since 08/02/2026: anyone who publishes a deepfake must add a visible or audible label. The Code of Practice on marking and labeling came out on 06/10/2026 and says a machine watermark alone is not enough.",
+            "For a clearly artistic or satirical work the requirement is milder. Outside the EU, a label is good practice, and many platforms have their own rules."
+          ]
+        },
+        {
+          "titulo": "Watermarks and credentials",
+          "sub": "they help, they don't solve it",
+          "texto": [
+            "SynthID (Google) is an invisible watermark; C2PA are content credentials written into the file. According to a secondary source (May/2026), Google announced verification of both in Search and Chrome.",
+            "The limit: metadata can be removed, and a watermark only covers the generators that take part. That is why the label the audience sees is still necessary."
+          ]
+        },
+        {
+          "titulo": "People, voices and characters",
+          "sub": "the 2026 cases",
+          "texto": [
+            "Seedance 2.0 clashed with the MPA, the association of US film studios, for generating actors and characters. The Sora app, with its \"cameos\" of real people, shut down on 04/26/2026, and the API on 09/24/2026.",
+            "In the US, the NO FAKES Act, which protects image and voice against digital replicas, passed the Senate committee on 06/18/2026 and was stalled on the floor as of 10/07/2026."
+          ]
+        },
+        {
+          "titulo": "Brazil and licenses",
+          "sub": "dated status",
+          "texto": [
+            "Brazil, reported by the press and not confirmed here in an official source: PL 2338/2023 (the AI framework bill) passed the Senate on 12/10/2024 and was still in the Chamber in 2026; a TSE resolution would address synthetic content in the 2026 elections.",
+            "Model license: Wan 2.2 is Apache 2.0; LTX-2.3 uses a community license, paid above US$ 10 million in revenue. Read the license before using it for work."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "The checklist the page checks and a label text for the video description.",
+      "blocos": [
+        {
+          "rot": "checklist.txt (template)",
+          "icone": "arquivo",
+          "conteudo": "Label: <where and how the audience learns it was made with AI>\nPeople: <who appears; real with permission, or fictional>\nVoice: <whose each voice is; permission>\nBrands: <any third-party brand, logo or character? which one and why>\nMusic: <origin of the score and the license>\nModel: <generators used and the license of each>\nPlatform: <where you will publish and the label rule there>\nRecord: <where the prompts, references and dates are>"
+        },
+        {
+          "rot": "Label text (video description)",
+          "icone": "chat",
+          "conteudo": "Video made with artificial intelligence. Characters and scenes are fictional; no real person was portrayed. Tools: <image, video and voice generators used>. Score: <origin and license>."
+        }
+      ]
+    },
+    {
+      "tipo": "conferidor",
+      "titulo": "Check your checklist",
+      "sub": "Paste the file (or upload the .txt). Test first with the example that passes and the example with errors.",
+      "arquivo": "checklist.txt",
+      "rot": "Paste your checklist here (one line per item, in the format Item: answer):",
+      "modelo": "Label: ...\nPeople: ...",
+      "regras": [
+        {
+          "tipo": "campos",
+          "campos": [
+            "Label",
+            "People",
+            "Voice",
+            "Brands",
+            "Music",
+            "Model",
+            "Platform",
+            "Record"
+          ],
+          "min": 6
+        }
+      ],
+      "ok": "OK: checklist with {n} answers",
+      "exemplo": "Label: on-screen text in the last shot and in the description: video made with AI, fictional characters\nPeople: Dona Lia and the customer are fictional characters; no real faces\nVoice: the narration is my voice, recorded on my phone; the line \"Coming!\" came out native from the generator\nBrands: none; the bakery's facade has no sign\nMusic: score made by me in the music generator, with a license that allows publishing\nModel: images and videos with the license of each tool checked on 10/19/2026\nPlatform: the bakery's website and social networks; the network asks to mark realistic content made with AI\nRecord: project folder with plan, prompts, references and dates of each shot",
+      "exemplo_errado": "Label: \nPeople: fictional characters\nVoice: mine\nMusic: a famous song I found on the internet\nModel: several\nRecord: it's on my computer"
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Optional: check in the terminal",
+      "sub": "Only for people who already use a terminal. In the course folder downloaded from GitHub; for your own file, replace <code>--exemplo</code> with its name (<code>checklist.txt</code>).",
+      "blocos": [
+        {
+          "rot": "Terminal (in the course folder)",
+          "icone": "terminal",
+          "conteudo": "python3 conferir.py etica --exemplo; echo \"saída: $?\"\npython3 conferir.py etica --errado; echo \"saída: $?\""
+        }
+      ],
+      "saida": {
+        "selo": "real",
+        "abas": [
+          {
+            "rot": "Captured output (10/19/2026)",
+            "html": "<pre>$ python3 conferir.py etica --exemplo; echo \"saída: $?\"\nOK: checklist com 8 respostas\nsaída: 0</pre>"
+          },
+          {
+            "rot": "Example with an error (10/19/2026)",
+            "html": "<pre>$ python3 conferir.py etica --errado; echo \"saída: $?\"\nAinda não. O que falta:\n - Falta a linha Rótulo: com a descrição (pelo menos 6 letras).\n - Falta a linha Voz: com a descrição (pelo menos 6 letras).\n - Falta a linha Marcas: com a descrição (pelo menos 6 letras).\n - Falta a linha Plataforma: com a descrição (pelo menos 6 letras).\nsaída: 1</pre>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "The checklist for your film. The page checks that each item was answered; the right answer depends on your case.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "Checklist · eight answers",
+          "min": "20 min",
+          "texto": "Answer the eight items for your film, one per line. Paste it into \"Check your checklist\" and download checklist.txt to the project folder.",
+          "pronto": "the page answers <code>OK: checklist com 8 respostas</code> and the checklist.txt is in the project folder."
+        },
+        {
+          "id": "e2",
+          "titulo": "Label · in the film and in the description",
+          "min": "15 min",
+          "texto": "Adapt the template's label text to your film, put a short notice on screen in the last shot, and save the description text in the project folder as rotulo.txt.",
+          "pronto": "the rotulo.txt is in the project folder and, when you play the film, the made-with-AI notice appears on screen in the last shot."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "Five questions. The explanation appears after each answer.",
+      "perguntas": [
+        {
+          "p": "Since when has Article 50 of the AI Act (labeling) been in force in the European Union?",
+          "opcoes": [
+            "Since 12/10/2024, when the final text was approved.",
+            "Not yet: it is still going through the legislative process until 2027.",
+            "Since 08/02/2026.",
+            "Since 09/24/2026, along with the end of the Sora API."
+          ],
+          "certa": 2,
+          "explica": "Article 50 has been in force since 08/02/2026; the labeling Code of Practice came out on 06/10/2026. The other dates are not from this rule: 09/24/2026 is the end of the Sora API.",
+          "ref": "passos"
+        },
+        {
+          "p": "Your generator already adds an invisible watermark. Do you need a visible label?",
+          "opcoes": [
+            "Yes: the audience can't see the watermark, and metadata can be removed.",
+            "No: the invisible watermark already meets any labeling law, in any country.",
+            "Only if the video runs longer than one minute.",
+            "Only when the video is published outside Brazil."
+          ],
+          "certa": 0,
+          "explica": "Watermarks and credentials help with verification, but viewers don't see them, and the EU Code of Practice says they are not enough on their own for a deepfake.",
+          "ref": "passos"
+        },
+        {
+          "p": "Which voice can you use in an ad made with AI?",
+          "opcoes": [
+            "That of a famous actress, if the voice is only similar.",
+            "That of anyone, as long as the video has a label.",
+            "That of a real customer, recorded without them knowing it would become an ad.",
+            "Your own, or that of someone who authorized this use in writing."
+          ],
+          "certa": 3,
+          "explica": "A label does not replace permission. Imitating the voice of a well-known person is exactly what cases and laws like the NO FAKES Act try to stop.",
+          "ref": "diagrama"
+        },
+        {
+          "p": "How does this course treat the TSE resolution on synthetic content in the 2026 elections?",
+          "opcoes": [
+            "As a confirmed rule, with the number and the fines from the official text.",
+            "As reported by the press and not confirmed here in an official source.",
+            "As a law already repealed, which no longer applies.",
+            "As a rule that only applies to videos in English."
+          ],
+          "certa": 1,
+          "explica": "The course research did not find the text on the TSE site, only news coverage. A rule that was not checked at the source goes in as reported, with the date of the source.",
+          "ref": "passos"
+        },
+        {
+          "p": "Why keep prompts, references and dates for each shot?",
+          "opcoes": [
+            "Because the generator deletes the video if the prompt is not saved.",
+            "Because the law requires publishing the full prompt along with the video, in the platform description.",
+            "Because they prove the origin and let you remake the film if the tool shuts down.",
+            "Because they make the final video file lighter."
+          ],
+          "certa": 2,
+          "explica": "The record shows where each shot came from. When the Sora app shut down, in 2026, only those who had the script, references and prompts outside it could remake the film in another tool.",
+          "ref": "diagrama"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "To keep",
+      "itens": [
+        {
+          "t": "A label you can see",
+          "texto": "On screen or in the description. An invisible watermark helps, but it isn't enough."
+        },
+        {
+          "t": "Permission first",
+          "texto": "Real faces and voices only with written permission; third-party characters and brands, no."
+        },
+        {
+          "t": "A rule with a date",
+          "texto": "Laws change: cite the source and the date; what has not been confirmed goes in as reported."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Going further",
+      "links": [
+        {
+          "t": "European Commission: Code of Practice on marking and labeling AI-generated content (Jun/2026)",
+          "href": "https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content"
+        },
+        {
+          "t": "Daily Journal: NO FAKES Act stalled on the US Senate floor (10/07/2026)",
+          "href": "https://www.dailyjournal.com/article/395055-no-fakes-act-dead-for-now-as-cruz-objects-to-unanimous-consent-request"
+        },
+        {
+          "t": "9to5Google: OpenAI announces the end of the Sora app (03/24/2026)",
+          "href": "https://9to5google.com/2026/03/24/openai-shutting-down-sora-video-generation-app-but-without-explaining-why/"
+        },
+        {
+          "t": "LTX-2.3 license (Hugging Face)",
+          "href": "https://huggingface.co/Lightricks/LTX-2.3/blob/main/LICENSE"
+        }
+      ]
+    }
+  ]
+}

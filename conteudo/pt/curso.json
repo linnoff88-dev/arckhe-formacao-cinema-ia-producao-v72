@@ -1,0 +1,195 @@
+{
+  "id": "formacao-cinema-ia-producao-v72",
+  "lang": "pt-BR",
+  "url": "https://inematds.github.io/formacao-cinema-ia-producao-v72/",
+  "nome": "Produção: do roteiro ao filme",
+  "sub": "Formação Cinema com IA · curso 2",
+  "volta": {
+    "t": "Área Vídeos do INEMA",
+    "href": "https://eventos.inema.pro/videos/"
+  },
+  "lado_card": {
+    "rot": "Depois deste curso",
+    "t": "Curso 3 · Motion por código",
+    "texto": "HyperFrames e Remotion com agente: abertura, legenda e peça animada renderizadas no seu computador.",
+    "link": "Abrir o curso 3",
+    "href": "https://inematds.github.io/formacao-cinema-ia-motion-v72/"
+  },
+  "rodape": "INEMA.CLUB · conteúdo aberto e gratuito · formato INEMA Learning v7.2 · Formação Cinema com IA, curso 2 de 6 · <a href=\"https://eventos.inema.pro/videos/\">eventos.inema.pro/videos</a> · <a href=\"https://inema.club/\">inema.club</a>",
+  "videos": {
+    "concat": {
+      "titulo": "Esqueça o CapCut: Concat grátis",
+      "duracao": "48 s",
+      "mp4": "https://github.com/inematds/concat/releases/download/video-916-v1.0.0/concat-viral-9x16.mp4",
+      "poster": "assets/img/concat-916.jpg",
+      "vtt": "assets/vtt/concat-916.vtt",
+      "pagina": "https://www.youtube.com/shorts/py2OXry7D0I",
+      "formato": "9:16"
+    }
+  },
+  "inicio": {
+    "kicker": "Formação Cinema com IA · curso 2 de 6 · 8 aulas",
+    "titulo": "Produção: do roteiro ao filme pronto, com som, corte, cor e rótulo",
+    "lead": "Os planos gerados ainda não são um filme. Aqui você decide as batidas e as entregas, o som de cada plano, o corte, a cor, um caminho sem gerador de vídeo, o anúncio e o que a lei pede. Cada aula termina num arquivo que a própria página confere, inclusive o vídeo final, sem terminal e sem gastar crédito.",
+    "cta": "Começar pela aula 1",
+    "cta2": {
+      "t": "Ver o curso anterior (Geração)",
+      "href": "https://inematds.github.io/formacao-cinema-ia-geracao-v72/"
+    },
+    "capa_alt": "Sala de edição escura com um monitor de corte mostrando a linha do tempo, fones de estúdio e uma claquete sobre a mesa.",
+    "numeros": [
+      {
+        "v": "8",
+        "t": "aulas"
+      },
+      {
+        "v": "8",
+        "t": "arquivos conferidos na página"
+      },
+      {
+        "v": "2",
+        "t": "vídeos conferidos no navegador"
+      },
+      {
+        "v": "0",
+        "t": "crédito gasto"
+      }
+    ],
+    "aulas_titulo": "As aulas",
+    "aulas_sub": "A cena do curso 0, \"A primeira fornada\", vira um curta de 30 a 60 s. Quatro clipes de ensaio vêm prontos, para você montar sem gerar nada.",
+    "blocos": [
+      {
+        "t": "Para quem é",
+        "itens": [
+          "Criadores, professores e quem faz vídeo para empresa.",
+          "Quem já tem uma decupagem (curso 0) ou já gera clipes (curso 1) e quer fechar o filme.",
+          "Quem não usa terminal: tudo se faz no navegador, num editor gratuito e num arquivo de texto."
+        ]
+      },
+      {
+        "t": "O que você sai fazendo",
+        "itens": [
+          "Planejar batidas, fontes e entregas antes de gastar crédito.",
+          "Decidir o som de cada plano: o que sai junto com o vídeo e o que entra depois.",
+          "Montar, legendar e dar cor ao filme num editor gratuito.",
+          "Publicar com rótulo e com o direito de imagem, voz e música resolvido."
+        ]
+      },
+      {
+        "t": "A formação (6 cursos)",
+        "itens": [
+          "0 · Direção: pensar como diretor",
+          "1 · Geração: imagem e vídeo com IA",
+          "2 · Produção (este curso)",
+          "3 · Motion por código com agente",
+          "4 · A fábrica de vídeo com agentes",
+          "5 · Sites cinematográficos"
+        ]
+      }
+    ]
+  },
+  "ui": {
+    "pular": "Pular para o conteúdo",
+    "aulas": "Aulas",
+    "concluido": "concluído",
+    "aula": "Aula",
+    "nesta_aula": "Nesta aula, você vai aprender:",
+    "objetivo": "Objetivo:",
+    "proxima_aula": "Próxima aula",
+    "aula_anterior": "Aula anterior",
+    "voltar_inicio": "Voltar ao início do curso",
+    "marcar_concluida": "Marcar aula como concluída",
+    "dg_dica": "Clique em cada bloco do diagrama para ver o que ele faz.",
+    "copiar": "Copiar",
+    "copiado": "Copiado",
+    "selo_simulacao": "Simulação: exemplo ilustrativo",
+    "selo_real": "Exemplo do repositório",
+    "pronto_quando": "Pronto quando:",
+    "fiz": "Fiz este exercício",
+    "video_pagina": "Página do vídeo",
+    "pergunta": "Pergunta",
+    "de": "de",
+    "cert_tag": "competência",
+    "correto": "Correto",
+    "errado": "Não é essa",
+    "quiz_aguarda": "Escolha uma alternativa. A explicação aparece depois da sua tentativa.",
+    "proxima_pergunta": "Próxima pergunta",
+    "quiz_ver": "Ver resultado",
+    "quiz_fim": "Teste concluído",
+    "quiz_total": "Você acertou {a} de {n}. Acertando todas, a aula é marcada como concluída.",
+    "aparencia": "Aparência",
+    "tamanho_texto": "Tamanho do texto",
+    "tema": "Tema",
+    "tema_escuro": "Escuro",
+    "tema_papel": "Papel claro",
+    "role_dica": "Role a página: cada etapa abaixo acende a sua parte do diagrama.",
+    "pre_requisito": "requer",
+    "ver_aula": "Ver a aula",
+    "mapa_dica": "Clique num exercício para ver o que fazer e o \"pronto quando\".",
+    "etapas": "Etapas",
+    "exercicios": "exercícios",
+    "rever": "Rever:",
+    "revisar_erradas": "Revisar as erradas",
+    "refazer": "Refazer o teste",
+    "h_semana": "h por semana",
+    "data_inicio": "Data de início",
+    "ritmo": "Tempo disponível",
+    "gerar_plano": "Gerar meu plano",
+    "baixar_md": "Baixar plano.md",
+    "baixar_ics": "Baixar para o calendário (.ics)",
+    "ind_estudo": "Estudo (aulas)",
+    "ind_pratica": "Prática declarada",
+    "ind_nota": "Prática = exercícios que você marcou como feitos. A comprovação vem na prova da certificação.",
+    "estudo": {
+      "titulo": "Seu estudo",
+      "continuar": "Continuar de onde parei",
+      "comecar": "Começar pela aula 1",
+      "cta_continuar": "Continuar a aula {n}",
+      "hoje": "hoje",
+      "ontem": "ontem",
+      "ha_dias": "há {n} dias",
+      "desempenho": "Desempenho nos testes",
+      "notas": "Minhas anotações",
+      "dados": "Copiar meus dados",
+      "sem_testes": "Nenhum teste feito ainda. O teste fica no fim de cada aula.",
+      "nao_fez": "teste ainda não feito",
+      "ultimo": "Último",
+      "melhor": "Melhor",
+      "tentativas": "tentativas",
+      "tentativa": "tentativa",
+      "tudo_certo": "Acertou tudo no último teste.",
+      "rever": "Para rever",
+      "resposta": "Resposta certa:",
+      "ir_teste": "Refazer o teste",
+      "sem_notas": "Nenhuma anotação ainda. Na aula, selecione um trecho do texto e toque em Marcar ou Anotar.",
+      "so_marcado": "(só marcado)",
+      "marcar": "Marcar",
+      "anotar": "Anotar",
+      "salvar": "Salvar",
+      "apagar": "Apagar marca",
+      "fechar": "Fechar",
+      "nota_ph": "Escreva sua anotação sobre este trecho…",
+      "um_bloco": "Marque dentro de um parágrafo só.",
+      "nao_marca": "Este trecho não pode ser marcado.",
+      "dados_exp": "Seu progresso, suas anotações e as notas dos testes ficam só neste navegador. Baixe uma cópia (.json) para guardar ou para continuar em outro computador ou navegador; lá, carregue a cópia. Carregar soma com o que já existe e não apaga nada.",
+      "exportar": "Baixar cópia",
+      "importar": "Carregar cópia",
+      "import_ok": "Cópia carregada ({n} itens). Atualizando a página…",
+      "import_erro": "Arquivo não reconhecido. Nada foi alterado.",
+      "import_outro": "Esta cópia é de outro curso. Nada foi alterado.",
+      "export_ok": "Cópia baixada."
+    },
+    "conv_dica": "Escolha a sua resposta. O comentário aparece logo depois e a conversa segue conforme a escolha.",
+    "conv_voce": "Você",
+    "conv_escolha": "Sua resposta",
+    "conv_boa": "Boa escolha",
+    "conv_meio": "Dá para melhorar",
+    "conv_ruim": "Escolha fraca",
+    "conv_fim": "Fim da conversa",
+    "conv_placar": "Você fez {p} de {m} pontos possíveis.",
+    "conv_licao": "Lição:",
+    "conv_recomecar": "Recomeçar a conversa",
+    "conv_feita": "Seu melhor placar: {p} de {m} pontos."
+  },
+  "icone": "video"
+}

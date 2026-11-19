@@ -1,0 +1,318 @@
+{
+  "slug": "som",
+  "num": 2,
+  "menu": "Sound",
+  "titulo": "Sound as a character: native dialogue, voice, score and effects",
+  "titulo_curto": "Sound",
+  "minutos": 18,
+  "lead": "In 2026 sound stopped being the last step: the main generators return ambience, effects and speech together with the image. This forces you to decide, shot by shot, what is born with the video and what comes in later, like the score and the narration. This lesson settles that decision in a sound map.",
+  "objetivo": "decide, shot by shot, what is heard and what comes out with the video or separately, and build the scene's sound map.",
+  "competencias": [
+    "planejar-som",
+    "decidir-audio-nativo-ou-separado",
+    "mixar-com-hierarquia"
+  ],
+  "aprende": [
+    {
+      "t": "Split the sound into layers: ambience, effect, line, score and silence"
+    },
+    {
+      "t": "Decide what comes out with the video and what goes in at the edit"
+    },
+    {
+      "t": "Choose score and voice with a clear license and your own voice"
+    },
+    {
+      "t": "Mix with the voice in front and the music underneath"
+    }
+  ],
+  "hero_alt": "Dark sound studio with the faders of a mixing console in the foreground, a boom microphone with a windscreen and headphones on the desk.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The sound layers of a shot",
+      "sub": "Five layers. Click each one and see where it usually comes from.",
+      "estilo": "fluxo",
+      "nos": [
+        {
+          "titulo": "Ambience",
+          "sub": "where we are",
+          "icone": "nuvem",
+          "detalhe": "Wind, street, a radio in the background. It tells where the scene takes place without showing it. It usually comes out well from the generator, together with the image (native sound)."
+        },
+        {
+          "titulo": "Effect",
+          "sub": "the action sounds",
+          "icone": "play",
+          "detalhe": "Door, footsteps, steam, the bread crust crackling. Foley is the effect recorded separately and synced to the image. If the effect has to land on an exact frame, native or recorded in sync."
+        },
+        {
+          "titulo": "Line",
+          "sub": "short and with subtext",
+          "icone": "chat",
+          "forte": true,
+          "detalhe": "Short dialogue synced to the mouth: in Oct/2026 the main generators do it in the same pass. Long narration, which runs across several shots, is recorded or synthesized separately."
+        },
+        {
+          "titulo": "Score",
+          "sub": "the emotion",
+          "icone": "megafone",
+          "detalhe": "The music only the audience hears. It runs across shots, so it goes in at the edit, never shot by shot. Under a line, a score without vocals."
+        },
+        {
+          "titulo": "Mix",
+          "sub": "the voice in front",
+          "icone": "camadas",
+          "detalhe": "Put it all together with a hierarchy: the voice dominates, the music stays underneath, the effect appears at the right moment. Check with headphones at the end."
+        }
+      ],
+      "legenda": "Rule of thumb: what comes from the action of the shot can come out with the video; what crosses shots goes into the edit."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "How to decide the sound, step by step",
+      "sub": "In the scene \"The first batch\", using the sound column of the shot list from course 0.",
+      "passos": [
+        {
+          "titulo": "Native or separate",
+          "sub": "the question for every shot",
+          "texto": [
+            "Native audio became the standard in 2026 in the main generators (dated examples, Oct/2026: Veo 3.1, Kling 3.0, Seedance 2.x, Runway Gen-4.5). Seedance 2.5 accepts up to 10 reference audios per generation.",
+            "Use native for what comes from the shot: ambience, the effect of the action, a short line. Keep separate what crosses shots, what has to sound the same in all of them, and what will change language."
+          ],
+          "exemplo": {
+            "rot": "In the batch",
+            "texto": "Wind and knocks on the door: native. Score and opening narration: separate, in the edit."
+          }
+        },
+        {
+          "titulo": "Layers and silence",
+          "sub": "what you hear tells you where we are",
+          "texto": [
+            "Diegetic sound exists in the scene and the character hears it; non-diegetic sound only the audience hears, like the score. A well-resolved shot has ambience and the effect of the action.",
+            "Silence is a choice too: cut the music before the turning point, leave one shot with only the ambience, a breath after the impact. If you can show it, don't narrate it."
+          ]
+        },
+        {
+          "titulo": "Licensed score and voice",
+          "sub": "dated versions, Oct/2026",
+          "texto": [
+            "Music generators change fast: Suno released v5.5 on 03/26/2026; a v6 and ElevenLabs' Eleven v3 appear only as reported, not confirmed by an official source. Read each tool's license of use before you publish.",
+            "Synthetic or cloned voice: only your own, or from someone who authorized it in writing (lesson 7). Free, local route: Concat cleans and levels the voice and has an AI voice."
+          ]
+        },
+        {
+          "titulo": "Mix with a hierarchy",
+          "sub": "the voice is never drowned out",
+          "texto": [
+            "The voice dominates; the music stays atmospheric, underneath; the effect appears at the moment of the action. The most common mistake is leaving the music at the same volume as the voice.",
+            "Starting point: lower the score until the line is clear without effort, then check with headphones. Leave a few extra seconds of score for the exit fade."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "The format the page checks, and a request for the AI assistant to draft the map from the shot list.",
+      "blocos": [
+        {
+          "rot": "mapa-som.txt (template)",
+          "icone": "arquivo",
+          "conteudo": "Scene: <name> (<duration> s)\nScore: <style, where it comes in and where it goes out; with or without vocals>\n# n | what you hear | origin\n1 | ambience: <...>; effect: <...> | origin: <native or separate>\n2 | line: \"<short sentence>\" | origin: <native or separate>"
+        },
+        {
+          "rot": "Request to the AI assistant (draft of the sound map)",
+          "icone": "chat",
+          "conteudo": "You are a film sound editor. Read the shot list below and propose a sound map, one line per shot, in this format:\nn | what you hear (ambience, effect, line, score or silence) | origin: native or separate\nRules:\n- native = comes out with the generated video (ambience, effect of the action, short line);\n- separate = goes in the edit (score, long narration, sound that repeats the same across several shots);\n- only one origin per shot;\n- leave at least one shot with only ambience before a line;\n- on the first line, describe the score: style, where it comes in and where it goes out, no vocals under the line.\nShot list: <paste your shot list here>"
+        }
+      ]
+    },
+    {
+      "tipo": "conferidor",
+      "titulo": "Check your sound map",
+      "sub": "Paste the file (or upload the .txt). Test first with the example that passes and the example with errors.",
+      "arquivo": "mapa-som.txt",
+      "rot": "Paste your sound map here (the Trilha line and one numbered line per shot):",
+      "modelo": "Trilha: ...\n1 | ambiente: ... | origem: nativo",
+      "regras": [
+        {
+          "tipo": "campos",
+          "campos": [
+            "Score"
+          ],
+          "min": 8
+        },
+        {
+          "tipo": "planos",
+          "min": 4,
+          "max": 10
+        },
+        {
+          "tipo": "cada_plano",
+          "grupos": [
+            {
+              "rot": "sound layer",
+              "variar": 3,
+              "termos": [
+                "ambiente / ambiência / ambient / ambience / room tone / ambient sound / sonido ambiente",
+                "efeito / efeitos / foley / sfx / effect / effects / sound effect / sound effects / efecto / efectos",
+                "fala / diálogo / dialogue / dialog / line / narração / narration / voz / voice / narración",
+                "trilha / música / music / score / soundtrack / banda sonora",
+                "silêncio / silence / silencio"
+              ]
+            },
+            {
+              "rot": "origin",
+              "um_so": true,
+              "termos": [
+                "nativo / gerado junto / native / generated with the video / generado junto",
+                "separado / em separado / pós-produção / separate / post-production / por separado / postproducción / posproducción"
+              ]
+            }
+          ]
+        }
+      ],
+      "ok": "OK: {n} shots with a sound layer and origin decided",
+      "exemplo": "Scene: The first batch (20 s)\nScore: slow, quiet piano, no vocals; comes in on shot 4 and rises on 6; fades out in the last second\n# n | what you hear | origin\n1 | ambience: wind and a dog far away | origin: native\n2 | ambience: quiet radio; effect: dough slapping on the counter | origin: native\n3 | effect: oven creak and hiss of steam | origin: separate (recorded at the bakery oven)\n4 | silence for one second; then effect: the crust crackling | origin: native\n5 | effect: three knocks on the iron door; line: \"Coming!\" | origin: native, short dialogue\n6 | score rises; ambience: the street waking up | origin: separate, in the edit",
+      "exemplo_errado": "Cena: A primeira fornada (20 s)\n1 | ambiente: vento | origem: nativo\n2 | efeito: massa batendo | origem: nativo ou separado\n3 | rangido do forno | origem: separado\n4 | o pão saindo do forno\n5 | fala: \"Já vai!\" | origem: nativo"
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Optional: check in the terminal",
+      "sub": "Only for people who already use a terminal. In the folder of the course downloaded from GitHub; for your own file, replace <code>--exemplo</code> with its name (<code>mapa-som.txt</code>).",
+      "blocos": [
+        {
+          "rot": "Terminal (in the course folder)",
+          "icone": "terminal",
+          "conteudo": "python3 conferir.py som --exemplo; echo \"saída: $?\"\npython3 conferir.py som --errado; echo \"saída: $?\""
+        }
+      ],
+      "saida": {
+        "selo": "real",
+        "abas": [
+          {
+            "rot": "Captured output (10/19/2026)",
+            "html": "<pre>$ python3 conferir.py som --exemplo; echo \"saída: $?\"\nOK: 6 planos com camada de som e origem decidida\nsaída: 0</pre>"
+          },
+          {
+            "rot": "Example with an error (10/19/2026)",
+            "html": "<pre>$ python3 conferir.py som --errado; echo \"saída: $?\"\nAinda não. O que falta:\n - Falta a linha Trilha: com a descrição (pelo menos 8 letras).\n - Plano 2: 2 escolhas de origem; fique com uma só.\n - Plano 3: falta camada de som.\n - Plano 4: falta camada de som.\n - Plano 4: falta origem.\nsaída: 1</pre>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "The sound map of your scene, built from the sound column of your shot list.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "Sound map · your scene",
+          "min": "20 min",
+          "texto": "Write the Trilha line and one line per shot, with what you hear and the origin (nativo or separado). Paste it into \"Check your sound map\" and download the mapa-som.txt to the project folder.",
+          "pronto": "the page answers <code>OK: [n] planos com camada de som e origem decidida</code> and the mapa-som.txt file is in the project folder."
+        },
+        {
+          "id": "e2",
+          "titulo": "Silence · a breathing shot",
+          "min": "10 min",
+          "texto": "Pick the shot before the turning point of your scene and leave only ambience or silence in it, with no score and no line. Check again.",
+          "pronto": "the page keeps answering <code>OK: …</code> and the shot before the turning point has only ambience or silence in your list."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "Four questions. The explanation appears after each answer.",
+      "perguntas": [
+        {
+          "p": "The score of your film runs across all six shots. Where should it come from?",
+          "opcoes": [
+            "From each generated shot, with the same music requested in every prompt.",
+            "From the generator, in the last shot, which is then copied to the others.",
+            "From the edit: it comes in separate, on top of the shots already cut.",
+            "From nowhere: score gets in the way of the generators' native sound."
+          ],
+          "certa": 2,
+          "explica": "What runs across shots goes into the edit. Asking for the same music in six generations gives you six different pieces of music, cut at every shot.",
+          "ref": "diagrama"
+        },
+        {
+          "p": "Which of these layers usually comes out well as native sound, together with the video?",
+          "opcoes": [
+            "The one-minute narration that explains the whole film, from the first shot to the last.",
+            "The ambience of the place and the effect of the action in the shot itself.",
+            "The score with vocals that plays from start to finish.",
+            "The Spanish version of the line, for another market."
+          ],
+          "certa": 1,
+          "explica": "Ambience and effect come from the action in the shot and sync on their own. Long narration, score and language swaps run across shots or change later: they stay separate.",
+          "ref": "passos"
+        },
+        {
+          "p": "Your mix is ready and the line disappears when the score rises. What should you fix?",
+          "opcoes": [
+            "Lower the score under the line and check with headphones until the line is clear.",
+            "Raise everything to the maximum so the film feels stronger.",
+            "Remove the line and tell the story with the music alone.",
+            "Swap the score for a faster one, keeping the same volume as before under the line."
+          ],
+          "certa": 0,
+          "explica": "Hierarchy: the voice dominates and the music stays underneath. Raising everything causes distortion; swapping the music without lowering the volume repeats the problem.",
+          "ref": "passos"
+        },
+        {
+          "p": "You want to use a cloned voice in the narration. Which voice can it be?",
+          "opcoes": [
+            "A famous announcer's, if the video is free.",
+            "Anyone's, as long as the film has an AI label.",
+            "A well-known movie character's, since it is a tribute.",
+            "Yours, or the voice of someone who authorized its use in writing."
+          ],
+          "certa": 3,
+          "explica": "Voice is a personal trait: cloning someone else's without authorization is imitation, with or without a label and with or without charging for it. Lesson 7 covers image and voice rights.",
+          "ref": "passos"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "To keep",
+      "itens": [
+        {
+          "t": "Native or separate",
+          "texto": "What comes from the shot goes out with it; what runs across shots goes into the edit."
+        },
+        {
+          "t": "Silence is sound",
+          "texto": "A shot with only ambience before the turning point gives it weight."
+        },
+        {
+          "t": "The voice up front",
+          "texto": "Music underneath, a spot effect, a check with headphones. Cloned voice: only yours or an authorized one."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Going further",
+      "links": [
+        {
+          "t": "Suno v5.5 (official blog, 03/26/2026)",
+          "href": "https://blog.suno.com/blog/v5-5"
+        },
+        {
+          "t": "Concat: free, local editor with voice cleanup and captions (INEMA guide)",
+          "href": "https://inematds.github.io/concat/guia/"
+        },
+        {
+          "t": "Course 0 · Shot list with sound (the sound column per shot)",
+          "href": "https://inematds.github.io/formacao-cinema-ia-direcao-v72/en/aulas/decupagem/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "slug": "montagem",
+  "num": 3,
+  "menu": "Edit",
+  "titulo": "Editing and rhythm: cutting, linking and captioning",
+  "titulo_curto": "Edit",
+  "minutos": 20,
+  "lead": "Editing is deciding where each shot starts and ends, how one passes into the next and what is read on screen. In this lesson you edit the four rehearsal clips from the batch in a free editor, add captions and check the exported file right here on the page.",
+  "objetivo": "cut and link the clips into a 12 to 20 s cut in 16:9, with captions, and check the exported file on the page.",
+  "competencias": [
+    "montar-sequencia",
+    "escolher-transicao",
+    "legendar-e-exportar"
+  ],
+  "aprende": [
+    {
+      "t": "Order and trim the clips following the edit plan"
+    },
+    {
+      "t": "Use the hard cut as the default and the transition only when it tells something"
+    },
+    {
+      "t": "Add captions with a transcript made on your own computer"
+    },
+    {
+      "t": "Export in the format the page and social networks read"
+    }
+  ],
+  "hero_alt": "Dark editing desk with one monitor showing the timeline full of colorful clips and a second monitor with a blurred film frame.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "From loose clip to final file",
+      "sub": "Six steps on the timeline. Tap each one.",
+      "estilo": "fluxo",
+      "nos": [
+        {
+          "titulo": "Import",
+          "sub": "clips and sound",
+          "icone": "carregar",
+          "detalhe": "Bring the clips, the score and the separate effects into the editor (lesson 2). Name the files by shot number: plano-1, plano-2… They're easy to find on the timeline."
+        },
+        {
+          "titulo": "Order",
+          "sub": "by the plan",
+          "icone": "lista",
+          "detalhe": "Put the clips in the order of the edit plan (lesson 1). The order is already half the rhythm; changing it later is cheap, generating again is not."
+        },
+        {
+          "titulo": "Trim",
+          "sub": "start and end",
+          "icone": "relogio",
+          "forte": true,
+          "detalhe": "Cut the start and end of each generated clip: that's where shaky moves and distortions tend to show up. Each shot lasts only as long as the eye needs to read the action."
+        },
+        {
+          "titulo": "Transition",
+          "sub": "hard cut",
+          "icone": "seta",
+          "detalhe": "The hard cut is the vast majority and the most invisible. Dissolve for the passage of time; match cut to connect similar shapes. A transition serves the story, it doesn't decorate."
+        },
+        {
+          "titulo": "Captions",
+          "sub": "local transcript",
+          "icone": "chat",
+          "detalhe": "Lots of people watch without sound. The captions come from the transcript of the speech; check the words before you burn them into the video."
+        },
+        {
+          "titulo": "Export",
+          "sub": "MP4 H.264",
+          "icone": "baixar",
+          "detalhe": "Export in the delivery format (16:9 here) as MP4 H.264, which opens in the most places. Then check the file in the section below."
+        }
+      ],
+      "legenda": "An editing problem gets fixed in the editor, not by generating again: reordering, trimming and swapping the transition cost no credits."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "How to edit, step by step",
+      "sub": "With the four rehearsal clips from the batch (link in the practice) or with your own.",
+      "passos": [
+        {
+          "titulo": "Open the editor",
+          "sub": "free and on your computer",
+          "texto": [
+            "The example uses Concat (0.2.7 beta, Oct/2026): an open-source video editor (AGPL-3.0 license), installed on your computer, with no account, no subscription and no watermark. It runs on Windows, macOS, Linux and Android.",
+            "Since it's a beta, it still has rough edges, and the installers aren't signed: on Windows, the warning asks for \"More info › Run anyway\". If you already use another editor, the steps are the same."
+          ]
+        },
+        {
+          "titulo": "Order and trim",
+          "sub": "the plan is in charge",
+          "texto": [
+            "Drag the clips into the order of your edit plan. Trim half a second at the start and end of each generated clip and watch the whole sequence at once, to feel the rhythm.",
+            "If a shot feels long, it is: cut until the action is clear and nothing more. Vary the shot size between neighbors, as the shot list asked."
+          ]
+        },
+        {
+          "titulo": "Transitions that tell something",
+          "sub": "hard cut, dissolve, J and L",
+          "texto": [
+            "Hard cut by default. Short dissolve when time passes. Match on action: cut in the middle of a movement and continue the movement in the next shot.",
+            "J-cut: the sound of the next shot comes in before the image (the knocks at the door before you see the door). L-cut: the sound of the shot continues after the cut. Both connect shots without a visual effect."
+          ],
+          "exemplo": {
+            "rot": "In the batch",
+            "texto": "The three knocks start at the end of the oven shot (J-cut) and the cut to the door comes on the third knock."
+          }
+        },
+        {
+          "titulo": "Caption and export",
+          "sub": "without sending anything to the cloud",
+          "texto": [
+            "Concat generates captions with Whisper running on your computer: download the models once in Settings › Models. Check proper names and numbers before you burn in the captions.",
+            "Export as MP4 H.264, 16:9. HEVC and AV1 save space, but not every browser opens them: to check here, prefer H.264."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "video",
+      "titulo": "The free editor in 48 seconds",
+      "sub": "INEMA video (10/15/2026) about Concat. Vertical short, with captions.",
+      "chave": "concat"
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Template to copy",
+      "sub": "A cut list to write down your editing decisions before you touch the editor.",
+      "blocos": [
+        {
+          "rot": "cortes.txt (decision list)",
+          "icone": "arquivo",
+          "conteudo": "Edit: <name> (<target duration> s, 16:9)\n# n | clip | in at | out at | transition to the next | sound\n1 | plano-1 | <s> | <s> | hard cut | clip ambience\n2 | plano-2 | <s> | <s> | J-cut (the sound of 3 comes in early) | <...>\nCaptions: <yes or no; reviewed?>\nExport: MP4 H.264, <width>×<height>"
+        }
+      ]
+    },
+    {
+      "tipo": "conferidor",
+      "titulo": "Check your assembly",
+      "sub": "Choose the exported MP4. The page reads the duration and size in your browser; nothing is uploaded. First try the example that passes and the example with an error.",
+      "arquivo": "montagem.mp4",
+      "regras": [
+        {
+          "tipo": "video",
+          "min": 12,
+          "max": 20,
+          "proporcao": "16:9",
+          "largura_min": 1280
+        }
+      ],
+      "ok": "OK: {s} s · {w}×{h} · {p}",
+      "video_ok": "assets/ensaio/exemplo-montagem.webm",
+      "video_erro": "assets/ensaio/exemplo-montagem-erro.webm"
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Optional: check in the terminal",
+      "sub": "Only for people who already use a terminal and have ffmpeg installed (the checker uses <code>ffprobe</code>). Run it in the course folder you downloaded from GitHub; for your own file, replace <code>--exemplo</code> with its name (<code>montagem.mp4</code>).",
+      "blocos": [
+        {
+          "rot": "Terminal (in the course folder)",
+          "icone": "terminal",
+          "conteudo": "python3 conferir.py montagem --exemplo; echo \"saída: $?\"\npython3 conferir.py montagem --errado; echo \"saída: $?\""
+        }
+      ],
+      "saida": {
+        "selo": "real",
+        "abas": [
+          {
+            "rot": "Captured output (10/19/2026)",
+            "html": "<pre>$ python3 conferir.py montagem --exemplo; echo \"saída: $?\"\nOK: 15,0 s · 1280×720 · 16:9\nsaída: 0</pre>"
+          },
+          {
+            "rot": "Example with an error (10/19/2026)",
+            "html": "<pre>$ python3 conferir.py montagem --errado; echo \"saída: $?\"\nAinda não. O que falta:\n - O vídeo tem 8,0 s; o pedido é de 12 a 20 s.\n - O vídeo é 720×1280 (9:16); o pedido é 16:9.\n - O vídeo tem 720 px de largura; o mínimo é 1280 px.\nsaída: 1</pre>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "Free rehearsal: four clips from the first batch, 5 s each, at 1280×720 with ambient sound, made from still images. Download: <a href=\"https://inematds.github.io/formacao-cinema-ia-producao-v72/assets/ensaio/plano-1.mp4\">shot 1</a> · <a href=\"https://inematds.github.io/formacao-cinema-ia-producao-v72/assets/ensaio/plano-2.mp4\">shot 2</a> · <a href=\"https://inematds.github.io/formacao-cinema-ia-producao-v72/assets/ensaio/plano-3.mp4\">shot 3</a> · <a href=\"https://inematds.github.io/formacao-cinema-ia-producao-v72/assets/ensaio/plano-4.mp4\">shot 4</a>.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "Assembly · the four clips in 12 to 20 s",
+          "min": "30 min",
+          "texto": "Assemble the four rehearsal clips (or your own) in 16:9, with hard cuts and at least one J-cut or L-cut, and export as MP4 H.264. Choose the file in \"Check your assembly\" and save it in the project folder as montagem.mp4.",
+          "pronto": "the page answers <code>OK: [s] s · [w]×[h] · 16:9</code>, with a duration between 12 and 20 s and a width of at least 1280 px."
+        },
+        {
+          "id": "e2",
+          "titulo": "Subtitles · burned in and proofread",
+          "min": "20 min",
+          "texto": "Write one sentence of narration for the assembly, record it in your own voice, and generate the subtitles in the editor. Proofread them and export again with the subtitles burned in; in the final film (lesson 8), the subtitles go in after the color.",
+          "pronto": "the page keeps answering <code>OK: …</code> for the new file and, when you play the video, the subtitles show on screen with the words you recorded."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "Four questions. The explanation appears after each answer.",
+      "perguntas": [
+        {
+          "p": "A generated shot has a distortion in its last 10 frames. What do you do first?",
+          "opcoes": [
+            "Generate the shot again until it comes out with no flaws at all.",
+            "Put a long dissolve over the end of the shot to hide the flaw from the eye.",
+            "Replace the whole shot with a black screen with text.",
+            "Trim the end of the clip in the assembly before thinking about generating again."
+          ],
+          "certa": 3,
+          "explica": "The start and end of a generated clip are where flaws tend to show up; trimming costs no credits. A dissolve to hide a flaw draws attention to it.",
+          "ref": "diagrama"
+        },
+        {
+          "p": "The knocks at the door start to sound at the end of the oven shot, before the cut to the door. Which cut is this?",
+          "opcoes": [
+            "J-cut: the sound of the next shot comes in before its picture.",
+            "L-cut: the sound of the previous shot keeps playing over the next shot, after the cut.",
+            "Match cut: two similar shapes joined by the cut.",
+            "Dissolve: one image gradually melts into the other."
+          ],
+          "certa": 0,
+          "explica": "In a J-cut the sound arrives first and pulls the eye to the next shot. In an L-cut it is the opposite: the sound stays on after the cut.",
+          "ref": "passos"
+        },
+        {
+          "p": "Why export as MP4 H.264 to check it on the page?",
+          "opcoes": [
+            "Because it is the only format that keeps burned-in subtitles when the video goes on the internet.",
+            "Because HEVC and AV1 always come out with worse quality.",
+            "Because it is the format that the most browsers and platforms can open.",
+            "Because the free editor only exports in H.264."
+          ],
+          "certa": 2,
+          "explica": "HEVC and AV1 compress better, but not every browser can read them. Burned-in subtitles work in any format, and the editor exports all three.",
+          "ref": "passos"
+        },
+        {
+          "p": "The page answers \"O vídeo é 1080×1920 (9:16); o pedido é 16:9\". What happened?",
+          "opcoes": [
+            "The file is corrupted and needs to be exported again in H.264, with a different file name.",
+            "The editor project is vertical; switch it to 16:9 and export again.",
+            "The video is too long for this lesson's practice.",
+            "The burned-in subtitles changed the video's aspect ratio."
+          ],
+          "certa": 1,
+          "explica": "The page read the file's size: it came out upright. The format comes from the project in the editor, not from the codec, the length, or the subtitles.",
+          "ref": "conferidor"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "To keep",
+      "itens": [
+        {
+          "t": "Trim before generating again",
+          "texto": "The start and end of a generated clip get trimmed in the edit, at no credit cost."
+        },
+        {
+          "t": "Hard cut by default",
+          "texto": "Dissolve, match cut, J-cut and L-cut only when they tell something."
+        },
+        {
+          "t": "Check the file",
+          "texto": "MP4 H.264 in the delivery format; the page reads duration and size."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Going further",
+      "links": [
+        {
+          "t": "Concat: INEMA's guide in Portuguese (install, caption, export)",
+          "href": "https://inematds.github.io/concat/guia/"
+        },
+        {
+          "t": "Concat: official download page",
+          "href": "https://concatenate.pages.dev/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "slug": "som",
+  "num": 2,
+  "menu": "Som",
+  "titulo": "Som como personagem: diálogo nativo, voz, trilha e efeitos",
+  "titulo_curto": "Som",
+  "minutos": 18,
+  "lead": "Em 2026 o som deixou de ser o último passo: os principais geradores devolvem ambiente, efeitos e fala junto com a imagem. Isso obriga a decidir, plano a plano, o que nasce com o vídeo e o que entra depois, como a trilha e a narração. Esta aula fecha essa decisão num mapa de som.",
+  "objetivo": "decidir, plano a plano, o que se ouve e o que sai junto com o vídeo ou em separado, e montar o mapa de som da cena.",
+  "competencias": [
+    "planejar-som",
+    "decidir-audio-nativo-ou-separado",
+    "mixar-com-hierarquia"
+  ],
+  "aprende": [
+    {
+      "t": "Separar o som em camadas: ambiente, efeito, fala, trilha e silêncio"
+    },
+    {
+      "t": "Decidir o que sai junto com o vídeo e o que entra na montagem"
+    },
+    {
+      "t": "Escolher trilha e voz com licença clara e voz própria"
+    },
+    {
+      "t": "Mixar com a voz na frente e a música por baixo"
+    }
+  ],
+  "hero_alt": "Estúdio de som escuro com faders de um console de mixagem em primeiro plano, um microfone boom com protetor de vento e fones sobre a mesa.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "As camadas de som de um plano",
+      "sub": "Cinco camadas. Clique em cada uma e veja de onde ela costuma vir.",
+      "estilo": "fluxo",
+      "nos": [
+        {
+          "titulo": "Ambiente",
+          "sub": "onde estamos",
+          "icone": "nuvem",
+          "detalhe": "Vento, rua, rádio ao fundo. Diz onde a cena acontece sem mostrar. Costuma sair bem do gerador, junto com a imagem (som nativo)."
+        },
+        {
+          "titulo": "Efeito",
+          "sub": "a ação soa",
+          "icone": "play",
+          "detalhe": "Porta, passos, vapor, a casca do pão estalando. Foley é o efeito gravado à parte e sincronizado com a imagem. Se o efeito precisa cair no quadro exato, nativo ou gravado sincronizado."
+        },
+        {
+          "titulo": "Fala",
+          "sub": "curta e com subtexto",
+          "icone": "chat",
+          "forte": true,
+          "detalhe": "Diálogo curto sincronizado com a boca: em out/2026 os principais geradores fazem no mesmo passe. Narração longa, que atravessa vários planos, é gravada ou sintetizada à parte."
+        },
+        {
+          "titulo": "Trilha",
+          "sub": "a emoção",
+          "icone": "megafone",
+          "detalhe": "A música que só o público ouve. Atravessa planos, então entra na montagem, nunca plano a plano. Sob fala, trilha sem vocal."
+        },
+        {
+          "titulo": "Mixagem",
+          "sub": "a voz na frente",
+          "icone": "camadas",
+          "detalhe": "Juntar tudo com hierarquia: a voz domina, a música fica por baixo, o efeito aparece pontual. Conferir com fones, no fim."
+        }
+      ],
+      "legenda": "Regra prática: o que nasce da ação do plano pode sair junto com o vídeo; o que atravessa planos entra na montagem."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Como decidir o som, passo a passo",
+      "sub": "Na cena \"A primeira fornada\", com a coluna de som da decupagem do curso 0.",
+      "passos": [
+        {
+          "titulo": "Nativo ou separado",
+          "sub": "a pergunta de cada plano",
+          "texto": [
+            "Áudio nativo virou padrão em 2026 nos principais geradores (exemplos datados, out/2026: Veo 3.1, Kling 3.0, Seedance 2.x, Runway Gen-4.5). O Seedance 2.5 aceita até 10 áudios de referência por geração.",
+            "Use o nativo para o que nasce do plano: ambiente, efeito da ação, fala curta. Separe o que atravessa planos, o que tem de soar igual em todos e o que vai trocar de idioma."
+          ],
+          "exemplo": {
+            "rot": "Na fornada",
+            "texto": "Vento e batidas na porta: nativos. Trilha e narração de abertura: separadas, na montagem."
+          }
+        },
+        {
+          "titulo": "Camadas e silêncio",
+          "sub": "o que se ouve diz onde estamos",
+          "texto": [
+            "Som diegético existe na cena e o personagem ouve; não diegético só o público ouve, como a trilha. Um plano bem resolvido tem ambiente e o efeito da ação.",
+            "Silêncio também é escolha: cortar a música antes da virada, deixar um plano só com o ambiente, um respiro depois do impacto. Se pode mostrar, não narre."
+          ]
+        },
+        {
+          "titulo": "Trilha e voz com licença",
+          "sub": "versões datadas, out/2026",
+          "texto": [
+            "Geradores de música mudam rápido: o Suno lançou a v5.5 em 26/03/2026; uma v6 e o Eleven v3 da ElevenLabs aparecem só como relatados, não confirmados em fonte oficial. Leia a licença de uso de cada ferramenta antes de publicar.",
+            "Voz sintética ou clonada: só a sua, ou de quem autorizou por escrito (aula 7). Caminho gratuito e local: o Concat limpa e nivela a voz e tem voz por IA."
+          ]
+        },
+        {
+          "titulo": "Mixar com hierarquia",
+          "sub": "a voz nunca é abafada",
+          "texto": [
+            "A voz domina; a música fica atmosférica, por baixo; o efeito aparece no instante da ação. O erro mais comum é deixar a música no volume da voz.",
+            "Ponto de partida: baixe a trilha até a fala ficar clara sem esforço, depois confira com fones. Deixe alguns segundos de trilha sobrando para o fade de saída."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "O formato que a página confere e um pedido para o assistente de IA rascunhar o mapa a partir da decupagem.",
+      "blocos": [
+        {
+          "rot": "mapa-som.txt (modelo)",
+          "icone": "arquivo",
+          "conteudo": "Cena: <nome> (<duração> s)\nTrilha: <estilo, onde entra e onde sai; com ou sem vocal>\n# n | o que se ouve | origem\n1 | ambiente: <...>; efeito: <...> | origem: <nativo ou separado>\n2 | fala: \"<frase curta>\" | origem: <nativo ou separado>"
+        },
+        {
+          "rot": "Pedido ao assistente de IA (rascunho do mapa de som)",
+          "icone": "chat",
+          "conteudo": "Você é editor de som de cinema. Leia a decupagem abaixo e proponha um mapa de som, uma linha por plano, neste formato:\nn | o que se ouve (ambiente, efeito, fala, trilha ou silêncio) | origem: nativo ou separado\nRegras:\n- nativo = sai junto com o vídeo gerado (ambiente, efeito da ação, fala curta);\n- separado = entra na montagem (trilha, narração longa, som que repete igual em vários planos);\n- uma origem só por plano;\n- deixe pelo menos um plano só com ambiente antes de uma fala;\n- na primeira linha, descreva a trilha: estilo, onde entra e onde sai, sem vocal sob a fala.\nDecupagem: <cole aqui a sua decupagem>"
+        }
+      ]
+    },
+    {
+      "tipo": "conferidor",
+      "titulo": "Confira o seu mapa de som",
+      "sub": "Cole o arquivo (ou carregue o .txt). Teste antes com o exemplo que passa e com o exemplo com erro.",
+      "arquivo": "mapa-som.txt",
+      "rot": "Cole aqui o seu mapa de som (a linha Trilha e uma linha numerada por plano):",
+      "modelo": "Trilha: ...\n1 | ambiente: ... | origem: nativo",
+      "regras": [
+        {
+          "tipo": "campos",
+          "campos": [
+            "Trilha"
+          ],
+          "min": 8
+        },
+        {
+          "tipo": "planos",
+          "min": 4,
+          "max": 10
+        },
+        {
+          "tipo": "cada_plano",
+          "grupos": [
+            {
+              "rot": "camada de som",
+              "variar": 3,
+              "termos": [
+                "ambiente / ambiência / ambient / ambience / room tone / ambient sound / sonido ambiente",
+                "efeito / efeitos / foley / sfx / effect / effects / sound effect / sound effects / efecto / efectos",
+                "fala / diálogo / dialogue / dialog / line / narração / narration / voz / voice / narración",
+                "trilha / música / music / score / soundtrack / banda sonora",
+                "silêncio / silence / silencio"
+              ]
+            },
+            {
+              "rot": "origem",
+              "um_so": true,
+              "termos": [
+                "nativo / gerado junto / native / generated with the video / generado junto",
+                "separado / em separado / pós-produção / separate / post-production / por separado / postproducción / posproducción"
+              ]
+            }
+          ]
+        }
+      ],
+      "ok": "OK: {n} planos com camada de som e origem decidida",
+      "exemplo": "Cena: A primeira fornada (20 s)\nTrilha: piano baixo e lento, sem vocal; entra no plano 4 e sobe no 6; sai em fade no último segundo\n# n | o que se ouve | origem\n1 | ambiente: vento e um cachorro ao longe | origem: nativo\n2 | ambiente: rádio baixo; efeito: massa batendo na bancada | origem: nativo\n3 | efeito: rangido do forno e chiado do vapor | origem: separado (gravado no forno da padaria)\n4 | silêncio de um segundo; depois efeito: a casca estalando | origem: nativo\n5 | efeito: três batidas na porta de ferro; fala: \"Já vai!\" | origem: nativo, diálogo curto\n6 | trilha sobe; ambiente: a rua acordando | origem: separado, na montagem",
+      "exemplo_errado": "Cena: A primeira fornada (20 s)\n1 | ambiente: vento | origem: nativo\n2 | efeito: massa batendo | origem: nativo ou separado\n3 | rangido do forno | origem: separado\n4 | o pão saindo do forno\n5 | fala: \"Já vai!\" | origem: nativo"
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Opcional: conferir no terminal",
+      "sub": "Só para quem já usa terminal. Na pasta do curso baixado do GitHub; para o seu arquivo, troque <code>--exemplo</code> pelo nome dele (<code>mapa-som.txt</code>).",
+      "blocos": [
+        {
+          "rot": "Terminal (na pasta do curso)",
+          "icone": "terminal",
+          "conteudo": "python3 conferir.py som --exemplo; echo \"saída: $?\"\npython3 conferir.py som --errado; echo \"saída: $?\""
+        }
+      ],
+      "saida": {
+        "selo": "real",
+        "abas": [
+          {
+            "rot": "Saída capturada (19/10/2026)",
+            "html": "<pre>$ python3 conferir.py som --exemplo; echo \"saída: $?\"\nOK: 6 planos com camada de som e origem decidida\nsaída: 0</pre>"
+          },
+          {
+            "rot": "Exemplo com erro (19/10/2026)",
+            "html": "<pre>$ python3 conferir.py som --errado; echo \"saída: $?\"\nAinda não. O que falta:\n - Falta a linha Trilha: com a descrição (pelo menos 8 letras).\n - Plano 2: 2 escolhas de origem; fique com uma só.\n - Plano 3: falta camada de som.\n - Plano 4: falta camada de som.\n - Plano 4: falta origem.\nsaída: 1</pre>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Prática",
+      "sub": "O mapa de som da sua cena, a partir da coluna de som da sua decupagem.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "Mapa de som · a sua cena",
+          "min": "20 min",
+          "texto": "Escreva a linha Trilha e uma linha por plano, com o que se ouve e a origem (nativo ou separado). Cole em \"Confira o seu mapa de som\" e baixe o mapa-som.txt para a pasta do projeto.",
+          "pronto": "a página responde <code>OK: [n] planos com camada de som e origem decidida</code> e o mapa-som.txt está na pasta do projeto."
+        },
+        {
+          "id": "e2",
+          "titulo": "Silêncio · um plano de respiro",
+          "min": "10 min",
+          "texto": "Escolha o plano antes da virada da sua cena e deixe nele só ambiente ou silêncio, sem trilha e sem fala. Confira de novo.",
+          "pronto": "a página continua respondendo <code>OK: …</code> e o plano antes da virada traz só ambiente ou silêncio na sua lista."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Teste rápido",
+      "sub": "Quatro perguntas. A explicação aparece depois de cada resposta.",
+      "perguntas": [
+        {
+          "p": "A trilha do seu filme atravessa os seis planos. De onde ela deve vir?",
+          "opcoes": [
+            "De cada plano gerado, com a mesma música pedida em todos os prompts.",
+            "Do gerador, no último plano, que depois é copiado para os outros.",
+            "Da montagem: entra em separado, por cima dos planos já cortados.",
+            "De nenhum lugar: trilha atrapalha o som nativo dos geradores."
+          ],
+          "certa": 2,
+          "explica": "O que atravessa planos entra na montagem. Pedir a mesma música em seis gerações dá seis músicas diferentes, cortadas a cada plano.",
+          "ref": "diagrama"
+        },
+        {
+          "p": "Qual destas camadas costuma sair bem como som nativo, junto com o vídeo?",
+          "opcoes": [
+            "A narração de um minuto que explica o filme inteiro, do primeiro ao último plano.",
+            "O ambiente do lugar e o efeito da ação do próprio plano.",
+            "A trilha com vocal que toca do começo ao fim.",
+            "A versão em espanhol da fala, para outro mercado."
+          ],
+          "certa": 1,
+          "explica": "Ambiente e efeito nascem da ação do plano e sincronizam sozinhos. Narração longa, trilha e troca de idioma atravessam planos ou mudam depois: ficam separadas.",
+          "ref": "passos"
+        },
+        {
+          "p": "A sua mixagem está pronta e a fala some quando a trilha sobe. O que corrigir?",
+          "opcoes": [
+            "Baixar a trilha sob a fala e conferir com fones até a fala ficar clara.",
+            "Subir tudo ao máximo para o filme parecer mais forte.",
+            "Tirar a fala e contar a história só com a música.",
+            "Trocar a trilha por outra mais rápida, mantendo o mesmo volume de antes sob a fala."
+          ],
+          "certa": 0,
+          "explica": "Hierarquia: a voz domina e a música fica por baixo. Subir tudo distorce; trocar a música sem baixar o volume repete o problema.",
+          "ref": "passos"
+        },
+        {
+          "p": "Você quer usar uma voz clonada na narração. Qual voz pode ser?",
+          "opcoes": [
+            "A de um locutor famoso, se o vídeo for gratuito.",
+            "A de qualquer pessoa, desde que o filme tenha rótulo de IA.",
+            "A de um personagem de filme conhecido, por ser homenagem.",
+            "A sua, ou a de quem autorizou por escrito o uso da voz."
+          ],
+          "certa": 3,
+          "explica": "Voz é traço pessoal: clonar a de outra pessoa sem autorização é imitação, com ou sem rótulo e com ou sem cobrança. A aula 7 trata de direito de imagem e voz.",
+          "ref": "passos"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Para guardar",
+      "itens": [
+        {
+          "t": "Nativo ou separado",
+          "texto": "O que nasce do plano sai junto; o que atravessa planos entra na montagem."
+        },
+        {
+          "t": "Silêncio é som",
+          "texto": "Um plano só com ambiente antes da virada dá peso a ela."
+        },
+        {
+          "t": "A voz na frente",
+          "texto": "Música por baixo, efeito pontual, conferência com fones. Voz clonada, só a sua ou autorizada."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir além",
+      "links": [
+        {
+          "t": "Suno v5.5 (blog oficial, 26/03/2026)",
+          "href": "https://blog.suno.com/blog/v5-5"
+        },
+        {
+          "t": "Concat: editor gratuito e local, com limpeza de voz e legenda (guia do INEMA)",
+          "href": "https://inematds.github.io/concat/guia/"
+        },
+        {
+          "t": "Curso 0 · Decupagem com som (a coluna de som por plano)",
+          "href": "https://inematds.github.io/formacao-cinema-ia-direcao-v72/aulas/decupagem/"
+        }
+      ]
+    }
+  ]
+}

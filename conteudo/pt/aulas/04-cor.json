@@ -1,0 +1,292 @@
+{
+  "slug": "cor",
+  "num": 4,
+  "menu": "Cor",
+  "titulo": "Cor e acabamento: grading, grão e film look",
+  "titulo_curto": "Cor e acabamento",
+  "minutos": 17,
+  "lead": "Planos gerados em dias e ferramentas diferentes chegam com cores diferentes, e a imagem crua de IA tem marcas: contraste agressivo, cor forte demais, preto chapado. A correção de cor iguala os planos e dá ao filme um look só. Você sai com a receita escrita, que vale para qualquer editor.",
+  "objetivo": "escrever a receita de cor do filme: sensação, paleta, contraste, pretos, temperatura, saturação, pele e grão, igual em todos os planos.",
+  "competencias": [
+    "igualar-cor-entre-planos",
+    "definir-look",
+    "aplicar-acabamento"
+  ],
+  "aprende": [
+    {
+      "t": "Pedir imagem neutra e dar o look depois, na montagem"
+    },
+    {
+      "t": "Igualar brilho e temperatura entre planos vizinhos"
+    },
+    {
+      "t": "Ajustar contraste, pretos e cor por faixa"
+    },
+    {
+      "t": "Pôr grão e halation só no fim e só onde fazem sentido"
+    }
+  ],
+  "hero_alt": "Suíte de correção de cor escura com painel de três trackballs, monitor de referência ao fundo e uma tira de película sobre uma mesa de luz.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "A ordem da correção de cor",
+      "sub": "Cinco etapas, nesta ordem. Clique em cada uma.",
+      "estilo": "escada",
+      "nos": [
+        {
+          "titulo": "Neutro",
+          "sub": "material",
+          "icone": "camadas",
+          "detalhe": "Comece de imagem plana: contraste baixo, sem grão, sem estouro nas luzes nem nas sombras. Assim sobra informação para dar o look. Pedir \"granulado de filme\" ao gerador decide o acabamento cedo demais."
+        },
+        {
+          "titulo": "Igualar",
+          "sub": "planos",
+          "icone": "lista",
+          "forte": true,
+          "detalhe": "Antes do look, deixe os planos vizinhos com o mesmo brilho e a mesma temperatura-alvo. Um plano mais quente no meio de dois frios salta aos olhos e quebra a cena."
+        },
+        {
+          "titulo": "Contraste",
+          "sub": "e pretos",
+          "icone": "sol",
+          "detalhe": "O look de película tem pretos levemente levantados (não chegam a zero) e brancos que não estouram. O contraste em S agressivo é uma das marcas da imagem crua de IA."
+        },
+        {
+          "titulo": "Cor",
+          "sub": "por faixa",
+          "icone": "alvo",
+          "detalhe": "Sombras, tons médios (onde está a pele) e altas luzes recebem cada uma o seu tom. Saturação contida: na dúvida, baixe. A pele fica neutra."
+        },
+        {
+          "titulo": "Grão",
+          "sub": "por último",
+          "icone": "check",
+          "detalhe": "Grão, halation e proporção de tela entram no fim. Grão com a textura irregular do filme, na mesma intensidade em todos os planos; halation (a coroa avermelhada em volta da luz forte) só quando há uma fonte de luz no quadro."
+        }
+      ],
+      "legenda": "Guarde o look num arquivo de cor (LUT, extensão .cube) ou num predefinido do editor e aplique o mesmo em todos os planos."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Como dar o look, passo a passo",
+      "sub": "Na montagem da fornada (aula 3), em qualquer editor com ajuste de cor.",
+      "passos": [
+        {
+          "titulo": "Gerar neutro",
+          "sub": "o look vem depois",
+          "texto": [
+            "No prompt, peça luz e paleta da cena (curso 0, aula 4), não o acabamento. Imagem neutra, com pele neutra e sombras com detalhe, aceita qualquer look depois.",
+            "A imagem crua de IA costuma vir com contraste agressivo, cor forte em vermelho e laranja e preto puro. São esses três pontos que a correção trata primeiro."
+          ]
+        },
+        {
+          "titulo": "Igualar os planos",
+          "sub": "uma temperatura-alvo",
+          "texto": [
+            "Escolha o plano mais bonito como referência e acerte os outros por ele: brilho, temperatura e contraste. Compare sempre com o vizinho, não com o plano isolado.",
+            "Na fornada, a rua é fria e a padaria é neutra. A mudança acontece num corte só, de propósito, e não aos poucos plano a plano."
+          ]
+        },
+        {
+          "titulo": "Paleta pela emoção",
+          "sub": "escolha uma e mantenha",
+          "texto": [
+            "Frio e quente complementares dão tensão; quente, terroso e suave dá intimidade; dessaturado com contraste alto pesa; azul-aço limpo soa técnico.",
+            "Combinações que brigam, como pastel com neon, quebram o filme. Escreva a paleta numa linha e cobre o mesmo de todos os planos."
+          ]
+        },
+        {
+          "titulo": "Acabamento e proporção",
+          "sub": "grão, halation, faixas",
+          "texto": [
+            "Grão por último, fino ou grosso conforme a sensação, nunca sobre um grão que já veio no clipe. Halation só onde há luz forte visível, como a vitrine acesa.",
+            "Proporção comunica: 2.39:1 soa cinema, 16:9 é TV e web, 9:16 é celular. Faixas pretas (letterbox) num 16:9 dão o ar de cinema sem mudar o arquivo."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "A receita que a página confere e um pedido para o assistente de IA propor uma receita a partir da sua cena.",
+      "blocos": [
+        {
+          "rot": "cor.txt (modelo)",
+          "icone": "arquivo",
+          "conteudo": "Sensação: <o que o público deve sentir>\nPaleta: <cores dominantes e onde aparecem>\nContraste: <baixo, médio ou alto; como>\nPretos: <levantados ou chapados; e os brancos>\nTemperatura: <fria, neutra ou quente; muda onde?>\nSaturação: <baixa, média ou alta; que cor manda>\nPele: <como a pele fica>\nGrão: <fino, médio ou grosso; igual em todos os planos>"
+        },
+        {
+          "rot": "Pedido ao assistente de IA (receita de cor)",
+          "icone": "chat",
+          "conteudo": "Você é colorista de cinema. A partir da cena e da sensação abaixo, proponha uma receita de cor com exatamente estas 8 linhas: Sensação, Paleta, Contraste, Pretos, Temperatura, Saturação, Pele, Grão.\nRegras:\n- uma paleta só para o filme inteiro;\n- pele neutra, sem puxar para laranja;\n- pretos levemente levantados e brancos sem estourar, salvo se a sensação pedir outra coisa;\n- grão aplicado por último, igual em todos os planos;\n- não cite filme, diretor ou marca como referência.\nCena: <a cena em 3 ou 4 frases>\nSensação: <o que o público deve sentir>"
+        }
+      ]
+    },
+    {
+      "tipo": "conferidor",
+      "titulo": "Confira a sua receita de cor",
+      "sub": "Cole o arquivo (ou carregue o .txt). Teste antes com o exemplo que passa e com o exemplo com erro.",
+      "arquivo": "cor.txt",
+      "rot": "Cole aqui a sua receita (uma linha por campo, no formato Campo: descrição):",
+      "modelo": "Sensação: ...\nPaleta: ...",
+      "regras": [
+        {
+          "tipo": "campos",
+          "campos": [
+            "Sensação",
+            "Paleta",
+            "Contraste",
+            "Pretos",
+            "Temperatura",
+            "Saturação",
+            "Pele",
+            "Grão"
+          ],
+          "min": 4
+        }
+      ],
+      "ok": "OK: receita de cor com {n} campos",
+      "exemplo": "Sensação: madrugada fria que esquenta quando o pão sai do forno\nPaleta: azul-acinzentado na rua; madeira e casca de pão dentro da padaria\nContraste: médio, sem preto chapado\nPretos: levemente levantados; a vitrine acesa sem estourar\nTemperatura: fria no plano da rua, neutra a partir do segundo plano\nSaturação: baixa; a casca do pão é a cor mais forte do filme\nPele: neutra, sem puxar para laranja\nGrão: fino, igual em todos os planos, aplicado por último",
+      "exemplo_errado": "Sensação: madrugada fria que esquenta\nPaleta: azul na rua, madeira dentro\nContraste: médio\nPretos:\nTemperatura: fria na rua, neutra dentro\nSaturação: alta, para chamar atenção"
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Opcional: conferir no terminal",
+      "sub": "Só para quem já usa terminal. Na pasta do curso baixado do GitHub; para o seu arquivo, troque <code>--exemplo</code> pelo nome dele (<code>cor.txt</code>).",
+      "blocos": [
+        {
+          "rot": "Terminal (na pasta do curso)",
+          "icone": "terminal",
+          "conteudo": "python3 conferir.py cor --exemplo; echo \"saída: $?\"\npython3 conferir.py cor --errado; echo \"saída: $?\""
+        }
+      ],
+      "saida": {
+        "selo": "real",
+        "abas": [
+          {
+            "rot": "Saída capturada (19/10/2026)",
+            "html": "<pre>$ python3 conferir.py cor --exemplo; echo \"saída: $?\"\nOK: receita de cor com 8 campos\nsaída: 0</pre>"
+          },
+          {
+            "rot": "Exemplo com erro (19/10/2026)",
+            "html": "<pre>$ python3 conferir.py cor --errado; echo \"saída: $?\"\nAinda não. O que falta:\n - Falta a linha Pretos: com a descrição (pelo menos 4 letras).\n - Falta a linha Pele: com a descrição (pelo menos 4 letras).\n - Falta a linha Grão: com a descrição (pelo menos 4 letras).\nsaída: 1</pre>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Prática",
+      "sub": "A receita do seu filme e a montagem da aula 3 com o look aplicado.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "Receita de cor · o seu filme",
+          "min": "15 min",
+          "texto": "Escreva as oito linhas da receita para o seu filme. Cole em \"Confira a sua receita de cor\" e baixe o cor.txt para a pasta do projeto.",
+          "pronto": "a página responde <code>OK: receita de cor com 8 campos</code> e o cor.txt está na pasta do projeto."
+        },
+        {
+          "id": "e2",
+          "titulo": "Look aplicado · a montagem com cor",
+          "min": "30 min",
+          "texto": "No editor, aplique a receita à montagem da aula 3 (antes de queimar a legenda): primeiro iguale os planos, depois contraste e cor, por último o grão. Exporte de novo em MP4 H.264 e confira o arquivo na aula 3.",
+          "pronto": "a seção \"Confira a sua montagem\" da aula 3 responde <code>OK: …</code> para o arquivo com cor, e o arquivo está na pasta do projeto ao lado do cor.txt."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Teste rápido",
+      "sub": "Quatro perguntas. A explicação aparece depois de cada resposta.",
+      "perguntas": [
+        {
+          "p": "Por que pedir imagem neutra ao gerador e dar o look só na montagem?",
+          "opcoes": [
+            "Porque o gerador cobra mais caro quando o prompt fala de cor.",
+            "Porque imagem neutra guarda detalhe e aceita qualquer look depois.",
+            "Porque o editor não consegue mexer em imagem que já chega com contraste e cor fortes do gerador.",
+            "Porque o look pedido no prompt sai sempre em preto e branco."
+          ],
+          "certa": 1,
+          "explica": "Look queimado no clipe é difícil de desfazer: o detalhe estourado ou chapado não volta. Neutro deixa a decisão para a montagem, igual em todos os planos.",
+          "ref": "diagrama"
+        },
+        {
+          "p": "O plano 3 ficou mais quente que os planos 2 e 4. O que fazer antes de aplicar o look?",
+          "opcoes": [
+            "Igualar a temperatura do plano 3 à dos vizinhos.",
+            "Aplicar o look e deixar a diferença como estilo.",
+            "Aumentar a saturação dos planos 2 e 4 para combinar.",
+            "Pôr mais grão no plano 3 para disfarçar a cor."
+          ],
+          "certa": 0,
+          "explica": "Igualar vem antes do look: compare com o vizinho e acerte por uma temperatura-alvo. Grão e saturação não corrigem temperatura.",
+          "ref": "passos"
+        },
+        {
+          "p": "Quando a halation (a coroa avermelhada em volta da luz) faz sentido?",
+          "opcoes": [
+            "Em todos os planos, do primeiro ao último, para o filme inteiro parecer rodado em película.",
+            "Só nos planos diurnos, onde há mais luz.",
+            "Nunca: é um defeito que a correção de cor remove.",
+            "Quando há uma fonte de luz forte visível no quadro, como a vitrine acesa."
+          ],
+          "certa": 3,
+          "explica": "Halation nasce da luz forte que bate no filme. Sem fonte visível no quadro, ela parece filtro aplicado por cima.",
+          "ref": "passos"
+        },
+        {
+          "p": "A sua receita diz \"Saturação: alta, para chamar atenção\". O que a aula sugere?",
+          "opcoes": [
+            "Manter, porque saturação alta prende mais o olhar.",
+            "Trocar a saturação por mais contraste em S.",
+            "Baixar e deixar uma cor só como a mais forte do filme.",
+            "Aumentar ainda mais só nos planos de ação."
+          ],
+          "certa": 2,
+          "explica": "Saturação alta é uma das marcas da imagem crua de IA e vira filtro de rede social. Contida, com uma cor que manda, dá unidade ao filme.",
+          "ref": "diagrama"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Para guardar",
+      "itens": [
+        {
+          "t": "Neutro primeiro",
+          "texto": "O look vem na montagem, não no prompt."
+        },
+        {
+          "t": "Igualar antes de embelezar",
+          "texto": "Brilho e temperatura iguais entre vizinhos, depois o look."
+        },
+        {
+          "t": "Acabamento no fim",
+          "texto": "Grão igual em todos os planos; halation só com luz no quadro."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir além",
+      "links": [
+        {
+          "t": "Curso 0 · Luz, cor e atmosfera: o look decidido antes do prompt",
+          "href": "https://inematds.github.io/formacao-cinema-ia-direcao-v72/aulas/luz/"
+        },
+        {
+          "t": "Adobe: Premiere com o modo de cor em beta e Firefly com modelos de vídeo parceiros (15/04/2026)",
+          "href": "https://blog.adobe.com/en/publish/2026/04/15/adobe-extends-leadership-video-unleashing-new-ai-powered-creation-firefly-reinventing-color-editors-in-premiere"
+        },
+        {
+          "t": "DaVinci Resolve 21: versão final (02/06/2026)",
+          "href": "https://www.newsshooter.com/2026/06/02/davinci-resolve-21-final-release/"
+        }
+      ]
+    }
+  ]
+}

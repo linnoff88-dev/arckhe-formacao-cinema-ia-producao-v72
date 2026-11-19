@@ -1,0 +1,292 @@
+{
+  "slug": "cor",
+  "num": 4,
+  "menu": "Color",
+  "titulo": "Color and finishing: grading, grain and film look",
+  "titulo_curto": "Color and finishing",
+  "minutos": 17,
+  "lead": "Shots generated on different days and in different tools arrive with different colors, and raw AI imagery has telltale marks: aggressive contrast, oversaturated color, crushed flat blacks. Color correction matches the shots and gives the film a single look. You leave with the recipe written down, and it works in any editor.",
+  "objetivo": "write the film's color recipe: feeling, palette, contrast, blacks, temperature, saturation, skin and grain, the same in every shot.",
+  "competencias": [
+    "igualar-cor-entre-planos",
+    "definir-look",
+    "aplicar-acabamento"
+  ],
+  "aprende": [
+    {
+      "t": "Ask for a neutral image and add the look later, in the edit"
+    },
+    {
+      "t": "Match brightness and temperature between neighboring shots"
+    },
+    {
+      "t": "Adjust contrast, blacks and color by range"
+    },
+    {
+      "t": "Add grain and halation only at the end, and only where they make sense"
+    }
+  ],
+  "hero_alt": "A dark color-grading suite with a three-trackball panel, a reference monitor in the background and a strip of film on a light table.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The order of color correction",
+      "sub": "Five steps, in this order. Click each one.",
+      "estilo": "escada",
+      "nos": [
+        {
+          "titulo": "Neutral",
+          "sub": "footage",
+          "icone": "camadas",
+          "detalhe": "Start from a flat image: low contrast, no grain, nothing blown out in the highlights or crushed in the shadows. That leaves you information to build the look. Asking the generator for \"film grain\" decides the finishing too early."
+        },
+        {
+          "titulo": "Match",
+          "sub": "shots",
+          "icone": "lista",
+          "forte": true,
+          "detalhe": "Before the look, give neighboring shots the same brightness and the same target temperature. One warmer shot between two cool ones jumps out and breaks the scene."
+        },
+        {
+          "titulo": "Contrast",
+          "sub": "and blacks",
+          "icone": "sol",
+          "detalhe": "The film look has slightly lifted blacks (they don't reach zero) and whites that don't blow out. Aggressive S-curve contrast is one of the telltale marks of raw AI imagery."
+        },
+        {
+          "titulo": "Color",
+          "sub": "by range",
+          "icone": "alvo",
+          "detalhe": "Shadows, midtones (where the skin is) and highlights each get their own tone. Keep saturation restrained: when in doubt, lower it. Skin stays neutral."
+        },
+        {
+          "titulo": "Grain",
+          "sub": "last",
+          "icone": "check",
+          "detalhe": "Grain, halation and aspect ratio come in at the end. Use grain with film's uneven texture, at the same intensity in every shot; halation (the reddish glow around a strong light) only when there is a light source in the frame."
+        }
+      ],
+      "legenda": "Save the look in a color file (LUT, .cube extension) or in an editor preset, and apply the same one to every shot."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "How to give the look, step by step",
+      "sub": "In the batch edit (lesson 3), in any editor with color adjustment.",
+      "passos": [
+        {
+          "titulo": "Generate neutral",
+          "sub": "the look comes later",
+          "texto": [
+            "In the prompt, ask for the scene's light and palette (course 0, lesson 4), not the finishing. A neutral image, with neutral skin and shadows that keep detail, accepts any look later.",
+            "Raw AI imagery tends to arrive with aggressive contrast, strong red and orange color and pure black. Those three points are what color correction tackles first."
+          ]
+        },
+        {
+          "titulo": "Match the shots",
+          "sub": "one target temperature",
+          "texto": [
+            "Pick the best-looking shot as your reference and match the others to it: brightness, temperature and contrast. Always compare with the neighboring shot, not the shot on its own.",
+            "In the first batch, the street is cold and the bakery is neutral. The change happens in a single cut, on purpose, not gradually shot by shot."
+          ]
+        },
+        {
+          "titulo": "Palette by emotion",
+          "sub": "pick one and stick with it",
+          "texto": [
+            "Complementary cold and warm give tension; warm, earthy and soft gives intimacy; desaturated with high contrast feels heavy; clean steel blue feels technical.",
+            "Clashing combinations, like pastel with neon, break the film. Write the palette in one line and hold every shot to the same one."
+          ]
+        },
+        {
+          "titulo": "Finishing and aspect ratio",
+          "sub": "grain, halation, bars",
+          "texto": [
+            "Grain goes last, fine or coarse depending on the feeling, never on top of grain that already came with the clip. Halation only where there is strong, visible light, like the lit shop window.",
+            "Aspect ratio communicates: 2.39:1 feels like cinema, 16:9 is TV and web, 9:16 is phone. Black bars (letterbox) on a 16:9 give a cinema look without changing the file."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "The recipe the page checks, and a request for the AI assistant to propose a recipe from your scene.",
+      "blocos": [
+        {
+          "rot": "cor.txt (template)",
+          "icone": "arquivo",
+          "conteudo": "Feeling: <what the audience should feel>\nPalette: <dominant colors and where they appear>\nContrast: <low, medium or high; how>\nBlacks: <lifted or crushed; and the whites>\nTemperature: <cold, neutral or warm; where does it change?>\nSaturation: <low, medium or high; which color leads>\nSkin: <how the skin looks>\nGrain: <fine, medium or coarse; the same in every shot>"
+        },
+        {
+          "rot": "Request for the AI assistant (color recipe)",
+          "icone": "chat",
+          "conteudo": "You are a film colorist. From the scene and the feeling below, propose a color recipe with exactly these 8 lines: Sensação, Paleta, Contraste, Pretos, Temperatura, Saturação, Pele, Grão.\nRules:\n- one palette for the whole film;\n- neutral skin, no pull toward orange;\n- blacks slightly lifted and whites not blown out, unless the feeling calls for something else;\n- grain applied last, the same in every shot;\n- do not cite a film, director or brand as a reference.\nCena: <the scene in 3 or 4 sentences>\nSensação: <what the audience should feel>"
+        }
+      ]
+    },
+    {
+      "tipo": "conferidor",
+      "titulo": "Check your color recipe",
+      "sub": "Paste the file (or upload the .txt). Test first with the example that passes and the example with errors.",
+      "arquivo": "cor.txt",
+      "rot": "Paste your recipe here (one line per field, in the format Field: description):",
+      "modelo": "Sensação: ...\nPaleta: ...",
+      "regras": [
+        {
+          "tipo": "campos",
+          "campos": [
+            "Feeling",
+            "Palette",
+            "Contrast",
+            "Blacks",
+            "Temperature",
+            "Saturation",
+            "Skin",
+            "Grain"
+          ],
+          "min": 4
+        }
+      ],
+      "ok": "OK: color recipe with {n} fields",
+      "exemplo": "Feeling: cold early morning that warms up when the bread comes out of the oven\nPalette: gray-blue on the street; wood and bread crust inside the bakery\nContrast: medium, no crushed blacks\nBlacks: slightly lifted; the lit shop window not blown out\nTemperature: cold in the street shot, neutral from the second shot on\nSaturation: low; the bread crust is the strongest color in the film\nSkin: neutral, no pull toward orange\nGrain: fine, the same in every shot, applied last",
+      "exemplo_errado": "Sensação: cold early morning that warms up\nPaleta: blue on the street, wood inside\nContraste: medium\nPretos:\nTemperatura: cold on the street, neutral inside\nSaturação: high, to grab attention"
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Optional: check in the terminal",
+      "sub": "Only for people who already use a terminal. In the course folder downloaded from GitHub; for your own file, replace <code>--exemplo</code> with its name (<code>cor.txt</code>).",
+      "blocos": [
+        {
+          "rot": "Terminal (in the course folder)",
+          "icone": "terminal",
+          "conteudo": "python3 conferir.py cor --exemplo; echo \"saída: $?\"\npython3 conferir.py cor --errado; echo \"saída: $?\""
+        }
+      ],
+      "saida": {
+        "selo": "real",
+        "abas": [
+          {
+            "rot": "Captured output (10/19/2026)",
+            "html": "<pre>$ python3 conferir.py cor --exemplo; echo \"saída: $?\"\nOK: receita de cor com 8 campos\nsaída: 0</pre>"
+          },
+          {
+            "rot": "Example with an error (10/19/2026)",
+            "html": "<pre>$ python3 conferir.py cor --errado; echo \"saída: $?\"\nAinda não. O que falta:\n - Falta a linha Pretos: com a descrição (pelo menos 4 letras).\n - Falta a linha Pele: com a descrição (pelo menos 4 letras).\n - Falta a linha Grão: com a descrição (pelo menos 4 letras).\nsaída: 1</pre>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "Your film's recipe and the scene 3 edit with the look applied.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "Color recipe · your film",
+          "min": "15 min",
+          "texto": "Write the eight lines of the recipe for your film. Paste it into \"Check your color recipe\" and download the cor.txt to the project folder.",
+          "pronto": "the page answers <code>OK: receita de cor com 8 campos</code> and the cor.txt is in the project folder."
+        },
+        {
+          "id": "e2",
+          "titulo": "Look applied · the edit with color",
+          "min": "30 min",
+          "texto": "In the editor, apply the recipe to the lesson 3 edit (before burning in the subtitles): first match the shots, then contrast and color, and grain last. Export again as MP4 H.264 and check the file in lesson 3.",
+          "pronto": "the \"Check your edit\" section in lesson 3 answers <code>OK: …</code> for the file with color, and the file is in the project folder next to the cor.txt."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "Four questions. The explanation appears after each answer.",
+      "perguntas": [
+        {
+          "p": "Why ask the generator for a neutral image and add the look only in the edit?",
+          "opcoes": [
+            "Because the generator charges more when the prompt mentions color.",
+            "Because a neutral image keeps detail and accepts any look afterward.",
+            "Because the editor can't work on an image that arrives with strong contrast and color from the generator.",
+            "Because the look requested in the prompt always comes out in black and white."
+          ],
+          "certa": 1,
+          "explica": "A baked-in look on a clip is hard to undo: blown-out or flattened detail doesn't come back. Neutral leaves the decision for the edit, the same across every shot.",
+          "ref": "diagrama"
+        },
+        {
+          "p": "Shot 3 came out warmer than shots 2 and 4. What do you do before applying the look?",
+          "opcoes": [
+            "Match shot 3's temperature to its neighbors.",
+            "Apply the look and leave the difference as style.",
+            "Raise the saturation of shots 2 and 4 to match.",
+            "Add more grain to shot 3 to hide the color."
+          ],
+          "certa": 0,
+          "explica": "Matching comes before the look: compare with the neighbor and aim for a target temperature. Grain and saturation don't fix temperature.",
+          "ref": "passos"
+        },
+        {
+          "p": "When does halation (the reddish glow around a light) make sense?",
+          "opcoes": [
+            "In every shot, first to last, so the whole film looks shot on film stock.",
+            "Only in daytime shots, where there is more light.",
+            "Never: it's a flaw that color correction removes.",
+            "When a strong light source is visible in the frame, like the lit shop window."
+          ],
+          "certa": 3,
+          "explica": "Halation comes from strong light bleeding into the film. With no visible source in the frame, it looks like a filter put on top.",
+          "ref": "passos"
+        },
+        {
+          "p": "Your recipe says \"Saturation: high, to grab attention\". What does the lesson suggest?",
+          "opcoes": [
+            "Keep it, because high saturation holds the eye longer.",
+            "Swap the saturation for more S-curve contrast.",
+            "Lower it and let one color be the strongest in the film.",
+            "Raise it even more, only in the action shots."
+          ],
+          "certa": 2,
+          "explica": "High saturation is one of the marks of raw AI imagery and turns into a social media filter. Held back, with one color in charge, it gives the film unity.",
+          "ref": "diagrama"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "To keep",
+      "itens": [
+        {
+          "t": "Neutral first",
+          "texto": "The look comes in the edit, not in the prompt."
+        },
+        {
+          "t": "Match before you beautify",
+          "texto": "Same brightness and temperature between neighbors, then the look."
+        },
+        {
+          "t": "Finish at the end",
+          "texto": "Same grain in every shot; halation only with light in the frame."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Going further",
+      "links": [
+        {
+          "t": "Course 0 · Light, color and atmosphere: the look decided before the prompt",
+          "href": "https://inematds.github.io/formacao-cinema-ia-direcao-v72/en/aulas/luz/"
+        },
+        {
+          "t": "Adobe: Premiere with color mode in beta and Firefly with partner video models (04/15/2026)",
+          "href": "https://blog.adobe.com/en/publish/2026/04/15/adobe-extends-leadership-video-unleashing-new-ai-powered-creation-firefly-reinventing-color-editors-in-premiere"
+        },
+        {
+          "t": "DaVinci Resolve 21: final release (06/02/2026)",
+          "href": "https://www.newsshooter.com/2026/06/02/davinci-resolve-21-final-release/"
+        }
+      ]
+    }
+  ]
+}

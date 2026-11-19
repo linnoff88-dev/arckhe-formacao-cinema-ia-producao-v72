@@ -1,0 +1,340 @@
+{
+  "slug": "plano-edicao",
+  "num": 1,
+  "menu": "Shot",
+  "titulo": "The edit plan before generating: beat sheet and deliverables list",
+  "titulo_curto": "Edit plan",
+  "minutos": 18,
+  "lead": "The shot list says what to film; the edit plan says how the film runs. Before you spend any credit, you decide the role of each stretch, how long it lasts, where each shot comes from, and which formats the film goes out in. It's the map the edit will follow.",
+  "objetivo": "build the edit plan for your film: beats with a role, timing and source for each shot, and the deliverables list by format.",
+  "competencias": [
+    "planejar-edicao",
+    "decidir-fonte-do-plano",
+    "definir-entregas"
+  ],
+  "aprende": [
+    {
+      "t": "Turn the shot list into beats with a role: hook, turning point, ending"
+    },
+    {
+      "t": "Choose the source of each shot before generating: generate, photo, record or screen"
+    },
+    {
+      "t": "Choose the cutting rhythm by the type of video"
+    },
+    {
+      "t": "List the deliverables: 16:9, 9:16 and a version without score"
+    }
+  ],
+  "hero_alt": "A dark wall with a strip of paper cards pinned in sequence by pushpins, linked by a thread; below, a stopwatch and yellow gaffer tape.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "From the shot list to the edit plan",
+      "sub": "Five decisions before generating the first shot. Click on each one.",
+      "estilo": "fluxo",
+      "nos": [
+        {
+          "titulo": "Intent",
+          "sub": "what to feel",
+          "icone": "alvo",
+          "detalhe": "What the audience should feel and do at the end, and the total length. Everything that follows serves this. In the course example: the quiet pride of someone who wakes up before the city does, in 45 seconds."
+        },
+        {
+          "titulo": "Beats",
+          "sub": "function and timing",
+          "icone": "lista",
+          "forte": true,
+          "detalhe": "A beat is a stretch of the film with one function: hook, setup, development, turning point, climax, ending. The list of beats with timings is the beat sheet. One shot can be one beat, or one beat can have two shots."
+        },
+        {
+          "titulo": "Source",
+          "sub": "where it comes from",
+          "icone": "camadas",
+          "detalhe": "For each shot: generate it with AI, animate a photo, record it with your phone, or capture the screen. Deciding this first keeps you from spending credits on a shot that a photo or a recording would solve."
+        },
+        {
+          "titulo": "Pace",
+          "sub": "cutting time",
+          "icone": "relogio",
+          "detalhe": "How long each shot lasts, on average. Short videos for social media cut fast; corporate films cut slowly. When there is a line of speech, the shot lasts as long as the line: you don't cut a sentence in the middle."
+        },
+        {
+          "titulo": "Deliverables",
+          "sub": "formats",
+          "icone": "pasta",
+          "detalhe": "The formats the film comes out in: the main one in 16:9, a 9:16 cut for social media, a version without score to reuse, and the cover image. Knowing this up front changes the framing and the timing of each shot."
+        }
+      ],
+      "legenda": "The edit plan is text and lives in your folder, outside any platform: if a tool shuts down, the film is still planned."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "How to build the plan, step by step",
+      "sub": "The example is the scene that runs through the whole course: \"The first batch\".",
+      "passos": [
+        {
+          "titulo": "Intent and length",
+          "sub": "one sentence each",
+          "texto": [
+            "Write in one sentence what the audience should feel and, in another, the total length. Without a length, there is no way to add up the beats.",
+            "Start from the shot list from course 0: it already has the shots, the camera and the sound. The edit plan arranges those shots in time."
+          ],
+          "exemplo": {
+            "rot": "Intent",
+            "texto": "The quiet pride of someone who wakes up before the city does. A 45 s film, for the bakery's website and social media."
+          }
+        },
+        {
+          "titulo": "Beats with a function",
+          "sub": "hook first",
+          "texto": [
+            "Give each stretch a function. The hook comes in the first 3 seconds: movement, an unexpected image, or a question. The ending leaves an image that works as a still.",
+            "If a stretch has no function, it goes. Change something on screen every few seconds so the eye doesn't tire."
+          ],
+          "exemplo": {
+            "rot": "Beat",
+            "texto": "1 | hook | 3 s | lit shop window on a dark street, wind | source: generate"
+          }
+        },
+        {
+          "titulo": "The source of each shot",
+          "sub": "generating is one of the options",
+          "texto": [
+            "For each beat, decide where the image comes from: generate (text or image to video, course 1), animated photo (lesson 5), your own recording, or screen capture.",
+            "Product shots and hand shots usually come out better recorded; landscapes and an empty dawn, generated. This column becomes your credit shopping list."
+          ]
+        },
+        {
+          "titulo": "Pace and deliverables",
+          "sub": "the format changes the shot",
+          "texto": [
+            "As a starting point, INEMA's video-plan-editor skill uses cuts of 0.8 to 1.5 s for viral video, 2 to 3 s for promotional, and 4 to 6 s for corporate. Adjust to your film.",
+            "List the deliverables on the first line. If there will be a 9:16 cut, keep the subject of each shot in the center of the frame."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "The format the page checks, and a request for the AI assistant to draft it from your shot list.",
+      "blocos": [
+        {
+          "rot": "plano-edicao.txt (template)",
+          "icone": "arquivo",
+          "conteudo": "Film: <name> (<length> s)\nDeliverables: <main format>; <other formats>; <version without score?>\n# n | function | length | what you see and hear | source\n1 | hook | <n> s | <what grabs them in the first 3 seconds> | source: <generate / photo / record / screen>\n2 | setup | <n> s | <where and who> | source: <...>\n3 | <function> | <n> s | <...> | source: <...>"
+        },
+        {
+          "rot": "Request for the AI assistant (draft of the plan)",
+          "icone": "chat",
+          "conteudo": "You are a film editor. Read the shot list below and propose an edit plan of 6 to 8 beats, one line per beat, in this format:\nn | function | length | what you see and hear | source: generate, photo, record or screen\nRules:\n- the first beat is the hook and grabs attention in the first 3 seconds;\n- the last one is the ending, with an image that works as a still;\n- the lengths add up to <length> seconds;\n- suggest the cheapest source that solves each shot;\n- do not invent a character, place or object that is not in the shot list.\nOn the first line, list the deliverables: <formats>.\nShot list: <paste your shot list here>"
+        }
+      ]
+    },
+    {
+      "tipo": "conferidor",
+      "titulo": "Check your edit plan",
+      "sub": "Paste the file (or upload the .txt). Test first with the example that passes and the example with an error: it's the rehearsal, and it costs nothing.",
+      "arquivo": "plano-edicao.txt",
+      "rot": "Paste your plan here (the Deliverables line and one numbered line per beat):",
+      "modelo": "Deliverables: ...\n1 | hook | 3 s | ... | source: generate",
+      "regras": [
+        {
+          "tipo": "campos",
+          "campos": [
+            "Deliverables"
+          ],
+          "min": 10
+        },
+        {
+          "tipo": "planos",
+          "min": 5,
+          "max": 10
+        },
+        {
+          "tipo": "cada_plano",
+          "grupos": [
+            {
+              "rot": "role",
+              "variar": 4,
+              "termos": [
+                "gancho / hook / gancho inicial",
+                "apresentação / contexto / introdução / setup / intro / presentación / introducción / abertura / opening",
+                "desenvolvimento / development / build-up / desarrollo",
+                "virada / reviravolta / turning point / turn / twist / giro / punto de giro",
+                "clímax / climax / pico / peak",
+                "fecho / desfecho / final / ending / cierre / remate / cta / conclusão / encerramento / conclusion / conclusión"
+              ]
+            },
+            {
+              "rot": "the source column",
+              "min": 3,
+              "termos": [
+                "fonte: / source: / fuente:"
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "duracao",
+          "min": 30,
+          "max": 60
+        },
+        {
+          "tipo": "termos",
+          "grupos": [
+            {
+              "rot": "the hook",
+              "termos": [
+                "gancho / hook"
+              ]
+            },
+            {
+              "rot": "the ending",
+              "termos": [
+                "fecho / desfecho / final / ending / cierre / remate / cta / conclusão / encerramento / conclusion / conclusión"
+              ]
+            }
+          ]
+        }
+      ],
+      "ok": "OK: {n} beats with role, time and source · {s} s",
+      "exemplo": "Film: The first batch (45 s)\nDeliverables: 16:9 master at 1920×1080; 30 s 9:16 cut for social; version without score\n# n | role | duration | what you see and hear | source\n1 | hook | 3 s | A shop window lit up on a dark street; wind and a dog in the distance. | source: generate (image to video)\n2 | setup | 7 s | Dona Lia kneads the dough on the counter; low radio. | source: generate with the character sheet\n3 | development | 8 s | The oven door opens and steam rises; the peel pulls out the first batch. | source: shoot the real bakery oven\n4 | turning point | 6 s | Three knocks on the iron door; she looks at the clock and smiles. | source: generate with line\n5 | climax | 9 s | She lifts the door; the first customer walks in and gets the warm bread. | source: generate\n6 | ending | 12 s | The street getting brighter, the bakery open; the title of the film appears. | source: animated photo of the storefront",
+      "exemplo_errado": "Film: The first batch (45 s)\n1 | setup | 7 s | Dona Lia kneads the dough. | source: generate\n2 | development | 8 s | The oven opens. | source: shoot\n3 | turning point | 6 s | Knocks on the iron door.\n4 | climax | 4 s | The first customer walks in. | source: generate\n5 | ending | 5 s | The street getting brighter. | source: photo"
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Optional: check in the terminal",
+      "sub": "Only for people who already use a terminal. Download the course from GitHub and run it in its folder: the rules are the same as on the page. For your own file, replace <code>--exemplo</code> with its name (<code>plano-edicao.txt</code>); it exits 0 when it passes.",
+      "blocos": [
+        {
+          "rot": "Terminal (in the course folder)",
+          "icone": "terminal",
+          "conteudo": "python3 conferir.py plano-edicao --exemplo; echo \"saída: $?\"\npython3 conferir.py plano-edicao --errado; echo \"saída: $?\""
+        }
+      ],
+      "saida": {
+        "selo": "real",
+        "abas": [
+          {
+            "rot": "Captured output (10/19/2026)",
+            "html": "<pre>$ python3 conferir.py plano-edicao --exemplo; echo \"saída: $?\"\nOK: 6 beats with role, time and source · 45 s\nsaída: 0</pre>"
+          },
+          {
+            "rot": "Example with an error (10/19/2026)",
+            "html": "<pre>$ python3 conferir.py plano-edicao --errado; echo \"saída: $?\"\nNot yet. What is missing:\n - The Deliverables: line is missing its description (at least 10 letters).\n - Shot 3: the source column is missing.\n - The hook is not mentioned.\nsaída: 1</pre>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "The edit plan for your film. You can start from the assistant's draft, but the final decision is yours.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "Edit plan · your 30 to 60 s film",
+          "min": "25 min",
+          "texto": "Write the Deliverables line and 5 to 10 beats in the format of the template, each with role, duration and source. Paste it into the \"Check your edit plan\" section and use \"Download the file\" to save plano-edicao.txt in your project folder.",
+          "pronto": "the page answers <code>OK: [n] beats with role, time and source · [s] s</code>, with the total between 30 and 60 s, and plano-edicao.txt is in the project folder."
+        },
+        {
+          "id": "e2",
+          "titulo": "Source · one shot without generating",
+          "min": "10 min",
+          "texto": "Change the source of at least one shot from \"generate\" to \"photo\", \"shoot\" or \"screen\", whichever is cheaper and does the job. Check again.",
+          "pronto": "the page still answers <code>OK: …</code> and, in the source column, at least one beat does not say generate."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "Four questions. The explanation appears after each answer.",
+      "perguntas": [
+        {
+          "p": "What is the difference between the shot list and the edit plan?",
+          "opcoes": [
+            "The shot list says what to film; the plan says the role and the time of each segment.",
+            "The shot list is only for the video generator; the plan is only for the music.",
+            "They are the same file with different names, one in Portuguese and the other in English.",
+            "The shot list comes after the edit, to record in text what has already been cut and exported."
+          ],
+          "certa": 0,
+          "explica": "The shot list (course 0) describes the camera, sound and duration of each shot; the edit plan arranges those shots in time, with role, source and deliverables. Both come before generating.",
+          "ref": "diagrama"
+        },
+        {
+          "p": "Your plan has 7 beats and one of them has no clear role. What do you do?",
+          "opcoes": [
+            "Leave it as it is, because more shots give more options in the edit.",
+            "Generate the beat twice and pick the best one when editing.",
+            "Remove the beat or merge it into the neighboring one that has a role.",
+            "Change the source of that beat to an animated photo."
+          ],
+          "certa": 2,
+          "explica": "A segment with no role makes the film longer and spends credit. Changing the source makes it cheaper, but does not give the segment a role; generating twice only doubles the cost.",
+          "ref": "passos"
+        },
+        {
+          "p": "Why decide the source of each shot before generating?",
+          "opcoes": [
+            "Because the generator refuses a shot that does not state the source in the prompt.",
+            "Because some shots come out better and cheaper with a photo, a recording or a screen capture.",
+            "Because the edit only accepts clips that all came from the same source, generated in the same tool.",
+            "Because the AI label is only required on generated shots."
+          ],
+          "certa": 1,
+          "explica": "The source column is the credit shopping list: product and hands usually come out better filmed, and an animated photo solves a lot of static shots. The label applies to the whole film (lesson 7).",
+          "ref": "passos"
+        },
+        {
+          "p": "You will deliver the film in 16:9 and a 9:16 cut. What already changes in the shot?",
+          "opcoes": [
+            "Nothing: the 9:16 cut is sorted out later, by stretching the image when you export the vertical version.",
+            "All the shots become twice as long.",
+            "The hook moves from the start to the end of the film.",
+            "The subject of each shot stays in the center of the frame, so it fits in 9:16."
+          ],
+          "certa": 3,
+          "explica": "The vertical cut crops the sides. If the subject is at the edge of the 16:9 frame, it disappears in the 9:16. Stretching the image distorts it; the duration and the hook don't change because of the format.",
+          "ref": "diagrama"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "To keep",
+      "itens": [
+        {
+          "t": "Function before shot",
+          "texto": "Every beat has a function; the one that doesn't leaves the film."
+        },
+        {
+          "t": "Source decided",
+          "texto": "Generate, photo, film or screen: pick the cheapest one that works, before spending credit."
+        },
+        {
+          "t": "Deliverables on the first line",
+          "texto": "The final format changes the framing and the timing of each shot."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Going further",
+      "links": [
+        {
+          "t": "Course 0 · Shot list with sound (the list of shots this plan organizes)",
+          "href": "https://inematds.github.io/formacao-cinema-ia-direcao-v72/en/aulas/decupagem/"
+        },
+        {
+          "t": "Course 1 · Generation: images and video with AI in Oct/2026 (the \"generate\" source)",
+          "href": "https://inematds.github.io/formacao-cinema-ia-geracao-v72/en/"
+        }
+      ]
+    }
+  ]
+}

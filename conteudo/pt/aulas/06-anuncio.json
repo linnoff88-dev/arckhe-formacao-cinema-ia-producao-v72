@@ -1,0 +1,327 @@
+{
+  "slug": "anuncio",
+  "num": 6,
+  "menu": "Anúncio",
+  "titulo": "Anúncio de produto e UGC: as estruturas que funcionam e as linhas que não se cruzam",
+  "titulo_curto": "Anúncio e UGC",
+  "minutos": 18,
+  "lead": "UGC é o anúncio com cara de vídeo de pessoa comum: alguém mostra o produto na mão, fala para a câmera do celular. Com IA dá para fazer sem filmar, e é justamente aí que mora o risco: depoimento inventado passado por real. Esta aula ensina as estruturas e as regras que mantêm o anúncio honesto.",
+  "objetivo": "escrever um anúncio de 15 a 30 s em cinco blocos, com fala, produto em quadro cedo e rótulo de conteúdo feito com IA.",
+  "competencias": [
+    "estruturar-anuncio",
+    "manter-produto-consistente",
+    "rotular-conteudo-sintetico"
+  ],
+  "aprende": [
+    {
+      "t": "Escolher uma estrutura de anúncio: revisão, confissão, rotina, primeira reação"
+    },
+    {
+      "t": "Montar o esqueleto de 30 s em cinco blocos com fala"
+    },
+    {
+      "t": "Manter o produto igual em todos os planos"
+    },
+    {
+      "t": "Rotular e não cruzar as linhas: pessoa real, depoimento falso, promessa falsa"
+    }
+  ],
+  "hero_alt": "Pequeno set de mesa para filmar produto: frasco de vidro liso sobre base giratória branca, softbox, rebatedor e um celular num mini tripé.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "O esqueleto de um anúncio de 30 segundos",
+      "sub": "Cinco blocos, com o tempo de cada um. Clique em cada bloco.",
+      "estilo": "fluxo",
+      "nos": [
+        {
+          "titulo": "Gancho",
+          "sub": "0–4 s",
+          "icone": "alvo",
+          "forte": true,
+          "detalhe": "Começa no meio de um pensamento, com o produto já entrando no quadro nos três primeiros segundos. Nada de logotipo parado abrindo o vídeo."
+        },
+        {
+          "titulo": "O que é",
+          "sub": "4–11 s",
+          "icone": "usuario",
+          "detalhe": "A pessoa diz o que é o produto e mostra para a câmera. Uma frase, na língua de quem fala com um amigo."
+        },
+        {
+          "titulo": "Demonstração",
+          "sub": "11–18 s",
+          "icone": "play",
+          "detalhe": "O produto em uso, na mão. É o plano que mais convence e o que mais vale gravar de verdade, se o produto existe."
+        },
+        {
+          "titulo": "Resultado",
+          "sub": "18–25 s",
+          "icone": "check",
+          "detalhe": "O que muda depois de usar. Só o que o produto entrega de fato: resultado inventado é propaganda enganosa, com ou sem IA."
+        },
+        {
+          "titulo": "Fecho",
+          "sub": "25–30 s",
+          "icone": "seta",
+          "detalhe": "Fecho leve, sem venda agressiva. E o rótulo: vídeo feito com IA, pessoa fictícia quando for o caso."
+        }
+      ],
+      "legenda": "Esqueleto e regras da skill ugc-seedance25 do INEMA (set/2026); o rótulo é acréscimo deste curso."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Como escrever o anúncio, passo a passo",
+      "sub": "O produto do exemplo é fictício: o pão de fermentação natural da padaria da Dona Lia.",
+      "passos": [
+        {
+          "titulo": "Escolher a estrutura",
+          "sub": "cinco que funcionam",
+          "texto": [
+            "Revisão: a pessoa usa e comenta. Confissão: problema, ritual, resultado. Rotina: o produto no dia a dia. Primeira reação: abrir a caixa e reagir. Teste selfie de 15 s: gancho curto, um benefício, fecho casual.",
+            "Escolha pelo produto: o pão pede rotina (a manhã de quem compra) ou confissão (\"desisti do pão de mercado\")."
+          ]
+        },
+        {
+          "titulo": "Fala com tempo",
+          "sub": "70 a 80 palavras em 30 s",
+          "texto": [
+            "Escreva a fala de cada bloco entre aspas, com o tempo ao lado. A skill do INEMA usa de 70 a 80 palavras faladas em 30 segundos: mais que isso, a fala atropela.",
+            "Som: liste o que não pode aparecer (música alta sob a fala, por exemplo). A estética é de celular: luz de casa, sem texto na tela durante a geração."
+          ]
+        },
+        {
+          "titulo": "Produto sempre igual",
+          "sub": "referência travada",
+          "texto": [
+            "Use as mesmas fotos de referência do produto (uma principal e duas ou três de detalhe) em toda geração, como o curso 1 ensina na aula de consistência. Mude uma coisa por vez e gere um antes do lote.",
+            "Rótulo e texto do produto entram na montagem, não no prompt: o gerador costuma deformar letras. Confira cada plano: um produto só, mãos certas, rosto igual."
+          ]
+        },
+        {
+          "titulo": "As linhas que não se cruzam",
+          "sub": "honestidade não é opcional",
+          "texto": [
+            "Pessoa gerada nunca é apresentada como cliente real. Depoimento sintético leva rótulo. O resultado prometido é o que o produto entrega. Rosto e voz de gente real, só com autorização por escrito.",
+            "Nada de marca de concorrente nem de pessoa famosa. A lei de rotulagem e os casos estão na aula 7; a plataforma onde você anuncia pode ter regra própria."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "O roteiro que a página confere e um pedido para o assistente de IA rascunhar a partir do seu produto.",
+      "blocos": [
+        {
+          "rot": "anuncio.txt (modelo)",
+          "icone": "arquivo",
+          "conteudo": "Produto: <o que é; real ou fictício>\nEstrutura: <revisão, confissão, rotina, primeira reação ou teste selfie> · <9:16 ou 16:9>\nRótulo: <ex.: vídeo feito com IA; a pessoa é fictícia>\n# n | bloco | tempo | o que se vê | fala\n1 | gancho | <n> s | <o produto entra no quadro> | fala: \"<frase>\"\n2 | o que é | <n> s | <...> | fala: \"<frase>\""
+        },
+        {
+          "rot": "Pedido ao assistente de IA (rascunho do anúncio)",
+          "icone": "chat",
+          "conteudo": "Você é roteirista de anúncios curtos em estilo UGC. Escreva um anúncio de <duração> segundos para o produto abaixo, em cinco blocos, uma linha por bloco:\nn | bloco (gancho, o que é, demonstração, resultado, fecho) | tempo | o que se vê | fala: \"...\"\nRegras:\n- o produto aparece no quadro nos três primeiros segundos;\n- de 70 a 80 palavras faladas em 30 s (proporcional se for mais curto);\n- só prometa o que o produto entrega: <o que ele entrega de fato>;\n- sem venda agressiva, sem marca de concorrente, sem pessoa famosa;\n- a pessoa é fictícia e o roteiro termina com a linha \"Rótulo: vídeo feito com IA; pessoa fictícia\".\nProduto: <descrição>\nEstrutura: <estrutura escolhida>"
+        }
+      ]
+    },
+    {
+      "tipo": "conferidor",
+      "titulo": "Confira o seu anúncio",
+      "sub": "Cole o arquivo (ou carregue o .txt). Teste antes com o exemplo que passa e com o exemplo com erro.",
+      "arquivo": "anuncio.txt",
+      "rot": "Cole aqui o seu anúncio (as linhas Produto e Rótulo e uma linha numerada por bloco):",
+      "modelo": "Produto: ...\nRótulo: ...\n1 | gancho | 3 s | ... | fala: \"...\"",
+      "regras": [
+        {
+          "tipo": "campos",
+          "campos": [
+            "Produto",
+            "Rótulo"
+          ],
+          "min": 8
+        },
+        {
+          "tipo": "planos",
+          "min": 4,
+          "max": 6
+        },
+        {
+          "tipo": "cada_plano",
+          "grupos": [
+            {
+              "rot": "bloco",
+              "variar": 4,
+              "termos": [
+                "gancho / hook",
+                "o que é / apresentação / what it is / qué es / presentación / introduction",
+                "demonstração / demonstration / demo / demostración",
+                "resultado / result / results / prova / proof / prueba",
+                "fecho / final / ending / cierre / remate / cta"
+              ]
+            },
+            {
+              "rot": "a fala",
+              "min": 3,
+              "termos": [
+                "fala: / line: / dialogue: / says: / diálogo: / frase: / dice: / habla:"
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "duracao",
+          "min": 15,
+          "max": 30
+        },
+        {
+          "tipo": "termos",
+          "grupos": [
+            {
+              "rot": "o aviso de vídeo feito com IA (no Rótulo)",
+              "termos": [
+                "feito com IA / gerado com IA / gerado por IA / criado com IA / conteúdo sintético / made with AI / AI-generated / generated with AI / created with AI / synthetic content / hecho con IA / generado con IA / generado por IA / creado con IA / contenido sintético"
+              ],
+              "campo": "Rótulo"
+            }
+          ]
+        }
+      ],
+      "ok": "OK: anúncio com {n} blocos, fala e rótulo · {s} s",
+      "exemplo": "Produto: pão de fermentação natural da padaria da Dona Lia (produto fictício do curso)\nEstrutura: confissão (problema, ritual, resultado) · 9:16\nRótulo: vídeo feito com IA; a cliente é uma personagem fictícia\n# n | bloco | tempo | o que se vê | fala\n1 | gancho | 3 s | O pão entra no quadro já partido ao meio, com vapor saindo. | fala: \"Eu tinha desistido de pão de verdade.\"\n2 | o que é | 6 s | Ela mostra o pão para a câmera do celular, na cozinha de casa. | fala: \"Esse é o de fermentação natural da padaria da esquina.\"\n3 | demonstração | 7 s | Ela corta uma fatia; a casca estala e o miolo abre. | fala: \"Escuta essa casca. Fica assim até o dia seguinte.\"\n4 | resultado | 7 s | Café da manhã na mesa, a família pegando fatias. | fala: \"Agora o café da manhã começa às 6h50 na fila da padaria.\"\n5 | fecho | 5 s | Ela dá uma mordida e sorri. | fala: \"A primeira fornada sai às 5h. Vai cedo.\"",
+      "exemplo_errado": "Produto: pão de fermentação natural da padaria da Dona Lia\n1 | gancho | 3 s | O pão entra no quadro partido ao meio. | fala: \"Eu tinha desistido de pão de verdade.\"\n2 | o que é | 6 s | Ela mostra o pão para a câmera. | fala: \"Esse é o da padaria da esquina.\"\n3 | demonstração | 7 s | Ela corta uma fatia; a casca estala.\n4 | fecho | 4 s | Ela sorri. | fala: \"Vai cedo.\""
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Opcional: conferir no terminal",
+      "sub": "Só para quem já usa terminal. Na pasta do curso baixado do GitHub; para o seu arquivo, troque <code>--exemplo</code> pelo nome dele (<code>anuncio.txt</code>).",
+      "blocos": [
+        {
+          "rot": "Terminal (na pasta do curso)",
+          "icone": "terminal",
+          "conteudo": "python3 conferir.py anuncio --exemplo; echo \"saída: $?\"\npython3 conferir.py anuncio --errado; echo \"saída: $?\""
+        }
+      ],
+      "saida": {
+        "selo": "real",
+        "abas": [
+          {
+            "rot": "Saída capturada (19/10/2026)",
+            "html": "<pre>$ python3 conferir.py anuncio --exemplo; echo \"saída: $?\"\nOK: anúncio com 5 blocos, fala e rótulo · 28 s\nsaída: 0</pre>"
+          },
+          {
+            "rot": "Exemplo com erro (19/10/2026)",
+            "html": "<pre>$ python3 conferir.py anuncio --errado; echo \"saída: $?\"\nAinda não. O que falta:\n - Falta a linha Rótulo: com a descrição (pelo menos 8 letras).\n - Plano 3: falta a fala.\n - Falta citar o aviso de vídeo feito com IA (no Rótulo).\nsaída: 1</pre>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Prática",
+      "sub": "Um produto seu (real) ou o pão da Dona Lia (fictício). Gerar o vídeo fica a seu critério e com a ferramenta que você tiver; o roteiro é o que se confere aqui.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "Anúncio · cinco blocos com rótulo",
+          "min": "25 min",
+          "texto": "Escolha uma estrutura e escreva as linhas Produto, Estrutura e Rótulo e os cinco blocos com tempo, o que se vê e a fala. Cole em \"Confira o seu anúncio\" e baixe o anuncio.txt para a pasta do projeto.",
+          "pronto": "a página responde <code>OK: anúncio com [n] blocos, fala e rótulo · [s] s</code>, com a soma entre 15 e 30 s, e o anuncio.txt está na pasta do projeto."
+        },
+        {
+          "id": "e2",
+          "titulo": "Promessa · só o que o produto entrega",
+          "min": "10 min",
+          "texto": "Leia o bloco resultado e escreva, ao lado do anuncio.txt, uma linha \"Prova:\" dizendo de onde vem cada coisa prometida (o produto faz isso? quem confirmou?). Corte do roteiro o que não tiver prova e confira de novo.",
+          "pronto": "a página continua respondendo <code>OK: …</code> e cada promessa do bloco resultado tem a sua linha \"Prova:\" no arquivo."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Teste rápido",
+      "sub": "Quatro perguntas. A explicação aparece depois de cada resposta.",
+      "perguntas": [
+        {
+          "p": "Em que momento o produto deve aparecer no anúncio de 30 s?",
+          "opcoes": [
+            "Só no fecho, para criar suspense até o fim.",
+            "Depois da demonstração, quando a pessoa já falou dele.",
+            "Nos três primeiros segundos, já no gancho.",
+            "Em nenhum plano gerado: só no rótulo final."
+          ],
+          "certa": 2,
+          "explica": "Quem rola a tela decide em segundos. O produto no gancho diz logo do que se trata; suspense longo perde o público antes.",
+          "ref": "diagrama"
+        },
+        {
+          "p": "O rótulo do produto saiu com letras tortas nos planos gerados. O que fazer?",
+          "opcoes": [
+            "Pôr o rótulo e o texto do produto na montagem, não no prompt.",
+            "Pedir no prompt para o gerador escrever com mais cuidado.",
+            "Aumentar o tamanho do rótulo no prompt para ele ler melhor.",
+            "Gerar de novo até o texto sair certo por acaso."
+          ],
+          "certa": 0,
+          "explica": "Geradores costumam deformar letras. Texto entra na pós, por cima do plano; regerar por sorte gasta crédito.",
+          "ref": "passos"
+        },
+        {
+          "p": "Qual destas falas cruza a linha?",
+          "opcoes": [
+            "\"Esse é o de fermentação natural da padaria da esquina.\"",
+            "\"Escuta essa casca.\"",
+            "\"A primeira fornada sai às 5h. Vai cedo.\"",
+            "\"Sou cliente há dez anos e esse pão curou minha gastrite.\""
+          ],
+          "certa": 3,
+          "explica": "A pessoa é fictícia, então \"cliente há dez anos\" é depoimento falso, e a promessa de saúde não tem prova. As outras descrevem o produto sem inventar.",
+          "ref": "passos"
+        },
+        {
+          "p": "Por que o roteiro deste curso exige a linha Rótulo?",
+          "opcoes": [
+            "Porque o gerador de vídeo recusa roteiro sem rótulo.",
+            "Porque o rótulo substitui a autorização de uso de imagem e de voz das pessoas que aparecem.",
+            "Porque anúncio com pessoa ou depoimento gerado precisa avisar quem assiste.",
+            "Porque o rótulo deixa o anúncio mais curto."
+          ],
+          "certa": 2,
+          "explica": "Quem assiste tem de saber que a pessoa e a cena foram geradas. Rótulo não substitui autorização: rosto e voz reais continuam exigindo permissão (aula 7).",
+          "ref": "conferidor"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Para guardar",
+      "itens": [
+        {
+          "t": "Produto no gancho",
+          "texto": "Cinco blocos em 30 s, com o produto nos três primeiros segundos."
+        },
+        {
+          "t": "Produto igual",
+          "texto": "Referência travada, uma mudança por vez, texto do produto na montagem."
+        },
+        {
+          "t": "Rótulo e verdade",
+          "texto": "Pessoa gerada não é cliente real; só se promete o que o produto entrega."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir além",
+      "links": [
+        {
+          "t": "ugc-seedance25: app no navegador que monta o roteiro de UGC em cinco blocos (guia do INEMA)",
+          "href": "https://inematds.github.io/ugc-seedance25/guia/"
+        },
+        {
+          "t": "Aula 7 · Ética e lei: rótulo, direito de imagem e voz, licença do modelo",
+          "href": "https://inematds.github.io/formacao-cinema-ia-producao-v72/aulas/etica/"
+        }
+      ]
+    }
+  ]
+}

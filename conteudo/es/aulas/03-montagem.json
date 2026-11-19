@@ -1,0 +1,290 @@
+{
+  "slug": "montagem",
+  "num": 3,
+  "menu": "Montaje",
+  "titulo": "Montaje y ritmo: cortar, encadenar y subtitular",
+  "titulo_curto": "Montaje",
+  "minutos": 20,
+  "lead": "Montar es decidir dónde empieza y termina cada plano, cómo pasa uno al otro y qué se lee en pantalla. En esta clase montas los cuatro clips de ensayo de la hornada en un editor gratuito, pones subtítulos y compruebas el archivo exportado aquí mismo en la página.",
+  "objetivo": "cortar y encadenar los clips en un corte de 12 a 20 s en 16:9, con subtítulos, y comprobar el archivo exportado en la página.",
+  "competencias": [
+    "montar-sequencia",
+    "escolher-transicao",
+    "legendar-e-exportar"
+  ],
+  "aprende": [
+    {
+      "t": "Ordenar y recortar los clips siguiendo el plan de edición"
+    },
+    {
+      "t": "Usar el corte seco como opción por defecto y la transición solo cuando cuenta algo"
+    },
+    {
+      "t": "Subtitular con transcripción hecha en tu propio computador"
+    },
+    {
+      "t": "Exportar en el formato que leen la página y las redes"
+    }
+  ],
+  "hero_alt": "Mesa de montaje oscura con un monitor que muestra la línea de tiempo llena de clips de colores y un segundo monitor con un fotograma de película desenfocado.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Del clip suelto al archivo final",
+      "sub": "Seis pasos en la línea de tiempo. Haz clic en cada uno.",
+      "estilo": "fluxo",
+      "nos": [
+        {
+          "titulo": "Importar",
+          "sub": "clips y sonido",
+          "icone": "carregar",
+          "detalhe": "Lleva al editor los clips, la banda sonora y los efectos por separado (clase 2). Ponle nombre a los archivos con el número del plano: plano-1, plano-2… Así es fácil encontrarlos en la línea de tiempo."
+        },
+        {
+          "titulo": "Ordenar",
+          "sub": "según el plan",
+          "icone": "lista",
+          "detalhe": "Pon los clips en el orden del plan de edición (clase 1). El orden ya es la mitad del ritmo; cambiarlo después es barato, generar de nuevo no lo es."
+        },
+        {
+          "titulo": "Recortar",
+          "sub": "inicio y final",
+          "icone": "relogio",
+          "forte": true,
+          "detalhe": "Corta el comienzo y el final de cada clip generado: ahí suelen aparecer temblores y deformaciones. Cada plano dura solo el tiempo que el ojo necesita para leer la acción."
+        },
+        {
+          "titulo": "Transición",
+          "sub": "corte seco",
+          "icone": "seta",
+          "detalhe": "El corte seco es la gran mayoría y el más invisible. Fundido encadenado para el paso del tiempo; match cut para unir formas parecidas. La transición sirve a la historia, no la decora."
+        },
+        {
+          "titulo": "Subtítulos",
+          "sub": "transcripción local",
+          "icone": "chat",
+          "detalhe": "Mucha gente ve los videos sin sonido. Los subtítulos salen de la transcripción del diálogo; revisa las palabras antes de incrustarlos en el video."
+        },
+        {
+          "titulo": "Exportar",
+          "sub": "MP4 H.264",
+          "icone": "baixar",
+          "detalhe": "Exporta en el formato de entrega (aquí 16:9) en MP4 H.264, el que abren más lugares. Después revisa el archivo en la sección de abajo."
+        }
+      ],
+      "legenda": "Un problema de montaje se corrige en el editor, no generando de nuevo: reordenar, recortar y cambiar la transición no gastan crédito."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Cómo montar, paso a paso",
+      "sub": "Con los cuatro clips de ensayo de la hornada (enlace en la práctica) o con los tuyos.",
+      "passos": [
+        {
+          "titulo": "Abrir el editor",
+          "sub": "gratuito y en tu computador",
+          "texto": [
+            "El ejemplo usa Concat (0.2.7 beta, oct/2026): editor de video de código abierto (licencia AGPL-3.0), instalado en el computador, sin cuenta, sin suscripción y sin marca de agua. Funciona en Windows, macOS, Linux y Android.",
+            "Como es beta, todavía tiene asperezas, y los instaladores no están firmados: en Windows, el aviso pide \"Más información › Ejecutar de todas formas\". Si ya usas otro editor, los pasos son los mismos."
+          ]
+        },
+        {
+          "titulo": "Ordenar y recortar",
+          "sub": "el plan manda",
+          "texto": [
+            "Arrastra los clips en el orden de tu plan de edición. Recorta medio segundo al comienzo y al final de cada clip generado y mira toda la secuencia de una vez, para sentir el ritmo.",
+            "Si un plano parece largo, lo es: corta hasta que la acción quede clara y nada más. Varía el tamaño de plano entre vecinos, como lo pidió el desglose de planos."
+          ]
+        },
+        {
+          "titulo": "Transiciones que cuentan algo",
+          "sub": "corte seco, fundido, J y L",
+          "texto": [
+            "Corte seco por defecto. Fundido corto cuando pasa el tiempo. Match on action: corta en medio de un movimiento y continúa el movimiento en el plano siguiente.",
+            "J-cut: el sonido del próximo plano entra antes de la imagen (los golpes en la puerta antes de ver la puerta). L-cut: el sonido del plano continúa después del corte. Los dos unen planos sin efecto visual."
+          ],
+          "exemplo": {
+            "rot": "En la hornada",
+            "texto": "Los tres golpes empiezan al final del plano del horno (J-cut) y el corte a la puerta llega en el tercer golpe."
+          }
+        },
+        {
+          "titulo": "Subtitular y exportar",
+          "sub": "sin enviar nada a la nube",
+          "texto": [
+            "Concat genera subtítulos con Whisper corriendo en tu computador: descarga los modelos una vez en Configuración › Modelos. Revisa nombres propios y números antes de incrustar los subtítulos.",
+            "Exporta en MP4 H.264, 16:9. HEVC y AV1 ahorran espacio, pero no todos los navegadores los abren: para revisar aquí, prefiere H.264."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "video",
+      "titulo": "El editor gratuito en 48 segundos",
+      "sub": "Video de INEMA (15/10/2026) sobre Concat. Short vertical, con subtítulos.",
+      "chave": "concat"
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Plantilla para copiar",
+      "sub": "Una lista de cortes para anotar las decisiones de montaje antes de abrir el editor.",
+      "blocos": [
+        {
+          "rot": "cortes.txt (lista de decisiones)",
+          "icone": "arquivo",
+          "conteudo": "Montagem: <nombre> (<duración objetivo> s, 16:9)\n# n | clip | entra en | sale en | transición al siguiente | sonido\n1 | plano-1 | <s> | <s> | corte seco | ambiente del clip\n2 | plano-2 | <s> | <s> | J-cut (el sonido del 3 entra antes) | <...>\nSubtítulos: <sí o no; ¿revisados?>\nExportación: MP4 H.264, <ancho>×<alto>"
+        }
+      ]
+    },
+    {
+      "tipo": "conferidor",
+      "titulo": "Revisa tu montaje",
+      "sub": "Elige el MP4 exportado. La página lee la duración y el tamaño en tu navegador; no se envía nada. Pruébala antes con el ejemplo que pasa y con el ejemplo con error.",
+      "arquivo": "montagem.mp4",
+      "regras": [
+        {
+          "tipo": "video",
+          "min": 12,
+          "max": 20,
+          "proporcao": "16:9",
+          "largura_min": 1280
+        }
+      ],
+      "ok": "OK: {s} s · {w}×{h} · {p}",
+      "video_ok": "assets/ensaio/exemplo-montagem.webm",
+      "video_erro": "assets/ensaio/exemplo-montagem-erro.webm"
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Opcional: verificar en la terminal",
+      "sub": "Solo para quienes ya usan la terminal y tienen ffmpeg instalado (el verificador usa <code>ffprobe</code>). En la carpeta del curso descargado de GitHub; para tu archivo, cambia <code>--exemplo</code> por su nombre (<code>montagem.mp4</code>).",
+      "blocos": [
+        {
+          "rot": "Terminal (en la carpeta del curso)",
+          "icone": "terminal",
+          "conteudo": "python3 conferir.py montagem --exemplo; echo \"saída: $?\"\npython3 conferir.py montagem --errado; echo \"saída: $?\""
+        }
+      ],
+      "saida": {
+        "selo": "real",
+        "abas": [
+          {
+            "rot": "Salida capturada (19/10/2026)",
+            "html": "<pre>$ python3 conferir.py montagem --exemplo; echo \"saída: $?\"\nOK: 15,0 s · 1280×720 · 16:9\nsaída: 0</pre>"
+          },
+          {
+            "rot": "Ejemplo con error (19/10/2026)",
+            "html": "<pre>$ python3 conferir.py montagem --errado; echo \"saída: $?\"\nAinda não. O que falta:\n - O vídeo tem 8,0 s; o pedido é de 12 a 20 s.\n - O vídeo é 720×1280 (9:16); o pedido é 16:9.\n - O vídeo tem 720 px de largura; o mínimo é 1280 px.\nsaída: 1</pre>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "Ensayo sin costo: cuatro clips de la hornada, de 5 s cada uno, en 1280×720 con sonido ambiente, hechos a partir de imágenes fijas. Descárgalos: <a href=\"https://inematds.github.io/formacao-cinema-ia-producao-v72/assets/ensaio/plano-1.mp4\">plano 1</a> · <a href=\"https://inematds.github.io/formacao-cinema-ia-producao-v72/assets/ensaio/plano-2.mp4\">plano 2</a> · <a href=\"https://inematds.github.io/formacao-cinema-ia-producao-v72/assets/ensaio/plano-3.mp4\">plano 3</a> · <a href=\"https://inematds.github.io/formacao-cinema-ia-producao-v72/assets/ensaio/plano-4.mp4\">plano 4</a>.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "Montaje · los cuatro clips en 12 a 20 s",
+          "min": "30 min",
+          "texto": "Monta los cuatro clips de ensayo (o los tuyos) en 16:9, con cortes secos y al menos un J-cut o L-cut, y exporta en MP4 H.264. Elige el archivo en \"Revisa tu montaje\" y guárdalo en la carpeta del proyecto como montagem.mp4.",
+          "pronto": "la página responde <code>OK: [s] s · [w]×[h] · 16:9</code>, con la duración entre 12 y 20 s y el ancho de al menos 1280 px."
+        },
+        {
+          "id": "e2",
+          "titulo": "Subtítulos · quemados y revisados",
+          "min": "20 min",
+          "texto": "Escribe una frase de narración para el montaje, grábala con tu voz y genera los subtítulos en el editor. Revísalos y exporta de nuevo con los subtítulos quemados; en la película final (clase 8), los subtítulos entran después del color.",
+          "pronto": "la página sigue respondiendo <code>OK: …</code> para el nuevo archivo y, al reproducir el video, los subtítulos aparecen en el cuadro con las palabras que grabaste."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "Cuatro preguntas. La explicación aparece después de cada respuesta.",
+      "perguntas": [
+        {
+          "p": "Un plano generado tiene una deformación en los últimos 10 cuadros. ¿Qué haces primero?",
+          "opcoes": [
+            "Generar el plano de nuevo hasta que salga sin ningún defecto.",
+            "Poner un fundido encadenado largo sobre el final del plano para que el ojo no vea el defecto.",
+            "Cambiar el plano completo por una pantalla negra con texto.",
+            "Recortar el final del clip en el montaje antes de pensar en generar de nuevo."
+          ],
+          "certa": 3,
+          "explica": "El inicio y el final de un clip generado son donde suele aparecer el defecto; recortar no gasta crédito. Un fundido para esconder el defecto llama la atención hacia él.",
+          "ref": "diagrama"
+        },
+        {
+          "p": "Los golpes en la puerta empiezan a sonar al final del plano del horno, antes del corte a la puerta. ¿Qué corte es ese?",
+          "opcoes": [
+            "J-cut: el sonido del siguiente plano entra antes que su imagen.",
+            "L-cut: el sonido del plano anterior sigue sonando sobre el plano siguiente, después del corte.",
+            "Match cut: dos formas parecidas unidas por el corte.",
+            "Fundido encadenado: una imagen se disuelve poco a poco en la otra."
+          ],
+          "certa": 0,
+          "explica": "En el J-cut el sonido llega primero y lleva la mirada al siguiente plano. En el L-cut es al revés: el sonido se queda después del corte.",
+          "ref": "passos"
+        },
+        {
+          "p": "¿Por qué exportar en MP4 H.264 para revisar en la página?",
+          "opcoes": [
+            "Porque es el único formato que conserva los subtítulos quemados cuando el video va a internet.",
+            "Porque HEVC y AV1 siempre salen con peor calidad.",
+            "Porque es el formato que abren más navegadores y plataformas.",
+            "Porque el editor gratuito solo exporta en H.264."
+          ],
+          "certa": 2,
+          "explica": "HEVC y AV1 comprimen mejor, pero no todos los navegadores los leen. Los subtítulos quemados van en cualquier formato, y el editor exporta los tres.",
+          "ref": "passos"
+        },
+        {
+          "p": "La página responde \"O vídeo é 1080×1920 (9:16); o pedido é 16:9\". ¿Qué pasó?",
+          "opcoes": [
+            "El archivo está dañado y hay que exportarlo de nuevo en H.264, con otro nombre de archivo.",
+            "El proyecto del editor está en vertical; cámbialo a 16:9 y exporta de nuevo.",
+            "El video dura demasiado para la práctica de esta clase.",
+            "Los subtítulos quemados cambiaron la proporción del video."
+          ],
+          "certa": 1,
+          "explica": "La página leyó el tamaño del archivo: salió vertical. El formato viene del proyecto en el editor, no del códec, de la duración ni de los subtítulos.",
+          "ref": "conferidor"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Para guardar",
+      "itens": [
+        {
+          "t": "Recortar antes de generar de nuevo",
+          "texto": "El inicio y el final de un clip generado se recortan en el montaje, sin gastar crédito."
+        },
+        {
+          "t": "Corte seco por defecto",
+          "texto": "Fundido encadenado, match cut, J-cut y L-cut solo cuando cuentan algo."
+        },
+        {
+          "t": "Revisar el archivo",
+          "texto": "MP4 H.264 en el formato de la entrega; la página lee la duración y el tamaño."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir más allá",
+      "links": [
+        {
+          "t": "Concat: guía en portugués de INEMA (instalar, subtitular, exportar)",
+          "href": "https://inematds.github.io/concat/guia/"
+        },
+        {
+          "t": "Concat: página oficial de descarga",
+          "href": "https://concatenate.pages.dev/"
+        }
+      ]
+    }
+  ]
+}

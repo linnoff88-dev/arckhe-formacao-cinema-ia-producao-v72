@@ -1,0 +1,337 @@
+{
+  "slug": "fotos",
+  "num": 5,
+  "menu": "Fotos",
+  "titulo": "Película sin generador de video: fotos y narración con cámara 2.5D",
+  "titulo_curto": "Película con fotos",
+  "minutos": 18,
+  "lead": "No toda película necesita un generador de video. Fotos reales o imágenes fijas, una narración y un movimiento de cámara bien elegido por foto ya cuentan una historia, sin créditos y en cualquier máquina. Los clips de ensayo de este curso se hicieron así. Aquí escribes la hoja de dirección y la ejecutas en un editor o con un agente.",
+  "objetivo": "dirigir una película a partir de fotos y narración: un movimiento, una duración y una transición por foto, sin generar video.",
+  "competencias": [
+    "dirigir-imagem-parada",
+    "escolher-movimento-por-foto",
+    "montar-com-narracao"
+  ],
+  "aprende": [
+    {
+      "t": "Elegir un movimiento de cámara por foto según lo que muestra"
+    },
+    {
+      "t": "Medir la duración de cada foto según la narración"
+    },
+    {
+      "t": "Usar el corte seco como estándar y guardar el plano calmado para el final"
+    },
+    {
+      "t": "Ejecutar con keyframes en el editor o con las skills de INEMA"
+    }
+  ],
+  "hero_alt": "Mesa de luz con fotografías impresas en capas, algunas recortadas sobre soportes de distintas alturas, y un pequeño slider de cámara apuntando hacia ellas.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Fotos y narración se vuelven película",
+      "sub": "Cinco decisiones. Haz clic en cada una.",
+      "estilo": "fluxo",
+      "nos": [
+        {
+          "titulo": "Fotos",
+          "sub": "el material",
+          "icone": "camadas",
+          "detalhe": "Fotos tuyas, de archivo con licencia o imágenes fijas generadas. Una foto rica puede convertirse en dos o tres planos (uno general, un detalle). Para acercarte mucho, usa una foto grande: al menos 1920 px de ancho."
+        },
+        {
+          "titulo": "Narración",
+          "sub": "manda en el tiempo",
+          "icone": "chat",
+          "forte": true,
+          "detalhe": "Graba o sintetiza la narración antes (clase 2). Cada foto dura el tramo de la locución que habla de ella; no se corta la frase por la mitad."
+        },
+        {
+          "titulo": "Movimiento",
+          "sub": "uno por foto",
+          "icone": "video",
+          "detalhe": "Acercar (push in) invita a entrar; alejar (pull out) revela el contexto; el travelling lateral acompaña; la cámara fija da peso. La cámara 2.5D separa el frente y el fondo según la profundidad estimada de la foto y mueve uno más que el otro (parallax)."
+        },
+        {
+          "titulo": "Transición",
+          "sub": "corte seco",
+          "icone": "seta",
+          "detalhe": "Corte seco como norma; fundido encadenado para el paso del tiempo; fundido a negro al final. La transición nunca es igual en todas las fotos."
+        },
+        {
+          "titulo": "Render",
+          "sub": "editor o agente",
+          "icone": "play",
+          "detalhe": "Sin terminal: keyframes de escala y posición en el editor (movimiento 2D, estilo Ken Burns). Con terminal: las skills pixflow y diretor-animacao de INEMA hacen el parallax 2.5D y el look."
+        }
+      ],
+      "legenda": "Reglas de diretor-animacao de INEMA: nunca dos movimientos iguales seguidos, el movimiento dramático solo una o dos veces en la película, y el último plano es el más calmado."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Cómo dirigir las fotos, paso a paso",
+      "sub": "Con las cuatro imágenes de la hornada y una narración corta.",
+      "passos": [
+        {
+          "titulo": "Primero la narración",
+          "sub": "el tiempo viene de ella",
+          "texto": [
+            "Escribe y graba la narración antes de elegir los movimientos. Marca dónde empieza cada frase: esas marcas son las duraciones de las fotos.",
+            "Si se puede mostrar, no lo narres: la foto de la masa no necesita la frase \"ella amasa\". La narración dice lo que la foto no muestra."
+          ],
+          "exemplo": {
+            "rot": "Narración",
+            "texto": "\"A las 4:50, la calle aún duerme.\" · \"Doña Lia ya está de pie.\" · \"La primera hornada no espera.\""
+          }
+        },
+        {
+          "titulo": "Un movimiento por foto",
+          "sub": "según lo que muestra",
+          "texto": [
+            "Un paisaje abierto pide un acercamiento lento o un travelling lateral; un detalle pide cámara fija o un acercamiento corto; una revelación pide alejamiento.",
+            "No repitas el mismo movimiento en fotos vecinas, y reserva el movimiento dramático (dolly zoom, crash zoom) para una o dos veces en la película. Una foto real admite parallax; el dibujo y la ilustración van sin parallax, solo con movimiento plano."
+          ]
+        },
+        {
+          "titulo": "Ejecutar sin terminal",
+          "sub": "keyframes en el editor",
+          "texto": [
+            "En el editor, pon la foto en la línea de tiempo con la duración de la hoja y crea dos keyframes: escala y posición al inicio y al final. El editor anima entre ellos.",
+            "Concat tiene keyframes con curvas. Usa una curva suave (ease) al principio y al final para que el movimiento no dé tirones."
+          ]
+        },
+        {
+          "titulo": "Ejecutar con agente",
+          "sub": "pixflow y diretor-animacao",
+          "texto": [
+            "Quien usa Claude Code tiene las skills de INEMA: diretor-animacao analiza cada imagen, propone el desglose de planos para que lo apruebes y renderiza con pixflow, que hace el parallax 2.5D, 18 movimientos de cámara y looks listos.",
+            "Corren en el computador con Node, FFmpeg y Chromium; sin tarjeta de video dedicada, renderizan por software, más despacio. Ninguna de las dos usa IA de video."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "La hoja de dirección que la página verifica y un pedido para que el asistente de IA proponga movimientos a partir de la narración.",
+      "blocos": [
+        {
+          "rot": "direcao-fotos.txt (modelo)",
+          "icone": "arquivo",
+          "conteudo": "Película: <nombre> (<duración> s) · narración: <archivo de audio>\n# n | foto | movimiento | duración | transición | narración\n1 | foto: <arquivo.jpg> | <un movimiento> | <n> s | <corte seco, fundido encadenado o fundido a negro> | \"<tramo de la locución>\"\n2 | foto: <arquivo.jpg> | <un movimiento> | <n> s | <transición> | \"<tramo de la locución>\""
+        },
+        {
+          "rot": "Pedido al asistente de IA (hoja de dirección)",
+          "icone": "chat",
+          "conteudo": "Eres director de animación de fotos. Para cada foto descrita abajo, propón una línea en este formato:\nn | foto: <archivo> | movimiento | duración | transición | narración\nReglas:\n- un movimiento por foto: push in, pull out, travelling lateral, tilt, órbita, cámara fija o cámara en mano;\n- como máximo dos movimientos fuertes seguidos; el último plano es el más calmado;\n- corte seco como norma; fundido encadenado solo para el paso del tiempo; fundido a negro solo al final;\n- la duración de cada foto es el tiempo de su tramo de narración; la suma da <duración> segundos.\nFotos: <lista con el nombre del archivo y lo que muestra cada una>\nNarración: <pega la narración>"
+        }
+      ]
+    },
+    {
+      "tipo": "conferidor",
+      "titulo": "Verifica tu hoja de dirección",
+      "sub": "Pega el archivo (o carga el .txt). Prueba antes con el ejemplo que pasa y con el ejemplo con error.",
+      "arquivo": "direcao-fotos.txt",
+      "rot": "Pega aquí tu hoja (una línea numerada por foto):",
+      "modelo": "1 | foto: rua.jpg | push in | 5 s | corte seco | \"...\"",
+      "regras": [
+        {
+          "tipo": "planos",
+          "min": 4,
+          "max": 12
+        },
+        {
+          "tipo": "cada_plano",
+          "grupos": [
+            {
+              "rot": "la foto",
+              "min": 3,
+              "termos": [
+                "foto: / photo: / image: / imagem: / imagen:"
+              ]
+            },
+            {
+              "rot": "movimiento",
+              "um_so": true,
+              "variar": 3,
+              "termos": [
+                "push in / push-in / push_in / aproximação lenta / aproximação / aproximar / dolly in / zoom in / acercamiento lento / acercamiento",
+                "pull out / pull-out / pull_out / afastamento lento / afastamento / afastar / dolly out / zoom out / alejamiento lento / alejamiento",
+                "ken burns / ken_burns",
+                "panorâmica / panorámica / panning shot / pan left / pan right / paneo",
+                "travelling lateral / travelling / tracking shot / truck / dolly lateral / tracking",
+                "tilt / tilt up / tilt down",
+                "pedestal / grua / crane / grúa",
+                "órbita / orbit / orbit shot",
+                "flutuar / float / flotación",
+                "câmera na mão / handheld / handheld camera / cámara en mano",
+                "câmera parada / câmera fixa / static camera / static shot / cámara fija / plano fijo",
+                "aéreo / plano aéreo / aerial shot / aerial",
+                "dolly zoom / efeito vertigo / vertigo effect / efecto vértigo",
+                "crash zoom / zoom rápido",
+                "whip pan / whip_pan / barrido rápido"
+              ]
+            },
+            {
+              "rot": "transición",
+              "um_so": true,
+              "termos": [
+                "corte seco / hard cut / corte directo / straight cut",
+                "fusão / crossfade / dissolve / fundido encadenado / encadenado / disolvencia",
+                "fade para preto / dip to black / dip_to_black / fade to black / fundido a negro",
+                "chicote / whip transition / transición de barrido",
+                "zoom blur / zoom_blur / desfoque de zoom / desenfoque de zoom"
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "duracao",
+          "min": 30,
+          "max": 60
+        }
+      ],
+      "ok": "OK: {n} fotos con movimiento, transición y tiempo · {s} s",
+      "exemplo": "Película: La primera hornada en fotos (30 s) · narración: narracao.mp3\n# n | foto | movimiento | duración | transición | narración\n1 | foto: rua-madrugada.jpg | push in | 6 s | corte seco | \"A las 4:50, la calle aún duerme.\"\n2 | foto: massa.jpg | travelling lateral | 7 s | corte seco | \"Doña Lia ya está de pie.\"\n3 | foto: forno.jpg | cámara fija | 5 s | fundido encadenado | \"La primera hornada no espera.\"\n4 | foto: fornada.jpg | tilt down | 5 s | corte seco | \"Y el barrio despierta con olor a corteza caliente.\"\n5 | foto: fachada.jpg | pull out | 7 s | fundido a negro | \"La primera hornada.\"",
+      "exemplo_errado": "Película: La primera hornada en fotos (30 s)\n1 | foto: rua-madrugada.jpg | push in con órbita | 6 s | corte seco | \"A las 4:50, la calle aún duerme.\"\n2 | foto: massa.jpg | travelling lateral | 7 s | \"Doña Lia ya está de pie.\"\n3 | forno.jpg | cámara fija | 5 s | fundido encadenado | \"La primera hornada no espera.\""
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Opcional: verificar en la terminal",
+      "sub": "Solo para quienes ya usan la terminal. En la carpeta del curso descargado de GitHub; para tu archivo, cambia <code>--exemplo</code> por su nombre (<code>direcao-fotos.txt</code>).",
+      "blocos": [
+        {
+          "rot": "Terminal (en la carpeta del curso)",
+          "icone": "terminal",
+          "conteudo": "python3 conferir.py fotos --exemplo; echo \"saída: $?\"\npython3 conferir.py fotos --errado; echo \"saída: $?\""
+        }
+      ],
+      "saida": {
+        "selo": "real",
+        "abas": [
+          {
+            "rot": "Salida capturada (19/10/2026)",
+            "html": "<pre>$ python3 conferir.py fotos --exemplo; echo \"saída: $?\"\nOK: 5 fotos com movimento, transição e tempo · 30 s\nsaída: 0</pre>"
+          },
+          {
+            "rot": "Ejemplo con error (19/10/2026)",
+            "html": "<pre>$ python3 conferir.py fotos --errado; echo \"saída: $?\"\nAinda não. O que falta:\n - Achei 3 planos numerados; o pedido é de 4 a 12. Comece cada plano pelo número (1 | ...).\n - Plano 1: 2 escolhas de movimento; fique com uma só.\n - Plano 2: falta transição.\n - Plano 3: falta a foto.\n - Os planos somam 18 s; o pedido é de 30 a 60 s.\nsaída: 1</pre>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "Las cuatro imágenes de la hornada están en los clips de ensayo de la clase 3; puedes usar fotos tuyas.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "Hoja de dirección · 4 a 12 fotos, 30 a 60 s",
+          "min": "20 min",
+          "texto": "Escribe la narración, marca el tiempo de cada frase y completa una línea por foto con movimiento, duración y transición. Pégala en \"Confira a sua folha de direção\" y descarga el direcao-fotos.txt a la carpeta del proyecto.",
+          "pronto": "la página responde <code>OK: [n] fotos com movimento, transição e tempo · [s] s</code>, con la suma entre 30 y 60 s, y el archivo está en la carpeta del proyecto."
+        },
+        {
+          "id": "e2",
+          "titulo": "Render · la hoja se vuelve video",
+          "min": "40 min",
+          "texto": "Ejecuta la hoja en el editor con keyframes (o con la skill diretor-animacao, si usas terminal), con la narración de fondo, y exporta en MP4 H.264. Revisa el archivo en la sección \"Confira o seu curta\" de la clase 8, que acepta los mismos 30 a 60 s de la hoja.",
+          "pronto": "la sección \"Confira o seu curta\" de la clase 8 responde <code>OK: [s] s · [w]×[h] · [p]</code> para el archivo."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "Cuatro preguntas. La explicación aparece después de cada respuesta.",
+      "perguntas": [
+        {
+          "p": "¿Qué define cuánto tiempo se queda cada foto en pantalla?",
+          "opcoes": [
+            "El tamaño del archivo de la foto: una foto más grande se queda más tiempo.",
+            "Un valor fijo para todas, que deja el ritmo igual.",
+            "El movimiento elegido: una órbita dura más que una cámara fija.",
+            "El fragmento de la narración que habla de esa foto."
+          ],
+          "certa": 3,
+          "explica": "La narración manda en el tiempo: cada foto dura el fragmento de diálogo que le corresponde, sin cortar la frase. Un tiempo fijo para todas vuelve mecánica la película.",
+          "ref": "diagrama"
+        },
+        {
+          "p": "¿Cuál es la diferencia entre el movimiento 2D del editor y la cámara 2.5D?",
+          "opcoes": [
+            "En la 2.5D, el frente y el fondo se mueven a velocidades distintas (parallax).",
+            "La 2D solo funciona en foto vertical y la 2.5D solo en horizontal.",
+            "La 2.5D necesita un generador de video de pago y una tarjeta de video dedicada para funcionar.",
+            "No hay diferencia: son dos nombres para el mismo efecto."
+          ],
+          "certa": 0,
+          "explica": "En la 2D toda la foto se mueve junta (escala y posición). En la 2.5D el frente se mueve más que el fondo (parallax), sin IA de video.",
+          "ref": "diagrama"
+        },
+        {
+          "p": "Tu hoja tiene push in, push in y órbita seguidos. ¿Qué recomienda el diretor-animacao?",
+          "opcoes": [
+            "Mantener: repetir el movimiento da unidad a la secuencia de fotos.",
+            "Cambiar las tres transiciones por fundidos encadenados largos, para suavizar la secuencia.",
+            "Cambiar uno de los push in: nunca dos movimientos iguales en fotos vecinas.",
+            "Acelerar los tres movimientos para que quepan en menos tiempo."
+          ],
+          "certa": 2,
+          "explica": "Un movimiento repetido en fotos vecinas vuelve mecánica la película. Cambia uno de ellos por otro movimiento o por cámara fija.",
+          "ref": "passos"
+        },
+        {
+          "p": "¿Qué transición debe usar la hoja como estándar?",
+          "opcoes": [
+            "Fundido encadenado en todas, para que la película sea suave.",
+            "Corte seco, guardando el fundido encadenado y el fundido a negro para cuando cuentan algo.",
+            "Whip pan en todas, para dar ritmo de red social.",
+            "Fundido a negro entre cada foto, para separar las ideas."
+          ],
+          "certa": 1,
+          "explica": "El corte seco es el más invisible. El fundido encadenado marca el paso del tiempo y el fundido a negro marca un final; usados en cada foto, pierden su sentido.",
+          "ref": "diagrama"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Para guardar",
+      "itens": [
+        {
+          "t": "La narración manda",
+          "texto": "Cada foto dura el fragmento de diálogo que le corresponde."
+        },
+        {
+          "t": "Un movimiento por foto",
+          "texto": "Se elige según lo que muestra la foto; el último plano es el más calmado."
+        },
+        {
+          "t": "Dos caminos",
+          "texto": "Keyframes en el editor, sin terminal; pixflow y diretor-animacao, con terminal. Ninguno gasta crédito."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir más allá",
+      "links": [
+        {
+          "t": "pixflow: imágenes fijas se vuelven película con cámara 2.5D, sin IA de video (guía de INEMA)",
+          "href": "https://inematds.github.io/pixflow/"
+        },
+        {
+          "t": "diretor-animacao: fotos y narración se vuelven una película dirigida (guía de INEMA)",
+          "href": "https://inematds.github.io/diretor-animacao/"
+        },
+        {
+          "t": "Curso 0 · La cámara como verbo: cada movimiento cuenta algo",
+          "href": "https://inematds.github.io/formacao-cinema-ia-direcao-v72/es/aulas/camera/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "slug": "montagem",
+  "num": 3,
+  "menu": "Montagem",
+  "titulo": "Montagem e ritmo: cortar, encadear e legendar",
+  "titulo_curto": "Montagem",
+  "minutos": 20,
+  "lead": "Montar é decidir onde cada plano começa e termina, como um passa para o outro e o que se lê na tela. Nesta aula você monta os quatro clipes de ensaio da fornada num editor gratuito, põe legenda e confere o arquivo exportado aqui mesmo na página.",
+  "objetivo": "cortar e encadear os clipes num corte de 12 a 20 s em 16:9, com legenda, e conferir o arquivo exportado na página.",
+  "competencias": [
+    "montar-sequencia",
+    "escolher-transicao",
+    "legendar-e-exportar"
+  ],
+  "aprende": [
+    {
+      "t": "Ordenar e aparar os clipes seguindo o plano de edição"
+    },
+    {
+      "t": "Usar o corte seco como padrão e a transição só quando ela conta algo"
+    },
+    {
+      "t": "Legendar com transcrição feita no próprio computador"
+    },
+    {
+      "t": "Exportar no formato que a página e as redes leem"
+    }
+  ],
+  "hero_alt": "Mesa de montagem escura com um monitor mostrando a linha do tempo cheia de clipes coloridos e um segundo monitor com um quadro de filme desfocado.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Do clipe solto ao arquivo final",
+      "sub": "Seis passos na linha do tempo. Clique em cada um.",
+      "estilo": "fluxo",
+      "nos": [
+        {
+          "titulo": "Importar",
+          "sub": "clipes e som",
+          "icone": "carregar",
+          "detalhe": "Traga para o editor os clipes, a trilha e os efeitos separados (aula 2). Dê nome aos arquivos pelo número do plano: plano-1, plano-2… Fica fácil achar na linha do tempo."
+        },
+        {
+          "titulo": "Ordenar",
+          "sub": "pelo plano",
+          "icone": "lista",
+          "detalhe": "Ponha os clipes na ordem do plano de edição (aula 1). A ordem já é metade do ritmo; mudar depois é barato, gerar de novo não é."
+        },
+        {
+          "titulo": "Aparar",
+          "sub": "início e fim",
+          "icone": "relogio",
+          "forte": true,
+          "detalhe": "Corte o começo e o fim de cada clipe gerado: é onde costumam aparecer tremidas e deformações. Cada plano dura só o tempo de o olho ler a ação."
+        },
+        {
+          "titulo": "Transição",
+          "sub": "corte seco",
+          "icone": "seta",
+          "detalhe": "O corte seco é a grande maioria e o mais invisível. Fusão para passagem de tempo; match cut para ligar formas parecidas. Transição serve a história, não enfeita."
+        },
+        {
+          "titulo": "Legenda",
+          "sub": "transcrição local",
+          "icone": "chat",
+          "detalhe": "Muita gente assiste sem som. A legenda sai da transcrição da fala; revise as palavras antes de queimar no vídeo."
+        },
+        {
+          "titulo": "Exportar",
+          "sub": "MP4 H.264",
+          "icone": "baixar",
+          "detalhe": "Exporte no formato da entrega (16:9 aqui) em MP4 H.264, o que mais lugares abrem. Depois confira o arquivo na seção abaixo."
+        }
+      ],
+      "legenda": "Problema de montagem se corrige no editor, não gerando de novo: reordenar, aparar e trocar a transição não gastam crédito."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Como montar, passo a passo",
+      "sub": "Com os quatro clipes de ensaio da fornada (link na prática) ou com os seus.",
+      "passos": [
+        {
+          "titulo": "Abrir o editor",
+          "sub": "gratuito e no seu computador",
+          "texto": [
+            "O exemplo usa o Concat (0.2.7 beta, out/2026): editor de vídeo de código aberto (licença AGPL-3.0), instalado no computador, sem conta, sem assinatura e sem marca d'água. Roda em Windows, macOS, Linux e Android.",
+            "Por ser beta, ainda tem arestas, e os instaladores não são assinados: no Windows, o aviso pede \"Mais informações › Executar assim mesmo\". Se você já usa outro editor, os passos são os mesmos."
+          ]
+        },
+        {
+          "titulo": "Ordenar e aparar",
+          "sub": "o plano manda",
+          "texto": [
+            "Arraste os clipes na ordem do seu plano de edição. Apare meio segundo no começo e no fim de cada clipe gerado e veja a sequência inteira de uma vez, para sentir o ritmo.",
+            "Se um plano parece longo, ele é: corte até a ação ficar clara e nada mais. Varie o tamanho de plano entre vizinhos, como a decupagem pediu."
+          ]
+        },
+        {
+          "titulo": "Transições que contam algo",
+          "sub": "corte seco, fusão, J e L",
+          "texto": [
+            "Corte seco por padrão. Fusão curta quando o tempo passa. Match on action: corte no meio de um movimento e continue o movimento no plano seguinte.",
+            "J-cut: o som do próximo plano entra antes da imagem (as batidas na porta antes de ver a porta). L-cut: o som do plano continua depois do corte. Os dois ligam planos sem efeito visual."
+          ],
+          "exemplo": {
+            "rot": "Na fornada",
+            "texto": "As três batidas começam no fim do plano do forno (J-cut) e o corte para a porta vem na terceira batida."
+          }
+        },
+        {
+          "titulo": "Legendar e exportar",
+          "sub": "sem enviar nada para a nuvem",
+          "texto": [
+            "O Concat gera legenda com o Whisper rodando no seu computador: baixe os modelos uma vez em Configurações › Modelos. Revise nome próprio e número antes de queimar a legenda.",
+            "Exporte em MP4 H.264, 16:9. HEVC e AV1 economizam espaço, mas nem todo navegador abre: para conferir aqui, prefira H.264."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "video",
+      "titulo": "O editor gratuito em 48 segundos",
+      "sub": "Vídeo do INEMA (15/10/2026) sobre o Concat. Short vertical, com legenda.",
+      "chave": "concat"
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelo para copiar",
+      "sub": "Uma lista de cortes para anotar as decisões de montagem antes de mexer no editor.",
+      "blocos": [
+        {
+          "rot": "cortes.txt (lista de decisões)",
+          "icone": "arquivo",
+          "conteudo": "Montagem: <nome> (<duração alvo> s, 16:9)\n# n | clipe | entra em | sai em | transição para o próximo | som\n1 | plano-1 | <s> | <s> | corte seco | ambiente do clipe\n2 | plano-2 | <s> | <s> | J-cut (o som do 3 entra antes) | <...>\nLegenda: <sim ou não; revisada?>\nExportação: MP4 H.264, <largura>×<altura>"
+        }
+      ]
+    },
+    {
+      "tipo": "conferidor",
+      "titulo": "Confira a sua montagem",
+      "sub": "Escolha o MP4 exportado. A página lê duração e tamanho no seu navegador; nada é enviado. Teste antes com o exemplo que passa e com o exemplo com erro.",
+      "arquivo": "montagem.mp4",
+      "regras": [
+        {
+          "tipo": "video",
+          "min": 12,
+          "max": 20,
+          "proporcao": "16:9",
+          "largura_min": 1280
+        }
+      ],
+      "ok": "OK: {s} s · {w}×{h} · {p}",
+      "video_ok": "assets/ensaio/exemplo-montagem.webm",
+      "video_erro": "assets/ensaio/exemplo-montagem-erro.webm"
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Opcional: conferir no terminal",
+      "sub": "Só para quem já usa terminal e tem o ffmpeg instalado (o conferidor usa o <code>ffprobe</code>). Na pasta do curso baixado do GitHub; para o seu arquivo, troque <code>--exemplo</code> pelo nome dele (<code>montagem.mp4</code>).",
+      "blocos": [
+        {
+          "rot": "Terminal (na pasta do curso)",
+          "icone": "terminal",
+          "conteudo": "python3 conferir.py montagem --exemplo; echo \"saída: $?\"\npython3 conferir.py montagem --errado; echo \"saída: $?\""
+        }
+      ],
+      "saida": {
+        "selo": "real",
+        "abas": [
+          {
+            "rot": "Saída capturada (19/10/2026)",
+            "html": "<pre>$ python3 conferir.py montagem --exemplo; echo \"saída: $?\"\nOK: 15,0 s · 1280×720 · 16:9\nsaída: 0</pre>"
+          },
+          {
+            "rot": "Exemplo com erro (19/10/2026)",
+            "html": "<pre>$ python3 conferir.py montagem --errado; echo \"saída: $?\"\nAinda não. O que falta:\n - O vídeo tem 8,0 s; o pedido é de 12 a 20 s.\n - O vídeo é 720×1280 (9:16); o pedido é 16:9.\n - O vídeo tem 720 px de largura; o mínimo é 1280 px.\nsaída: 1</pre>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Prática",
+      "sub": "Ensaio sem custo: quatro clipes da fornada, de 5 s cada, em 1280×720 com som de ambiente, feitos a partir de imagens paradas. Baixe: <a href=\"https://inematds.github.io/formacao-cinema-ia-producao-v72/assets/ensaio/plano-1.mp4\">plano 1</a> · <a href=\"https://inematds.github.io/formacao-cinema-ia-producao-v72/assets/ensaio/plano-2.mp4\">plano 2</a> · <a href=\"https://inematds.github.io/formacao-cinema-ia-producao-v72/assets/ensaio/plano-3.mp4\">plano 3</a> · <a href=\"https://inematds.github.io/formacao-cinema-ia-producao-v72/assets/ensaio/plano-4.mp4\">plano 4</a>.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "Montagem · os quatro clipes em 12 a 20 s",
+          "min": "30 min",
+          "texto": "Monte os quatro clipes de ensaio (ou os seus) em 16:9, com cortes secos e pelo menos um J-cut ou L-cut, e exporte em MP4 H.264. Escolha o arquivo em \"Confira a sua montagem\" e guarde-o na pasta do projeto como montagem.mp4.",
+          "pronto": "a página responde <code>OK: [s] s · [w]×[h] · 16:9</code>, com a duração entre 12 e 20 s e a largura de pelo menos 1280 px."
+        },
+        {
+          "id": "e2",
+          "titulo": "Legenda · queimada e revisada",
+          "min": "20 min",
+          "texto": "Escreva uma frase de narração para a montagem, grave com a sua voz e gere a legenda no editor. Revise e exporte de novo com a legenda queimada; no filme final (aula 8), a legenda entra depois da cor.",
+          "pronto": "a página continua respondendo <code>OK: …</code> para o novo arquivo e, ao tocar o vídeo, a legenda aparece no quadro com as palavras que você gravou."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Teste rápido",
+      "sub": "Quatro perguntas. A explicação aparece depois de cada resposta.",
+      "perguntas": [
+        {
+          "p": "Um plano gerado tem uma deformação nos últimos 10 quadros. O que fazer primeiro?",
+          "opcoes": [
+            "Gerar o plano de novo até sair sem nenhum defeito.",
+            "Pôr uma fusão longa por cima do fim do plano para esconder o defeito do olhar.",
+            "Trocar o plano inteiro por uma tela preta com texto.",
+            "Aparar o fim do clipe na montagem antes de pensar em gerar de novo."
+          ],
+          "certa": 3,
+          "explica": "Começo e fim de clipe gerado são onde o defeito costuma aparecer; aparar não gasta crédito. Fusão para esconder defeito chama atenção para ele.",
+          "ref": "diagrama"
+        },
+        {
+          "p": "As batidas na porta começam a soar no fim do plano do forno, antes do corte para a porta. Que corte é esse?",
+          "opcoes": [
+            "J-cut: o som do próximo plano entra antes da imagem dele.",
+            "L-cut: o som do plano anterior continua tocando por cima do plano seguinte, depois do corte.",
+            "Match cut: duas formas parecidas ligadas pelo corte.",
+            "Fusão: uma imagem se dissolve na outra aos poucos."
+          ],
+          "certa": 0,
+          "explica": "No J-cut o som chega primeiro e puxa o olhar para o próximo plano. No L-cut é o contrário: o som fica depois do corte.",
+          "ref": "passos"
+        },
+        {
+          "p": "Por que exportar em MP4 H.264 para conferir na página?",
+          "opcoes": [
+            "Porque é o único formato que guarda a legenda queimada quando o vídeo vai para a internet.",
+            "Porque HEVC e AV1 sempre saem com qualidade pior.",
+            "Porque é o formato que mais navegadores e plataformas abrem.",
+            "Porque o editor gratuito só exporta em H.264."
+          ],
+          "certa": 2,
+          "explica": "HEVC e AV1 comprimem melhor, mas nem todo navegador lê. A legenda queimada vai em qualquer formato, e o editor exporta os três.",
+          "ref": "passos"
+        },
+        {
+          "p": "A página responde \"O vídeo é 1080×1920 (9:16); o pedido é 16:9\". O que aconteceu?",
+          "opcoes": [
+            "O arquivo está corrompido e precisa ser exportado de novo em H.264, com outro nome de arquivo.",
+            "O projeto do editor está em vertical; mude para 16:9 e exporte de novo.",
+            "O vídeo tem duração demais para a prática desta aula.",
+            "A legenda queimada mudou a proporção do vídeo."
+          ],
+          "certa": 1,
+          "explica": "A página leu o tamanho do arquivo: ele saiu em pé. O formato vem do projeto no editor, não do codec, da duração ou da legenda.",
+          "ref": "conferidor"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Para guardar",
+      "itens": [
+        {
+          "t": "Aparar antes de gerar de novo",
+          "texto": "Começo e fim de clipe gerado saem na montagem, sem gastar crédito."
+        },
+        {
+          "t": "Corte seco por padrão",
+          "texto": "Fusão, match cut, J-cut e L-cut só quando contam algo."
+        },
+        {
+          "t": "Conferir o arquivo",
+          "texto": "MP4 H.264 no formato da entrega; a página lê duração e tamanho."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir além",
+      "links": [
+        {
+          "t": "Concat: guia em português do INEMA (instalar, legendar, exportar)",
+          "href": "https://inematds.github.io/concat/guia/"
+        },
+        {
+          "t": "Concat: página oficial de download",
+          "href": "https://concatenate.pages.dev/"
+        }
+      ]
+    }
+  ]
+}

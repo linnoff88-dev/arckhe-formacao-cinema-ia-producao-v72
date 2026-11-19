@@ -1,0 +1,327 @@
+{
+  "slug": "anuncio",
+  "num": 6,
+  "menu": "Ad",
+  "titulo": "Product ads and UGC: the structures that work and the lines you don't cross",
+  "titulo_curto": "Ads and UGC",
+  "minutos": 18,
+  "lead": "UGC is the ad that looks like a video from an ordinary person: someone holds the product in their hand and talks to a phone camera. With AI you can make it without filming anything, and that is exactly where the risk lives: an invented testimonial passed off as real. This lesson teaches the structures and the rules that keep the ad honest.",
+  "objetivo": "write a 15 to 30 s ad in five blocks, with a spoken line, the product in frame early, and a made-with-AI content label.",
+  "competencias": [
+    "estruturar-anuncio",
+    "manter-produto-consistente",
+    "rotular-conteudo-sintetico"
+  ],
+  "aprende": [
+    {
+      "t": "Choose an ad structure: review, confession, routine, first reaction"
+    },
+    {
+      "t": "Build the 30 s skeleton in five blocks with spoken lines"
+    },
+    {
+      "t": "Keep the product the same in every shot"
+    },
+    {
+      "t": "Label it and don't cross the lines: real person, fake testimonial, false promise"
+    }
+  ],
+  "hero_alt": "A small tabletop set for filming a product: a smooth glass bottle on a white turntable, a softbox, a reflector and a phone on a mini tripod.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The skeleton of a 30-second ad",
+      "sub": "Five blocks, with the timing of each. Tap each block.",
+      "estilo": "fluxo",
+      "nos": [
+        {
+          "titulo": "Hook",
+          "sub": "0–4 s",
+          "icone": "alvo",
+          "forte": true,
+          "detalhe": "Starts in the middle of a thought, with the product already entering the frame within the first three seconds. No still logo opening the video."
+        },
+        {
+          "titulo": "What it is",
+          "sub": "4–11 s",
+          "icone": "usuario",
+          "detalhe": "The person says what the product is and shows it to the camera. One sentence, the way you'd talk to a friend."
+        },
+        {
+          "titulo": "Demonstration",
+          "sub": "11–18 s",
+          "icone": "play",
+          "detalhe": "The product in use, in hand. It's the shot that convinces the most and the one most worth filming for real, if the product exists."
+        },
+        {
+          "titulo": "Result",
+          "sub": "18–25 s",
+          "icone": "check",
+          "detalhe": "What changes after using it. Only what the product really delivers: an invented result is false advertising, with or without AI."
+        },
+        {
+          "titulo": "Ending",
+          "sub": "25–30 s",
+          "icone": "seta",
+          "detalhe": "A light ending, with no aggressive selling. And the label: made with AI, fictional person when that's the case."
+        }
+      ],
+      "legenda": "Skeleton and rules from the INEMA ugc-seedance25 skill (Sep/2026); the label is an addition of this course."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "How to write the ad, step by step",
+      "sub": "The example product is fictional: the sourdough bread from Dona Lia's bakery.",
+      "passos": [
+        {
+          "titulo": "Choose the structure",
+          "sub": "five that work",
+          "texto": [
+            "Review: the person uses it and comments. Confession: problem, ritual, result. Routine: the product in everyday life. First reaction: open the box and react. 15 s selfie test: short hook, one benefit, casual ending.",
+            "Choose by product: the bread calls for routine (the morning of whoever buys it) or confession (\"I gave up on supermarket bread\")."
+          ]
+        },
+        {
+          "titulo": "Spoken line with timing",
+          "sub": "70 to 80 words in 30 s",
+          "texto": [
+            "Write the spoken line for each block in quotes, with the timing next to it. The INEMA skill uses 70 to 80 spoken words in 30 seconds: more than that, and the line gets rushed.",
+            "Sound: list what must not appear (loud music under the voice, for example). The look is phone-made: home lighting, no text on screen during generation."
+          ]
+        },
+        {
+          "titulo": "Product always the same",
+          "sub": "locked reference",
+          "texto": [
+            "Use the same reference photos of the product (one main one and two or three detail shots) in every generation, as course 1 teaches in the consistency lesson. Change one thing at a time and generate one before the batch.",
+            "The product's label and text go in during editing, not in the prompt: the generator tends to distort letters. Check every shot: only one product, the right hands, the same face."
+          ]
+        },
+        {
+          "titulo": "The lines you don't cross",
+          "sub": "honesty is not optional",
+          "texto": [
+            "A generated person is never presented as a real customer. A synthetic testimonial carries a label. The promised result is what the product delivers. A real person's face and voice, only with written permission.",
+            "No competitor brands and no famous people. The labeling law and the cases are in lesson 7; the platform where you advertise may have its own rules."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "The script the page checks, and a request for the AI assistant to draft one from your product.",
+      "blocos": [
+        {
+          "rot": "anuncio.txt (template)",
+          "icone": "arquivo",
+          "conteudo": "Product: <what it is; real or fictional>\nStructure: <review, confession, routine, first reaction or selfie test> · <9:16 or 16:9>\nLabel: <e.g.: video made with AI; the person is fictional>\n# n | block | time | what you see | line\n1 | hook | <n> s | <the product enters the frame> | line: \"<sentence>\"\n2 | what it is | <n> s | <...> | line: \"<sentence>\""
+        },
+        {
+          "rot": "Request to the AI assistant (ad draft)",
+          "icone": "chat",
+          "conteudo": "You are a scriptwriter of short UGC-style ads. Write a <duration>-second ad for the product below, in five blocks, one line per block:\nn | block (hook, what it is, demonstration, result, ending) | time | what you see | line: \"...\"\nRules:\n- the product appears in the frame within the first three seconds;\n- 70 to 80 spoken words in 30 s (proportional if it is shorter);\n- only promise what the product delivers: <what it actually delivers>;\n- no hard selling, no competitor brands, no famous people;\n- the person is fictional and the script ends with the line \"Label: video made with AI; fictional person\".\nProduct: <description>\nStructure: <chosen structure>"
+        }
+      ]
+    },
+    {
+      "tipo": "conferidor",
+      "titulo": "Check your ad",
+      "sub": "Paste the file (or upload the .txt). Test first with the example that passes and the example with errors.",
+      "arquivo": "anuncio.txt",
+      "rot": "Paste your ad here (the Produto and Rótulo lines and one numbered line per block):",
+      "modelo": "Produto: ...\nRótulo: ...\n1 | gancho | 3 s | ... | fala: \"...\"",
+      "regras": [
+        {
+          "tipo": "campos",
+          "campos": [
+            "Product",
+            "Label"
+          ],
+          "min": 8
+        },
+        {
+          "tipo": "planos",
+          "min": 4,
+          "max": 6
+        },
+        {
+          "tipo": "cada_plano",
+          "grupos": [
+            {
+              "rot": "block",
+              "variar": 4,
+              "termos": [
+                "gancho / hook",
+                "o que é / apresentação / what it is / qué es / presentación / introduction",
+                "demonstração / demonstration / demo / demostración",
+                "resultado / result / results / prova / proof / prueba",
+                "fecho / final / ending / cierre / remate / cta"
+              ]
+            },
+            {
+              "rot": "the line",
+              "min": 3,
+              "termos": [
+                "fala: / line: / dialogue: / says: / diálogo: / frase: / dice: / habla:"
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "duracao",
+          "min": 15,
+          "max": 30
+        },
+        {
+          "tipo": "termos",
+          "grupos": [
+            {
+              "rot": "the made-with-AI notice (in the Label)",
+              "termos": [
+                "feito com IA / gerado com IA / gerado por IA / criado com IA / conteúdo sintético / made with AI / AI-generated / generated with AI / created with AI / synthetic content / hecho con IA / generado con IA / generado por IA / creado con IA / contenido sintético"
+              ],
+              "campo": "Label"
+            }
+          ]
+        }
+      ],
+      "ok": "OK: ad with {n} blocks, line and label · {s} s",
+      "exemplo": "Product: Dona Lia's naturally leavened bread from her bakery (a fictional product made for the course)\nStructure: confession (problem, ritual, result) · 9:16\nLabel: video made with AI; the customer is a fictional character\n# n | block | time | what you see | line\n1 | hook | 3 s | The bread enters the frame already torn in half, steam rising. | line: \"I had given up on real bread.\"\n2 | what it is | 6 s | She holds the bread up to the phone camera, in her kitchen at home. | line: \"This is the naturally leavened one from the bakery on the corner.\"\n3 | demonstration | 7 s | She cuts a slice; the crust crackles and the crumb opens up. | line: \"Listen to that crust. It stays like this until the next day.\"\n4 | result | 7 s | Breakfast on the table, the family reaching for slices. | line: \"Now breakfast starts at 6:50 in line at the bakery.\"\n5 | ending | 5 s | She takes a bite and smiles. | line: \"The first batch comes out at 5. Go early.\"",
+      "exemplo_errado": "Product: Dona Lia's naturally leavened bread from her bakery\n1 | hook | 3 s | The bread enters the frame torn in half. | line: \"I had given up on real bread.\"\n2 | what it is | 6 s | She holds the bread up to the camera. | line: \"This is the one from the bakery on the corner.\"\n3 | demonstration | 7 s | She cuts a slice; the crust crackles. \n4 | ending | 4 s | She smiles. | line: \"Go early.\""
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Optional: check in the terminal",
+      "sub": "Only for people who already use a terminal. In the folder of the course you downloaded from GitHub; for your own file, replace <code>--exemplo</code> with its name (<code>anuncio.txt</code>).",
+      "blocos": [
+        {
+          "rot": "Terminal (in the course folder)",
+          "icone": "terminal",
+          "conteudo": "python3 conferir.py anuncio --exemplo; echo \"saída: $?\"\npython3 conferir.py anuncio --errado; echo \"saída: $?\""
+        }
+      ],
+      "saida": {
+        "selo": "real",
+        "abas": [
+          {
+            "rot": "Captured output (10/19/2026)",
+            "html": "<pre>$ python3 conferir.py anuncio --exemplo; echo \"saída: $?\"\nOK: anúncio com 5 blocos, fala e rótulo · 28 s\nsaída: 0</pre>"
+          },
+          {
+            "rot": "Example with an error (10/19/2026)",
+            "html": "<pre>$ python3 conferir.py anuncio --errado; echo \"saída: $?\"\nAinda não. O que falta:\n - Falta a linha Rótulo: com a descrição (pelo menos 8 letras).\n - Plano 3: falta a fala.\n - Falta citar o aviso de vídeo feito com IA (no Rótulo).\nsaída: 1</pre>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "A product of yours (real) or Dona Lia's bread (fictional). Generating the video is up to you and the tool you have; the script is what gets checked here.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "Ad · five blocks with a label",
+          "min": "25 min",
+          "texto": "Choose a structure and write the Produto, Estrutura and Rótulo lines and the five blocks with time, what is seen and the line. Paste it into \"Check your ad\" and download the anuncio.txt to the project folder.",
+          "pronto": "the page answers <code>OK: anúncio com [n] blocos, fala e rótulo · [s] s</code>, with the total between 15 and 30 s, and the anuncio.txt is in the project folder."
+        },
+        {
+          "id": "e2",
+          "titulo": "Promise · only what the product delivers",
+          "min": "10 min",
+          "texto": "Read the result block and write, next to the anuncio.txt, a \"Prova:\" line saying where each promised thing comes from (does the product do that? who confirmed it?). Cut from the script whatever has no proof and check again.",
+          "pronto": "the page keeps answering <code>OK: …</code> and each promise in the result block has its own \"Prova:\" line in the file."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "Four questions. The explanation appears after each answer.",
+      "perguntas": [
+        {
+          "p": "At what moment should the product appear in the 30 s ad?",
+          "opcoes": [
+            "Only at the ending, to build suspense until the end.",
+            "After the demonstration, once the person has talked about it.",
+            "In the first three seconds, right in the hook.",
+            "In no generated shot: only in the final label."
+          ],
+          "certa": 2,
+          "explica": "People scrolling decide in seconds. The product in the hook says right away what it is about; long suspense loses the audience before that.",
+          "ref": "diagrama"
+        },
+        {
+          "p": "The product label came out with crooked letters in the generated shots. What should you do?",
+          "opcoes": [
+            "Put the label and the product text in the edit, not in the prompt.",
+            "Ask in the prompt for the generator to write more carefully.",
+            "Make the label bigger in the prompt so it reads better.",
+            "Generate again until the text comes out right by chance."
+          ],
+          "certa": 0,
+          "explica": "Generators often warp letters. Text goes in post, on top of the shot; regenerating by luck burns credits.",
+          "ref": "passos"
+        },
+        {
+          "p": "Which of these lines crosses the line?",
+          "opcoes": [
+            "\"This is the naturally leavened one from the bakery on the corner.\"",
+            "\"Listen to that crust.\"",
+            "\"The first batch comes out at 5 a.m. Come early.\"",
+            "\"I've been a customer for ten years, and this bread cured my gastritis.\""
+          ],
+          "certa": 3,
+          "explica": "The person is fictional, so \"a customer for ten years\" is a fake testimonial, and the health claim has no proof. The other two describe the product without making anything up.",
+          "ref": "passos"
+        },
+        {
+          "p": "Why does this course's script require the Label line?",
+          "opcoes": [
+            "Because the video generator refuses a script without a label.",
+            "Because the label replaces permission to use the image and voice of the people who appear.",
+            "Because an ad with a generated person or testimonial has to tell viewers.",
+            "Because the label makes the ad shorter."
+          ],
+          "certa": 2,
+          "explica": "Viewers need to know the person and the scene were generated. A label is not a substitute for permission: real faces and voices still require consent (lesson 7).",
+          "ref": "conferidor"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "To keep",
+      "itens": [
+        {
+          "t": "Product in the hook",
+          "texto": "Five blocks in 30 s, with the product in the first three seconds."
+        },
+        {
+          "t": "Same product",
+          "texto": "Locked reference, one change at a time, product text added in the edit."
+        },
+        {
+          "t": "Label and truth",
+          "texto": "A generated person is not a real customer; only promise what the product delivers."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Going further",
+      "links": [
+        {
+          "t": "ugc-seedance25: browser app that builds the UGC script in five blocks (INEMA guide)",
+          "href": "https://inematds.github.io/ugc-seedance25/guia/"
+        },
+        {
+          "t": "Lesson 7 · Ethics and law: label, image and voice rights, model license",
+          "href": "https://inematds.github.io/formacao-cinema-ia-producao-v72/en/aulas/etica/"
+        }
+      ]
+    }
+  ]
+}

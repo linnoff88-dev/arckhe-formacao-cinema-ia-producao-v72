@@ -1,0 +1,340 @@
+{
+  "slug": "plano-edicao",
+  "num": 1,
+  "menu": "Plano",
+  "titulo": "El plan de edición antes de generar: beat sheet y lista de entregas",
+  "titulo_curto": "Plan de edición",
+  "minutos": 18,
+  "lead": "El desglose de planos dice qué filmar; el plan de edición dice cómo corre la película. Antes de gastar crédito, decides la función de cada tramo, cuánto dura, de dónde viene cada plano y en qué formatos sale la película. Es el mapa que seguirá el montaje.",
+  "objetivo": "armar el plan de edición de tu película: beats con función, tiempo y fuente de cada plano, y la lista de entregas por formato.",
+  "competencias": [
+    "planejar-edicao",
+    "decidir-fonte-do-plano",
+    "definir-entregas"
+  ],
+  "aprende": [
+    {
+      "t": "Convertir el desglose de planos en beats con función: gancho, punto de giro, cierre"
+    },
+    {
+      "t": "Elegir la fuente de cada plano antes de generar: generar, foto, grabar o pantalla"
+    },
+    {
+      "t": "Elegir el ritmo de corte según el tipo de video"
+    },
+    {
+      "t": "Listar las entregas: 16:9, 9:16 y versión sin banda sonora"
+    }
+  ],
+  "hero_alt": "Pared oscura con una tira de tarjetas de papel sujetas en secuencia con alfileres, unidas por un hilo; abajo, un cronómetro y cinta gaffer amarilla.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Del desglose de planos al plan de edición",
+      "sub": "Cinco decisiones antes de generar el primer plano. Haz clic en cada una.",
+      "estilo": "fluxo",
+      "nos": [
+        {
+          "titulo": "Intención",
+          "sub": "qué sentir",
+          "icone": "alvo",
+          "detalhe": "Lo que el público debe sentir y hacer al final, y la duración total. Todo lo que viene después sirve a eso. En el ejemplo del curso: el orgullo silencioso de quien se despierta antes que la ciudad, en 45 segundos."
+        },
+        {
+          "titulo": "Beats",
+          "sub": "función y tiempo",
+          "icone": "lista",
+          "forte": true,
+          "detalhe": "Un beat es un tramo con una función: gancho, presentación, desarrollo, punto de giro, clímax, cierre. La lista de beats con tiempo es el beat sheet. Un plano puede ser un beat, o un beat puede tener dos planos."
+        },
+        {
+          "titulo": "Fuente",
+          "sub": "de dónde viene",
+          "icone": "camadas",
+          "detalhe": "Para cada plano: generar con IA, animar una foto, grabar con el celular o capturar la pantalla. Decidir esto antes evita gastar crédito en un plano que una foto o una grabación resolvería."
+        },
+        {
+          "titulo": "Ritmo",
+          "sub": "tiempo de corte",
+          "icone": "relogio",
+          "detalhe": "Cuánto dura, en promedio, cada plano. El video corto para redes corta rápido; el institucional corta despacio. Cuando hay diálogo, el plano dura lo que dura el diálogo: no se corta la frase a la mitad."
+        },
+        {
+          "titulo": "Entregas",
+          "sub": "formatos",
+          "icone": "pasta",
+          "detalhe": "En qué formatos sale la película: el principal en 16:9, un corte 9:16 para redes, una versión sin banda sonora para reutilizar, la imagen de portada. Saberlo antes cambia el encuadre y el tiempo de cada plano."
+        }
+      ],
+      "legenda": "El plan de edición es texto y queda en tu carpeta, fuera de cualquier plataforma: si una herramienta cierra, la película sigue planificada."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Cómo armar el plan, paso a paso",
+      "sub": "El ejemplo es la escena que atraviesa la formación: \"La primera hornada\".",
+      "passos": [
+        {
+          "titulo": "Intención y duración",
+          "sub": "una frase cada una",
+          "texto": [
+            "Escribe en una frase lo que el público debe sentir y, en otra, la duración total. Sin duración, no hay cómo sumar los beats.",
+            "Empieza por el desglose de planos del curso 0: ya tiene los planos, la cámara y el sonido. El plan de edición organiza esos planos en el tiempo."
+          ],
+          "exemplo": {
+            "rot": "Intención",
+            "texto": "Orgullo silencioso de quien se despierta antes que la ciudad. Película de 45 s, para el sitio y las redes de la panadería."
+          }
+        },
+        {
+          "titulo": "Beats con función",
+          "sub": "gancho primero",
+          "texto": [
+            "Dale una función a cada tramo. El gancho viene en los primeros 3 segundos: movimiento, una imagen inesperada o una pregunta. El cierre deja una imagen que funciona quieta.",
+            "Si un tramo no tiene función, se va. Cambia algo en pantalla cada pocos segundos para que el ojo no se canse."
+          ],
+          "exemplo": {
+            "rot": "Beat",
+            "texto": "1 | gancho | 3 s | vitrina encendida en una calle oscura, viento | fuente: gerar"
+          }
+        },
+        {
+          "titulo": "La fuente de cada plano",
+          "sub": "generar es una de las opciones",
+          "texto": [
+            "Para cada beat, decide de dónde viene la imagen: generar (texto o imagen a video, curso 1), foto animada (clase 5), grabación propia o captura de pantalla.",
+            "El plano de producto y el plano de manos suelen salir mejor grabados; el paisaje y la madrugada vacía, generados. Esa columna se convierte en la lista de compras de crédito."
+          ]
+        },
+        {
+          "titulo": "Ritmo y entregas",
+          "sub": "el formato cambia el plano",
+          "texto": [
+            "Como punto de partida, la skill video-plan-editor de INEMA usa cortes de 0,8 a 1,5 s en video viral, de 2 a 3 s en promocional y de 4 a 6 s en institucional. Ajústalo a tu película.",
+            "Lista las entregas en la primera línea. Si va a haber un corte 9:16, deja el tema de cada plano en el centro del encuadre."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "El formato que la página verifica y un pedido para que el asistente de IA haga el borrador a partir de tu desglose de planos.",
+      "blocos": [
+        {
+          "rot": "plano-edicao.txt (modelo)",
+          "icone": "arquivo",
+          "conteudo": "Película: <nombre> (<duración> s)\nEntregas: <formato principal>; <otros formatos>; <¿versión sin banda sonora?>\n# n | función | duración | lo que se ve y se oye | fuente\n1 | gancho | <n> s | <lo que atrapa en los 3 primeros segundos> | fonte: <gerar / foto / gravar / tela>\n2 | apresentação | <n> s | <dónde y quién> | fonte: <...>\n3 | <función> | <n> s | <...> | fonte: <...>"
+        },
+        {
+          "rot": "Pedido al asistente de IA (borrador del plan)",
+          "icone": "chat",
+          "conteudo": "Eres montador de cine. Lee el desglose de planos de abajo y propón un plan de edición de 6 a 8 beats, una línea por beat, en este formato:\nn | função | duração | o que se vê e se ouve | fonte: gerar, foto, gravar ou tela\nReglas:\n- el primer beat es el gancho y atrapa en los 3 primeros segundos;\n- el último es el cierre, con una imagen que funciona quieta;\n- la suma de las duraciones da <duración> segundos;\n- sugiere la fuente más barata que resuelva cada plano;\n- no inventes personaje, lugar ni objeto que no esté en el desglose de planos.\nEn la primera línea, lista las entregas: <formatos>.\nDesglose de planos: <pega aquí tu desglose de planos>"
+        }
+      ]
+    },
+    {
+      "tipo": "conferidor",
+      "titulo": "Verifica tu plan de edición",
+      "sub": "Pega el archivo (o carga el .txt). Prueba antes con el ejemplo que pasa y con el ejemplo con error: es el ensayo, sin gastar nada.",
+      "arquivo": "plano-edicao.txt",
+      "rot": "Pega aquí tu plan (la línea Entregas y una línea numerada por beat):",
+      "modelo": "Entregas: ...\n1 | gancho | 3 s | ... | fuente: generar",
+      "regras": [
+        {
+          "tipo": "campos",
+          "campos": [
+            "Entregas"
+          ],
+          "min": 10
+        },
+        {
+          "tipo": "planos",
+          "min": 5,
+          "max": 10
+        },
+        {
+          "tipo": "cada_plano",
+          "grupos": [
+            {
+              "rot": "función",
+              "variar": 4,
+              "termos": [
+                "gancho / hook / gancho inicial",
+                "apresentação / contexto / introdução / setup / intro / presentación / introducción / abertura / opening",
+                "desenvolvimento / development / build-up / desarrollo",
+                "virada / reviravolta / turning point / turn / twist / giro / punto de giro",
+                "clímax / climax / pico / peak",
+                "fecho / desfecho / final / ending / cierre / remate / cta / conclusão / encerramento / conclusion / conclusión"
+              ]
+            },
+            {
+              "rot": "la columna fuente",
+              "min": 3,
+              "termos": [
+                "fonte: / source: / fuente:"
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "duracao",
+          "min": 30,
+          "max": 60
+        },
+        {
+          "tipo": "termos",
+          "grupos": [
+            {
+              "rot": "el gancho",
+              "termos": [
+                "gancho / hook"
+              ]
+            },
+            {
+              "rot": "el cierre",
+              "termos": [
+                "fecho / desfecho / final / ending / cierre / remate / cta / conclusão / encerramento / conclusion / conclusión"
+              ]
+            }
+          ]
+        }
+      ],
+      "ok": "OK: {n} beats con función, tiempo y fuente · {s} s",
+      "exemplo": "Película: La primera hornada (45 s)\nEntregas: master 16:9 en 1920×1080; corte 9:16 de 30 s para redes; versión sin banda sonora\n# n | función | duración | lo que se ve y se oye | fuente\n1 | gancho | 3 s | Vitrina encendida en una calle oscura; viento y un perro a lo lejos. | fuente: generar (imagen a video)\n2 | presentación | 7 s | Doña Lia amasa en el mesón; radio bajo. | fuente: generar con la ficha del personaje\n3 | desarrollo | 8 s | La puerta del horno se abre y sube el vapor; la pala saca la primera hornada. | fuente: grabar el horno de la panadería de verdad\n4 | punto de giro | 6 s | Tres golpes en la puerta de hierro; ella mira el reloj y sonríe. | fuente: generar con diálogo\n5 | clímax | 9 s | Ella sube la puerta; el primer cliente entra y recibe el pan caliente. | fuente: generar\n6 | cierre | 12 s | La calle aclarándose, la panadería abierta; aparece el nombre de la película. | fuente: foto de la fachada animada",
+      "exemplo_errado": "Película: La primera hornada (45 s)\n1 | presentación | 7 s | Doña Lia amasa. | fuente: generar\n2 | desarrollo | 8 s | El horno se abre. | fuente: grabar\n3 | punto de giro | 6 s | Golpes en la puerta de hierro.\n4 | clímax | 4 s | Entra el primer cliente. | fuente: generar\n5 | cierre | 5 s | La calle aclarándose. | fuente: foto"
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Opcional: verificar en la terminal",
+      "sub": "Solo para quienes ya usan terminal. Descarga el curso de GitHub y ejecútalo en su carpeta: las reglas son las mismas de la página. Para tu archivo, cambia <code>--exemplo</code> por su nombre (<code>plano-edicao.txt</code>); sale con 0 cuando pasa.",
+      "blocos": [
+        {
+          "rot": "Terminal (en la carpeta del curso)",
+          "icone": "terminal",
+          "conteudo": "python3 conferir.py plano-edicao --exemplo; echo \"saída: $?\"\npython3 conferir.py plano-edicao --errado; echo \"saída: $?\""
+        }
+      ],
+      "saida": {
+        "selo": "real",
+        "abas": [
+          {
+            "rot": "Salida capturada (19/10/2026)",
+            "html": "<pre>$ python3 conferir.py plano-edicao --exemplo; echo \"saída: $?\"\nOK: 6 batidas com função, tempo e fonte · 45 s\nsaída: 0</pre>"
+          },
+          {
+            "rot": "Ejemplo con error (19/10/2026)",
+            "html": "<pre>$ python3 conferir.py plano-edicao --errado; echo \"saída: $?\"\nAinda não. O que falta:\n - Falta a linha Entregas: com a descrição (pelo menos 10 letras).\n - Plano 3: falta a coluna fonte.\n - Falta citar o gancho.\nsaída: 1</pre>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "El plan de tu película. Puedes partir del borrador del asistente, pero la decisión final es tuya.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "Plan de edición · tu película de 30 a 60 s",
+          "min": "25 min",
+          "texto": "Escribe la línea Entregas y de 5 a 10 beats en el formato del modelo, cada uno con función, duración y fuente. Pégalo en la sección \"Confira o seu plano de edição\" y usa \"Baixar o arquivo\" para guardar el plano-edicao.txt en la carpeta de tu proyecto.",
+          "pronto": "la página responde <code>OK: [n] batidas com função, tempo e fonte · [s] s</code>, con la suma entre 30 y 60 s, y el plano-edicao.txt está en la carpeta del proyecto."
+        },
+        {
+          "id": "e2",
+          "titulo": "Fuente · un plano sin generar",
+          "min": "10 min",
+          "texto": "Cambia la fuente de al menos un plano de \"generar\" a \"foto\", \"grabar\" o \"pantalla\", lo que sea más barato y resuelva. Revisa de nuevo.",
+          "pronto": "la página sigue respondiendo <code>OK: …</code> y, en la columna fuente, al menos un beat no dice generar."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "Cuatro preguntas. La explicación aparece después de cada respuesta.",
+      "perguntas": [
+        {
+          "p": "¿Cuál es la diferencia entre el desglose de planos y el plan de edición?",
+          "opcoes": [
+            "El desglose de planos dice qué filmar; el plan dice la función y el tiempo de cada tramo.",
+            "El desglose de planos sirve solo para el generador de video; el plan sirve solo para la música.",
+            "Son el mismo archivo con nombres diferentes, uno en portugués y el otro en inglés.",
+            "El desglose de planos viene después del montaje, para registrar en texto lo que ya se cortó y exportó."
+          ],
+          "certa": 0,
+          "explica": "El desglose de planos (curso 0) describe cámara, sonido y duración de cada plano; el plan de edición organiza esos planos en el tiempo, con función, fuente y entregas. Los dos vienen antes de generar.",
+          "ref": "diagrama"
+        },
+        {
+          "p": "Tu plan tiene 7 beats y uno de ellos no tiene una función clara. ¿Qué haces?",
+          "opcoes": [
+            "Dejarlo como está, porque más planos dan más opciones en el montaje.",
+            "Generar el beat dos veces y elegir el mejor a la hora de montar.",
+            "Quitar el beat o unirlo al vecino que tiene función.",
+            "Cambiar la fuente de ese beat a una foto animada."
+          ],
+          "certa": 2,
+          "explica": "Un tramo sin función alarga la película y gasta crédito. Cambiar la fuente abarata, pero no le da función al tramo; generar dos veces solo duplica el gasto.",
+          "ref": "passos"
+        },
+        {
+          "p": "¿Por qué decidir la fuente de cada plano antes de generar?",
+          "opcoes": [
+            "Porque el generador rechaza un plano que no dice la fuente en el prompt.",
+            "Porque algunos planos salen mejor y más baratos con foto, grabación o pantalla.",
+            "Porque el montaje solo acepta clips que vinieron todos de la misma fuente, generados en la misma herramienta.",
+            "Porque la etiqueta de IA solo se exige en los planos generados."
+          ],
+          "certa": 1,
+          "explica": "La columna fuente es la lista de compras de crédito: el producto y las manos suelen salir mejor grabados, y una foto animada resuelve muchos planos fijos. La etiqueta vale para toda la película (lección 7).",
+          "ref": "passos"
+        },
+        {
+          "p": "Vas a entregar la película en 16:9 y un corte en 9:16. ¿Qué cambia ya en el plano?",
+          "opcoes": [
+            "Nada: el corte 9:16 se resuelve después, estirando la imagen al exportar la versión vertical.",
+            "Todos los planos pasan a durar el doble.",
+            "El gancho sale del comienzo y pasa al final de la película.",
+            "El sujeto de cada plano queda en el centro del encuadre, para caber en el 9:16."
+          ],
+          "certa": 3,
+          "explica": "El corte vertical recorta los lados. Si el sujeto está en el borde del 16:9, desaparece en el 9:16. Estirar la imagen la deforma; la duración y el gancho no cambian por el formato.",
+          "ref": "diagrama"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Para guardar",
+      "itens": [
+        {
+          "t": "Función antes que plano",
+          "texto": "Cada beat tiene una función; el que no la tiene sale de la película."
+        },
+        {
+          "t": "Fuente decidida",
+          "texto": "Generar, foto, grabar o pantalla: elige la más barata que resuelva, antes de gastar crédito."
+        },
+        {
+          "t": "Entregas en la primera línea",
+          "texto": "El formato final cambia el encuadre y el tiempo de cada plano."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir más allá",
+      "links": [
+        {
+          "t": "Curso 0 · Desglose de planos con sonido (la lista de planos que este plan organiza)",
+          "href": "https://inematds.github.io/formacao-cinema-ia-direcao-v72/es/aulas/decupagem/"
+        },
+        {
+          "t": "Curso 1 · Generación: imagen y video con IA en oct/2026 (la fuente \"generar\")",
+          "href": "https://inematds.github.io/formacao-cinema-ia-geracao-v72/es/"
+        }
+      ]
+    }
+  ]
+}

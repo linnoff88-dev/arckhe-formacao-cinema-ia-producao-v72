@@ -1,0 +1,351 @@
+{
+  "slug": "curta",
+  "num": 8,
+  "menu": "Short film",
+  "titulo": "Your 30–60 s short film: from the shot list to the checked final file",
+  "titulo_curto": "Your short film",
+  "minutos": 20,
+  "lead": "Time to put it all together: the edit plan, the sound map, the assembly, the color and the checklist become a short film of 30 to 60 seconds. The page checks the final file, and the project folder keeps what you decided, ready to remake the film in any tool.",
+  "objetivo": "deliver the 30 to 60 s short film checked by the page, with the plan, sound map, color recipe and checklist in the project folder.",
+  "competencias": [
+    "finalizar-filme",
+    "entregar-em-formatos",
+    "organizar-projeto"
+  ],
+  "aprende": [
+    {
+      "t": "Put plan, sound, cut, color and label together in one film"
+    },
+    {
+      "t": "Check the final file and the version for social media"
+    },
+    {
+      "t": "Organize the project folder so you can remake it in another tool"
+    },
+    {
+      "t": "Plan the next few weeks with the plan generator"
+    }
+  ],
+  "hero_alt": "A small dark screening room with empty armchairs; on the screen, a neighborhood bakery at dawn with the shop window lit.",
+  "secoes": [
+    {
+      "tipo": "mapa",
+      "titulo": "The course map",
+      "sub": "Four steps that become your short film. Click an exercise to see the \"done when\".",
+      "degraus": [
+        {
+          "aula": "plano-edicao",
+          "icone": "lista",
+          "quando": "Lesson 1",
+          "titulo": "Shot",
+          "sub": "beats and deliverables",
+          "saida": "plano-edicao.txt checked.",
+          "passo": "Function, timing and source of each shot, and the delivery formats, before you spend credit."
+        },
+        {
+          "aula": "som",
+          "icone": "megafone",
+          "quando": "Lesson 2",
+          "titulo": "Sound",
+          "sub": "native or separate",
+          "saida": "mapa-som.txt checked.",
+          "passo": "What you hear in each shot and what goes into the assembly: score, narration, mix."
+        },
+        {
+          "aula": "cor",
+          "icone": "camadas",
+          "quando": "Lessons 3 to 5",
+          "titulo": "Cut and color",
+          "sub": "assembly and look",
+          "saida": "assembly checked and cor.txt.",
+          "passo": "Cuts, captions and the color recipe applied the same way to every shot; or the film made only with photos."
+        },
+        {
+          "aula": "etica",
+          "icone": "escudo",
+          "quando": "Lessons 6 and 7",
+          "titulo": "Label",
+          "sub": "rights and record",
+          "saida": "checklist.txt checked.",
+          "passo": "Visible label, permission for face and voice, music and model license, record of what was generated."
+        }
+      ],
+      "resultado": {
+        "titulo": "At the end of the course",
+        "texto": "A 30 to 60 s short film checked by the page and a folder with plan, sound, color and checklist.",
+        "total": "8 files"
+      },
+      "rolagem_fim": {
+        "titulo": "The whole course",
+        "texto": "Four steps, each with its own checked file. The short film in this lesson brings them all together."
+      },
+      "legenda": "Suggested order: each step uses what the previous one decided."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "How to finish the short film",
+      "sub": "From the folder of files to the checked film.",
+      "passos": [
+        {
+          "titulo": "The project folder",
+          "sub": "everything outside the platform",
+          "texto": [
+            "One folder per film, with the plan, the sound map, the color recipe, the checklist, the label, the clips and the final file. Names by shot number.",
+            "It is the folder that lets you remake the film if a tool changes its price or shuts down, as happened with Sora in 2026."
+          ],
+          "exemplo": {
+            "rot": "Folder",
+            "texto": "a-primeira-fornada/ · plano-edicao.txt · mapa-som.txt · cor.txt · checklist.txt · rotulo.txt · clipes/ · curta.mp4"
+          }
+        },
+        {
+          "titulo": "Assemble in order",
+          "sub": "cut, sound, color, subtitles",
+          "texto": [
+            "Cut first (lesson 3), then the score and the mix (lesson 2), then color (lesson 4), and subtitles and label last. Touching the color before the final cut means doing the work twice.",
+            "No generated clips? A film made from the photos in lesson 5 works, or the rehearsal clips repeated with a title card, like the example that passes (32 s). What gets checked is the file."
+          ]
+        },
+        {
+          "titulo": "Check and deliver",
+          "sub": "16:9 and 9:16",
+          "texto": [
+            "Export as MP4 H.264 and check below. If your edit plan calls for a 9:16 cut, reframe it by hand (subject in the center) and check that too: the page accepts both formats.",
+            "Watch the whole film with headphones, in one sitting, preferably the next day, before you publish."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "conferidor",
+      "titulo": "Check your short film",
+      "sub": "Choose the final MP4. The page reads the duration and size in your browser; nothing is uploaded. Try it first with the example that passes (the rehearsal short from the first batch) and with the example with an error.",
+      "arquivo": "curta.mp4",
+      "regras": [
+        {
+          "tipo": "video",
+          "min": 30,
+          "max": 60,
+          "proporcao": [
+            "16:9",
+            "9:16"
+          ],
+          "largura_min": 720
+        }
+      ],
+      "ok": "OK: {s} s · {w}×{h} · {p}",
+      "video_ok": "assets/ensaio/exemplo-curta.webm",
+      "video_erro": "assets/ensaio/exemplo-curta-erro.webm"
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Optional: check in the terminal",
+      "sub": "Only for people who already use a terminal and have ffmpeg installed. In the course folder downloaded from GitHub; for your own file, replace <code>--exemplo</code> with its name (<code>curta.mp4</code>).",
+      "blocos": [
+        {
+          "rot": "Terminal (in the course folder)",
+          "icone": "terminal",
+          "conteudo": "python3 conferir.py curta --exemplo; echo \"saída: $?\"\npython3 conferir.py curta --errado; echo \"saída: $?\""
+        }
+      ],
+      "saida": {
+        "selo": "real",
+        "abas": [
+          {
+            "rot": "Captured output (10/19/2026)",
+            "html": "<pre>$ python3 conferir.py curta --exemplo; echo \"saída: $?\"\nOK: 32,0 s · 1280×720 · 16:9\nsaída: 0</pre>"
+          },
+          {
+            "rot": "Example with an error (10/19/2026)",
+            "html": "<pre>$ python3 conferir.py curta --errado; echo \"saída: $?\"\nAinda não. O que falta:\n - O vídeo tem 20,0 s; o pedido é de 30 a 60 s.\n - O vídeo é 960×720 (4:3); o pedido é 16:9 / 9:16.\nsaída: 1</pre>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Final practice",
+      "sub": "Your short film, from plan to file. Generating the shots is up to whatever tool you have; photos and rehearsal clips count too.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "Short film · 30 to 60 s checked",
+          "min": "2 h",
+          "dias": 3,
+          "texto": "Assemble the short film following your edit plan, with sound, color, subtitles and label, and export it as MP4 H.264. Choose the file in \"Check your short film\" and save it in the project folder as curta.mp4.",
+          "pronto": "the page answers <code>OK: [s] s · [w]×[h] · [p]</code>, with a duration between 30 and 60 s and a 16:9 or 9:16 format."
+        },
+        {
+          "id": "e2",
+          "titulo": "Deliverable · the social media version",
+          "min": "40 min",
+          "texto": "Make the second deliverable from your plan (for example, the 9:16 cut reframed by hand) and check that too.",
+          "pronto": "the page answers <code>OK: …</code> for both versions, each with its own format in the answer."
+        },
+        {
+          "id": "e3",
+          "titulo": "Folder · the complete project",
+          "min": "15 min",
+          "texto": "Check that the project folder has the plan, the sound map, the color recipe, the checklist, the label and the short film.",
+          "pronto": "the folder has plano-edicao.txt, mapa-som.txt, cor.txt, checklist.txt, rotulo.txt and curta.mp4, and each .txt passes again in the checker from its lesson."
+        }
+      ]
+    },
+    {
+      "tipo": "gerador",
+      "titulo": "Generate your plan with dates",
+      "sub": "Choose when you start and how much time you have per week. The plan lists the exercises from the eight lessons.",
+      "curso": "Production: from script to film",
+      "horas_padrao": 3,
+      "degraus": [
+        {
+          "titulo": "Lesson 1 · Edit plan",
+          "aula": "plano-edicao"
+        },
+        {
+          "titulo": "Lesson 2 · Sound map",
+          "aula": "som"
+        },
+        {
+          "titulo": "Lesson 3 · Assembly",
+          "aula": "montagem"
+        },
+        {
+          "titulo": "Lesson 4 · Color recipe",
+          "aula": "cor"
+        },
+        {
+          "titulo": "Lesson 5 · Film from photos",
+          "aula": "fotos"
+        },
+        {
+          "titulo": "Lesson 6 · Ad",
+          "aula": "anuncio"
+        },
+        {
+          "titulo": "Lesson 7 · Checklist",
+          "aula": "etica"
+        },
+        {
+          "titulo": "Lesson 8 · Short film",
+          "aula": "curta"
+        }
+      ],
+      "txt": {
+        "titulo": "Plan — Production: from script to film",
+        "inicio": "Start",
+        "ritmo": "Pace",
+        "termino": "Expected finish",
+        "ate": "by",
+        "pronto": "done when",
+        "semanas": "weeks",
+        "travou": "## What got stuck and the rule I created",
+        "h": "h per week",
+        "exs": "exercises"
+      }
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Final quiz",
+      "sub": "Five questions about the whole course. The explanation shows up after each answer.",
+      "perguntas": [
+        {
+          "p": "In what order do you finish the film in the edit?",
+          "opcoes": [
+            "Color, then cut, then subtitles, then the score last.",
+            "Cut, then score and mix, then color, and subtitles and label last.",
+            "Subtitles first, to guide the cuts by the text, and then color, sound and label.",
+            "Label first, and the rest in any order."
+          ],
+          "certa": 1,
+          "explica": "Color and subtitles depend on the final cut; working on them earlier means redoing the work. The label goes in at the end, over the finished film.",
+          "ref": "passos"
+        },
+        {
+          "p": "The page answered \"The video is 24.0 s long; the request is 30 to 60 s\". What should you do?",
+          "opcoes": [
+            "Speed up the video until it seems longer.",
+            "Export again in another codec, without changing the edit.",
+            "Switch the format to 9:16, because the vertical format accepts videos shorter than 30 s.",
+            "Go back to the edit plan and adjust the beats until the total comes to 30 to 60 s."
+          ],
+          "certa": 3,
+          "explica": "The length comes from the plan: the list adjusts to the length of the film. Codec and format don't change the length of the file.",
+          "ref": "conferidor"
+        },
+        {
+          "p": "Which decision comes out with the generated video, and which goes into the edit?",
+          "opcoes": [
+            "Ambience and effect come out together; score and long narration go into the edit.",
+            "Everything comes out together: in 2026 the edit no longer touches the sound, which already arrives finished from the generator.",
+            "Nothing comes out together: the generated sound should always be deleted.",
+            "Only the score comes out together; the rest is recorded separately."
+          ],
+          "certa": 0,
+          "explica": "What is born from the action in the shot comes out fine as native sound; what crosses shots goes on top, in the edit (lesson 2).",
+          "ref": "mapa"
+        },
+        {
+          "p": "What is the path in lesson 5 (photos and narration) for?",
+          "opcoes": [
+            "Only for people who have no photos at all and need to generate all of them.",
+            "To replace the AI label, since photos are real.",
+            "To make a film without a video generator and without spending credits.",
+            "To increase the resolution of the generated clips."
+          ],
+          "certa": 2,
+          "explica": "Photos and narration with camera movement become a film on any machine. If the images are generated, the label still applies.",
+          "ref": "mapa"
+        },
+        {
+          "p": "Why does the project folder stay outside the generation platform?",
+          "opcoes": [
+            "Because generation platforms delete all of the user's files after one day of use.",
+            "Because tools change or shut down; with the plan and the prompts you can remake the film.",
+            "Because the law forbids keeping files in the cloud.",
+            "Because the checker only reads files from local folders."
+          ],
+          "certa": 1,
+          "explica": "The Sora case (app shut down on 04/26/2026) shows that tools disappear. What is yours (decisions and files) stays in your folder.",
+          "ref": "passos"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "The course in three sentences",
+      "itens": [
+        {
+          "t": "Plan before you generate",
+          "texto": "Beats, sources, sound and deliverables decided in text, checked by the page."
+        },
+        {
+          "t": "Finish in the edit",
+          "texto": "Cut, sound, color and subtitles in a free editor; the final file is checked here."
+        },
+        {
+          "t": "Publish with a label",
+          "texto": "Rights cleared, label visible and record kept."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Going further",
+      "links": [
+        {
+          "t": "Course 3 · Motion by code with an agent: HyperFrames and Remotion (the next in the program)",
+          "href": "https://inematds.github.io/formacao-cinema-ia-motion-v72/en/"
+        },
+        {
+          "t": "Course 1 · Generation: image and video with AI in Oct/2026",
+          "href": "https://inematds.github.io/formacao-cinema-ia-geracao-v72/en/"
+        },
+        {
+          "t": "Course 0 · Direction: think like a director before you generate",
+          "href": "https://inematds.github.io/formacao-cinema-ia-direcao-v72/en/"
+        }
+      ]
+    }
+  ]
+}
