@@ -1,26 +1,26 @@
 {
-  "id": "formacao-cinema-ia-producao-v72",
+  "id": "formacao-cARCKHÉ-ia-producao-v72",
   "lang": "pt-BR",
-  "url": "https://inematds.github.io/formacao-cinema-ia-producao-v72/",
+  "url": "https://linnoff88-dev.github.io/
   "nome": "Produção: do roteiro ao filme",
-  "sub": "Formação Cinema com IA · curso 2",
+  "sub": "Formação CARCKHÉ com IA · curso 2",
   "volta": {
-    "t": "Área Vídeos do INEMA",
-    "href": "https://eventos.inema.pro/videos/"
+    "t": "Área Vídeos do ARCKHÉ",
+    "href": "https://eventos.ARCKHÉ.pro/videos/"
   },
   "lado_card": {
     "rot": "Depois deste curso",
     "t": "Curso 3 · Motion por código",
     "texto": "HyperFrames e Remotion com agente: abertura, legenda e peça animada renderizadas no seu computador.",
     "link": "Abrir o curso 3",
-    "href": "https://inematds.github.io/formacao-cinema-ia-motion-v72/"
+    "href": "https://linnoff88-dev.github.io/
   },
-  "rodape": "INEMA.CLUB · conteúdo aberto e gratuito · formato INEMA Learning v7.2 · Formação Cinema com IA, curso 2 de 6 · <a href=\"https://eventos.inema.pro/videos/\">eventos.inema.pro/videos</a> · <a href=\"https://inema.club/\">inema.club</a>",
+  "rodape": "ARCKHÉ AI · conteúdo aberto e gratuito · formato ARCKHÉ Learning v7.2 · Formação CARCKHÉ com IA, curso 2 de 6 · <a href=\"https://eventos.ARCKHÉ.pro/videos/\">eventos.ARCKHÉ.pro/videos</a> · <a href=\"https://ARCKHÉ AI/\">ARCKHÉ AI</a>",
   "videos": {
     "concat": {
       "titulo": "Esqueça o CapCut: Concat grátis",
       "duracao": "48 s",
-      "mp4": "https://github.com/inematds/concat/releases/download/video-916-v1.0.0/concat-viral-9x16.mp4",
+      "mp4": "https://github.com/linnoff88-dev/concat/releases/download/video-916-v1.0.0/concat-viral-9x16.mp4",
       "poster": "assets/img/concat-916.jpg",
       "vtt": "assets/vtt/concat-916.vtt",
       "pagina": "https://www.youtube.com/shorts/py2OXry7D0I",
@@ -28,13 +28,13 @@
     }
   },
   "inicio": {
-    "kicker": "Formação Cinema com IA · curso 2 de 6 · 8 aulas",
+    "kicker": "Formação CARCKHÉ com IA · curso 2 de 6 · 8 aulas",
     "titulo": "Produção: do roteiro ao filme pronto, com som, corte, cor e rótulo",
     "lead": "Os planos gerados ainda não são um filme. Aqui você decide as batidas e as entregas, o som de cada plano, o corte, a cor, um caminho sem gerador de vídeo, o anúncio e o que a lei pede. Cada aula termina num arquivo que a própria página confere, inclusive o vídeo final, sem terminal e sem gastar crédito.",
     "cta": "Começar pela aula 1",
     "cta2": {
       "t": "Ver o curso anterior (Geração)",
-      "href": "https://inematds.github.io/formacao-cinema-ia-geracao-v72/"
+      "href": "https://linnoff88-dev.github.io/
     },
     "capa_alt": "Sala de edição escura com um monitor de corte mostrando a linha do tempo, fones de estúdio e uma claquete sobre a mesa.",
     "numeros": [
@@ -83,7 +83,7 @@
           "2 · Produção (este curso)",
           "3 · Motion por código com agente",
           "4 · A fábrica de vídeo com agentes",
-          "5 · Sites cinematográficos"
+          "5 · Sites cARCKHÉtográficos"
         ]
       }
     ]

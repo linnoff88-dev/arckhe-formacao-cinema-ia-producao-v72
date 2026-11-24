@@ -1,6 +1,6 @@
-# REVISÃO independente — formacao-cinema-ia-producao-v72 (19/10/2026)
+# REVISÃO independente — formacao-cARCKHÉ-ia-producao-v72 (19/10/2026)
 
-Revisor: subagente que não escreveu o curso, com BRIEF-CURSO, CURRICULO, AUDITORIA-LOCAL e PESQUISA-ESTADO-DA-ARTE (longrun 2026-10-19-formacao-cinema-ia-v72). Só leitura; rodou `conferir.py --exemplo/--errado` nas 8 aulas, arquivos de teste próprios em PT/EN/ES e vídeos de teste (inclusive rotacionado) no modo vídeo; conferiu as fontes locais (concat, video-plan-editor, ugc-seedance25, pixflow, diretor-animacao, promptfilmes, fpfilm1).
+Revisor: subagente que não escreveu o curso, com BRIEF-CURSO, CURRICULO, AUDITORIA-LOCAL e PESQUISA-ESTADO-DA-ARTE (longrun 2026-10-19-formacao-cARCKHÉ-ia-v72). Só leitura; rodou `conferir.py --exemplo/--errado` nas 8 aulas, arquivos de teste próprios em PT/EN/ES e vídeos de teste (inclusive rotacionado) no modo vídeo; conferiu as fontes locais (concat, video-plan-editor, ugc-seedance25, pixflow, diretor-animacao, promptfilmes, fpfilm1).
 
 ## Rodada 1 — 7/10
 Certo: nenhuma versão desatualizada; Sora só como caso; [incerto] (Suno v6, Eleven v3, TSE, status do PL 2338) como relatado; ritmos de corte, blocos de 30 s, Concat 0.2.7 e os 18 movimentos do pixflow batem com as fontes; URLs 200; clipes de ensaio sem marca nem rosto.

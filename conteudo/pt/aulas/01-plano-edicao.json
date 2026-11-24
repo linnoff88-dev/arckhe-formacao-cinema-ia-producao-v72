@@ -109,7 +109,7 @@
           "titulo": "Ritmo e entregas",
           "sub": "o formato muda o plano",
           "texto": [
-            "Como ponto de partida, a skill video-plan-editor do INEMA usa cortes de 0,8 a 1,5 s em vídeo viral, 2 a 3 s em promocional e 4 a 6 s em institucional. Ajuste ao seu filme.",
+            "Como ponto de partida, a skill video-plan-editor do ARCKHÉ usa cortes de 0,8 a 1,5 s em vídeo viral, 2 a 3 s em promocional e 4 a 6 s em institucional. Ajuste ao seu filme.",
             "Liste as entregas na primeira linha. Se vai haver corte 9:16, deixe o assunto de cada plano no centro do quadro."
           ]
         }
@@ -128,7 +128,7 @@
         {
           "rot": "Pedido ao assistente de IA (rascunho do plano)",
           "icone": "chat",
-          "conteudo": "Você é montador de cinema. Leia a decupagem abaixo e proponha um plano de edição de 6 a 8 batidas, uma linha por batida, neste formato:\nn | função | duração | o que se vê e se ouve | fonte: gerar, foto, gravar ou tela\nRegras:\n- a primeira batida é o gancho e prende nos 3 primeiros segundos;\n- a última é o fecho, com uma imagem que funciona parada;\n- a soma das durações dá <duração> segundos;\n- sugira a fonte mais barata que resolve cada plano;\n- não invente personagem, lugar ou objeto que não esteja na decupagem.\nNa primeira linha, liste as entregas: <formatos>.\nDecupagem: <cole aqui a sua decupagem>"
+          "conteudo": "Você é montador de cARCKHÉ. Leia a decupagem abaixo e proponha um plano de edição de 6 a 8 batidas, uma linha por batida, neste formato:\nn | função | duração | o que se vê e se ouve | fonte: gerar, foto, gravar ou tela\nRegras:\n- a primeira batida é o gancho e prende nos 3 primeiros segundos;\n- a última é o fecho, com uma imagem que funciona parada;\n- a soma das durações dá <duração> segundos;\n- sugira a fonte mais barata que resolve cada plano;\n- não invente personagem, lugar ou objeto que não esteja na decupagem.\nNa primeira linha, liste as entregas: <formatos>.\nDecupagem: <cole aqui a sua decupagem>"
         }
       ]
     },
@@ -328,11 +328,11 @@
       "links": [
         {
           "t": "Curso 0 · Decupagem com som (a lista de planos que este plano organiza)",
-          "href": "https://inematds.github.io/formacao-cinema-ia-direcao-v72/aulas/decupagem/"
+          "href": "https://linnoff88-dev.github.io/
         },
         {
           "t": "Curso 1 · Geração: imagem e vídeo com IA em out/2026 (a fonte \"gerar\")",
-          "href": "https://inematds.github.io/formacao-cinema-ia-geracao-v72/"
+          "href": "https://linnoff88-dev.github.io/
         }
       ]
     }

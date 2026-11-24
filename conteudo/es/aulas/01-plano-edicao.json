@@ -109,7 +109,7 @@
           "titulo": "Ritmo y entregas",
           "sub": "el formato cambia el plano",
           "texto": [
-            "Como punto de partida, la skill video-plan-editor de INEMA usa cortes de 0,8 a 1,5 s en video viral, de 2 a 3 s en promocional y de 4 a 6 s en institucional. Ajústalo a tu película.",
+            "Como punto de partida, la skill video-plan-editor de ARCKHÉ usa cortes de 0,8 a 1,5 s en video viral, de 2 a 3 s en promocional y de 4 a 6 s en institucional. Ajústalo a tu película.",
             "Lista las entregas en la primera línea. Si va a haber un corte 9:16, deja el tema de cada plano en el centro del encuadre."
           ]
         }
@@ -328,11 +328,11 @@
       "links": [
         {
           "t": "Curso 0 · Desglose de planos con sonido (la lista de planos que este plan organiza)",
-          "href": "https://inematds.github.io/formacao-cinema-ia-direcao-v72/es/aulas/decupagem/"
+          "href": "https://linnoff88-dev.github.io/
         },
         {
           "t": "Curso 1 · Generación: imagen y video con IA en oct/2026 (la fuente \"generar\")",
-          "href": "https://inematds.github.io/formacao-cinema-ia-geracao-v72/es/"
+          "href": "https://linnoff88-dev.github.io/
         }
       ]
     }

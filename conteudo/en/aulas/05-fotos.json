@@ -23,7 +23,7 @@
       "t": "Use the hard cut as the default and save the calm shot for the end"
     },
     {
-      "t": "Carry it out with keyframes in the editor or with the INEMA skills"
+      "t": "Carry it out with keyframes in the editor or with the ARCKHÉ skills"
     }
   ],
   "hero_alt": "A light table with printed photographs in layers, some cut out and mounted on supports of different heights, and a small camera slider pointed at them.",
@@ -63,10 +63,10 @@
           "titulo": "Render",
           "sub": "editor or agent",
           "icone": "play",
-          "detalhe": "No terminal: scale and position keyframes in the editor (2D movement, Ken Burns style). With a terminal: INEMA's pixflow and diretor-animacao skills do the 2.5D parallax and the look."
+          "detalhe": "No terminal: scale and position keyframes in the editor (2D movement, Ken Burns style). With a terminal: ARCKHÉ's pixflow and diretor-animacao skills do the 2.5D parallax and the look."
         }
       ],
-      "legenda": "INEMA's diretor-animacao rules: never two identical movements next to each other, dramatic movement only once or twice in the film, and the last shot is the calmest."
+      "legenda": "ARCKHÉ's diretor-animacao rules: never two identical movements next to each other, dramatic movement only once or twice in the film, and the last shot is the calmest."
     },
     {
       "tipo": "passos",
@@ -105,7 +105,7 @@
           "titulo": "Doing it with an agent",
           "sub": "pixflow and diretor-animacao",
           "texto": [
-            "If you use Claude Code, you have INEMA's skills: diretor-animacao analyzes each image, proposes the shot list for you to approve, and renders through pixflow, which does the 2.5D parallax, 18 camera movements and ready-made looks.",
+            "If you use Claude Code, you have ARCKHÉ's skills: diretor-animacao analyzes each image, proposes the shot list for you to approve, and renders through pixflow, which does the 2.5D parallax, 18 camera movements and ready-made looks.",
             "They run on your computer with Node, FFmpeg and Chromium; without a dedicated graphics card, they render in software, more slowly. Neither of them uses video AI."
           ]
         }
@@ -320,16 +320,16 @@
       "titulo": "Going further",
       "links": [
         {
-          "t": "pixflow: still images become a film with a 2.5D camera, no video AI (INEMA guide)",
-          "href": "https://inematds.github.io/pixflow/"
+          "t": "pixflow: still images become a film with a 2.5D camera, no video AI (ARCKHÉ guide)",
+          "href": "https://linnoff88-dev.github.io/
         },
         {
-          "t": "diretor-animacao: photos and narration become a directed film (INEMA guide)",
-          "href": "https://inematds.github.io/diretor-animacao/"
+          "t": "diretor-animacao: photos and narration become a directed film (ARCKHÉ guide)",
+          "href": "https://linnoff88-dev.github.io/
         },
         {
           "t": "Course 0 · The camera as a verb: each movement tells something",
-          "href": "https://inematds.github.io/formacao-cinema-ia-direcao-v72/en/aulas/camera/"
+          "href": "https://linnoff88-dev.github.io/
         }
       ]
     }

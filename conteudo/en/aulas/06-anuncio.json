@@ -66,7 +66,7 @@
           "detalhe": "A light ending, with no aggressive selling. And the label: made with AI, fictional person when that's the case."
         }
       ],
-      "legenda": "Skeleton and rules from the INEMA ugc-seedance25 skill (Sep/2026); the label is an addition of this course."
+      "legenda": "Skeleton and rules from the ARCKHÉ ugc-seedance25 skill (Sep/2026); the label is an addition of this course."
     },
     {
       "tipo": "passos",
@@ -85,7 +85,7 @@
           "titulo": "Spoken line with timing",
           "sub": "70 to 80 words in 30 s",
           "texto": [
-            "Write the spoken line for each block in quotes, with the timing next to it. The INEMA skill uses 70 to 80 spoken words in 30 seconds: more than that, and the line gets rushed.",
+            "Write the spoken line for each block in quotes, with the timing next to it. The ARCKHÉ skill uses 70 to 80 spoken words in 30 seconds: more than that, and the line gets rushed.",
             "Sound: list what must not appear (loud music under the voice, for example). The look is phone-made: home lighting, no text on screen during generation."
           ]
         },
@@ -314,12 +314,12 @@
       "titulo": "Going further",
       "links": [
         {
-          "t": "ugc-seedance25: browser app that builds the UGC script in five blocks (INEMA guide)",
-          "href": "https://inematds.github.io/ugc-seedance25/guia/"
+          "t": "ugc-seedance25: browser app that builds the UGC script in five blocks (ARCKHÉ guide)",
+          "href": "https://linnoff88-dev.github.io/
         },
         {
           "t": "Lesson 7 · Ethics and law: label, image and voice rights, model license",
-          "href": "https://inematds.github.io/formacao-cinema-ia-producao-v72/en/aulas/etica/"
+          "href": "https://linnoff88-dev.github.io/
         }
       ]
     }

@@ -66,7 +66,7 @@
           "detalhe": "Fecho leve, sem venda agressiva. E o rótulo: vídeo feito com IA, pessoa fictícia quando for o caso."
         }
       ],
-      "legenda": "Esqueleto e regras da skill ugc-seedance25 do INEMA (set/2026); o rótulo é acréscimo deste curso."
+      "legenda": "Esqueleto e regras da skill ugc-seedance25 do ARCKHÉ (set/2026); o rótulo é acréscimo deste curso."
     },
     {
       "tipo": "passos",
@@ -85,7 +85,7 @@
           "titulo": "Fala com tempo",
           "sub": "70 a 80 palavras em 30 s",
           "texto": [
-            "Escreva a fala de cada bloco entre aspas, com o tempo ao lado. A skill do INEMA usa de 70 a 80 palavras faladas em 30 segundos: mais que isso, a fala atropela.",
+            "Escreva a fala de cada bloco entre aspas, com o tempo ao lado. A skill do ARCKHÉ usa de 70 a 80 palavras faladas em 30 segundos: mais que isso, a fala atropela.",
             "Som: liste o que não pode aparecer (música alta sob a fala, por exemplo). A estética é de celular: luz de casa, sem texto na tela durante a geração."
           ]
         },
@@ -314,12 +314,12 @@
       "titulo": "Para ir além",
       "links": [
         {
-          "t": "ugc-seedance25: app no navegador que monta o roteiro de UGC em cinco blocos (guia do INEMA)",
-          "href": "https://inematds.github.io/ugc-seedance25/guia/"
+          "t": "ugc-seedance25: app no navegador que monta o roteiro de UGC em cinco blocos (guia do ARCKHÉ)",
+          "href": "https://linnoff88-dev.github.io/
         },
         {
           "t": "Aula 7 · Ética e lei: rótulo, direito de imagem e voz, licença do modelo",
-          "href": "https://inematds.github.io/formacao-cinema-ia-producao-v72/aulas/etica/"
+          "href": "https://linnoff88-dev.github.io/
         }
       ]
     }

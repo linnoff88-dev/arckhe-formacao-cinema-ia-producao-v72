@@ -102,7 +102,7 @@
           "sub": "grão, halation, faixas",
           "texto": [
             "Grão por último, fino ou grosso conforme a sensação, nunca sobre um grão que já veio no clipe. Halation só onde há luz forte visível, como a vitrine acesa.",
-            "Proporção comunica: 2.39:1 soa cinema, 16:9 é TV e web, 9:16 é celular. Faixas pretas (letterbox) num 16:9 dão o ar de cinema sem mudar o arquivo."
+            "Proporção comunica: 2.39:1 soa cARCKHÉ, 16:9 é TV e web, 9:16 é celular. Faixas pretas (letterbox) num 16:9 dão o ar de cARCKHÉ sem mudar o arquivo."
           ]
         }
       ]
@@ -120,7 +120,7 @@
         {
           "rot": "Pedido ao assistente de IA (receita de cor)",
           "icone": "chat",
-          "conteudo": "Você é colorista de cinema. A partir da cena e da sensação abaixo, proponha uma receita de cor com exatamente estas 8 linhas: Sensação, Paleta, Contraste, Pretos, Temperatura, Saturação, Pele, Grão.\nRegras:\n- uma paleta só para o filme inteiro;\n- pele neutra, sem puxar para laranja;\n- pretos levemente levantados e brancos sem estourar, salvo se a sensação pedir outra coisa;\n- grão aplicado por último, igual em todos os planos;\n- não cite filme, diretor ou marca como referência.\nCena: <a cena em 3 ou 4 frases>\nSensação: <o que o público deve sentir>"
+          "conteudo": "Você é colorista de cARCKHÉ. A partir da cena e da sensação abaixo, proponha uma receita de cor com exatamente estas 8 linhas: Sensação, Paleta, Contraste, Pretos, Temperatura, Saturação, Pele, Grão.\nRegras:\n- uma paleta só para o filme inteiro;\n- pele neutra, sem puxar para laranja;\n- pretos levemente levantados e brancos sem estourar, salvo se a sensação pedir outra coisa;\n- grão aplicado por último, igual em todos os planos;\n- não cite filme, diretor ou marca como referência.\nCena: <a cena em 3 ou 4 frases>\nSensação: <o que o público deve sentir>"
         }
       ]
     },
@@ -276,7 +276,7 @@
       "links": [
         {
           "t": "Curso 0 · Luz, cor e atmosfera: o look decidido antes do prompt",
-          "href": "https://inematds.github.io/formacao-cinema-ia-direcao-v72/aulas/luz/"
+          "href": "https://linnoff88-dev.github.io/
         },
         {
           "t": "Adobe: Premiere com o modo de cor em beta e Firefly com modelos de vídeo parceiros (15/04/2026)",

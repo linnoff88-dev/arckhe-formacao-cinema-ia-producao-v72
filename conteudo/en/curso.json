@@ -1,26 +1,26 @@
 {
-  "id": "formacao-cinema-ia-producao-v72",
+  "id": "formacao-cARCKHÉ-ia-producao-v72",
   "lang": "en",
-  "url": "https://inematds.github.io/formacao-cinema-ia-producao-v72/en/",
+  "url": "https://linnoff88-dev.github.io/
   "nome": "Production: from script to film",
-  "sub": "Cinema with AI Program · course 2",
+  "sub": "CARCKHÉ with AI Program · course 2",
   "volta": {
-    "t": "INEMA Videos area",
-    "href": "https://eventos.inema.pro/videos/"
+    "t": "ARCKHÉ Videos area",
+    "href": "https://eventos.ARCKHÉ.pro/videos/"
   },
   "lado_card": {
     "rot": "After this course",
     "t": "Course 3 · Motion by code",
     "texto": "HyperFrames and Remotion with an agent: an opening, a caption and an animated piece rendered on your own computer.",
     "link": "Open course 3",
-    "href": "https://inematds.github.io/formacao-cinema-ia-motion-v72/en/"
+    "href": "https://linnoff88-dev.github.io/
   },
-  "rodape": "INEMA.CLUB · open and free content · INEMA Learning v7.2 format · Cinema with AI Program, course 2 of 6 · <a href=\"https://eventos.inema.pro/videos/\">eventos.inema.pro/videos</a> · <a href=\"https://inema.club/\">inema.club</a>",
+  "rodape": "ARCKHÉ AI · open and free content · ARCKHÉ Learning v7.2 format · CARCKHÉ with AI Program, course 2 of 6 · <a href=\"https://eventos.ARCKHÉ.pro/videos/\">eventos.ARCKHÉ.pro/videos</a> · <a href=\"https://ARCKHÉ AI/\">ARCKHÉ AI</a>",
   "videos": {
     "concat": {
       "titulo": "Forget CapCut: Concat is free",
       "duracao": "48 s",
-      "mp4": "https://github.com/inematds/concat/releases/download/video-916-v1.0.0/concat-viral-9x16.mp4",
+      "mp4": "https://github.com/linnoff88-dev/concat/releases/download/video-916-v1.0.0/concat-viral-9x16.mp4",
       "poster": "assets/img/concat-916.jpg",
       "vtt": "assets/vtt/concat-916.vtt",
       "pagina": "https://www.youtube.com/shorts/py2OXry7D0I",
@@ -28,13 +28,13 @@
     }
   },
   "inicio": {
-    "kicker": "Cinema with AI Program · course 2 of 6 · 8 lessons",
+    "kicker": "CARCKHÉ with AI Program · course 2 of 6 · 8 lessons",
     "titulo": "Production: from script to finished film, with sound, editing, color and label",
     "lead": "Generated shots are not a film yet. Here you decide the beats and the deliverables, the sound for each shot, the edit, the color, a path without a video generator, the ad and what the law requires. Each lesson ends with a file that the page itself checks, including the final video, with no terminal and no credits spent.",
     "cta": "Start with lesson 1",
     "cta2": {
       "t": "See the previous course (Generation)",
-      "href": "https://inematds.github.io/formacao-cinema-ia-geracao-v72/en/"
+      "href": "https://linnoff88-dev.github.io/
     },
     "capa_alt": "A dark editing room with a cutting monitor showing the timeline, studio headphones and a clapperboard on the desk.",
     "numeros": [
@@ -83,7 +83,7 @@
           "2 · Production (this course)",
           "3 · Motion by code with an agent",
           "4 · The video factory with agents",
-          "5 · Cinematic websites"
+          "5 · CARCKHÉtic websites"
         ]
       }
     ]

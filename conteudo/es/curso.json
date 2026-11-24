@@ -1,26 +1,26 @@
 {
-  "id": "formacao-cinema-ia-producao-v72",
+  "id": "formacao-cARCKHÉ-ia-producao-v72",
   "lang": "es",
-  "url": "https://inematds.github.io/formacao-cinema-ia-producao-v72/es/",
+  "url": "https://linnoff88-dev.github.io/
   "nome": "Producción: del guion a la película",
   "sub": "Formación Cine con IA · curso 2",
   "volta": {
-    "t": "Área Videos de INEMA",
-    "href": "https://eventos.inema.pro/videos/"
+    "t": "Área Videos de ARCKHÉ",
+    "href": "https://eventos.ARCKHÉ.pro/videos/"
   },
   "lado_card": {
     "rot": "Después de este curso",
     "t": "Curso 3 · Motion por código",
     "texto": "HyperFrames y Remotion con agente: apertura, subtítulos y pieza animada renderizadas en tu computadora.",
     "link": "Abrir el curso 3",
-    "href": "https://inematds.github.io/formacao-cinema-ia-motion-v72/es/"
+    "href": "https://linnoff88-dev.github.io/
   },
-  "rodape": "INEMA.CLUB · contenido abierto y gratuito · formato INEMA Learning v7.2 · Formación Cine con IA, curso 2 de 6 · <a href=\"https://eventos.inema.pro/videos/\">eventos.inema.pro/videos</a> · <a href=\"https://inema.club/\">inema.club</a>",
+  "rodape": "ARCKHÉ AI · contenido abierto y gratuito · formato ARCKHÉ Learning v7.2 · Formación Cine con IA, curso 2 de 6 · <a href=\"https://eventos.ARCKHÉ.pro/videos/\">eventos.ARCKHÉ.pro/videos</a> · <a href=\"https://ARCKHÉ AI/\">ARCKHÉ AI</a>",
   "videos": {
     "concat": {
       "titulo": "Olvídate de CapCut: Concat gratis",
       "duracao": "48 s",
-      "mp4": "https://github.com/inematds/concat/releases/download/video-916-v1.0.0/concat-viral-9x16.mp4",
+      "mp4": "https://github.com/linnoff88-dev/concat/releases/download/video-916-v1.0.0/concat-viral-9x16.mp4",
       "poster": "assets/img/concat-916.jpg",
       "vtt": "assets/vtt/concat-916.vtt",
       "pagina": "https://www.youtube.com/shorts/py2OXry7D0I",
@@ -34,7 +34,7 @@
     "cta": "Empezar por la clase 1",
     "cta2": {
       "t": "Ver el curso anterior (Generación)",
-      "href": "https://inematds.github.io/formacao-cinema-ia-geracao-v72/es/"
+      "href": "https://linnoff88-dev.github.io/
     },
     "capa_alt": "Sala de edición oscura con un monitor de corte que muestra la línea de tiempo, audífonos de estudio y una claqueta sobre la mesa.",
     "numeros": [
@@ -83,7 +83,7 @@
           "2 · Producción (este curso)",
           "3 · Motion por código con agente",
           "4 · La fábrica de video con agentes",
-          "5 · Sitios cinematográficos"
+          "5 · Sitios cARCKHÉtográficos"
         ]
       }
     ]

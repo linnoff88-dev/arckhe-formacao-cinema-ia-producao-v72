@@ -23,7 +23,7 @@
       "t": "Usar el corte seco como estándar y guardar el plano calmado para el final"
     },
     {
-      "t": "Ejecutar con keyframes en el editor o con las skills de INEMA"
+      "t": "Ejecutar con keyframes en el editor o con las skills de ARCKHÉ"
     }
   ],
   "hero_alt": "Mesa de luz con fotografías impresas en capas, algunas recortadas sobre soportes de distintas alturas, y un pequeño slider de cámara apuntando hacia ellas.",
@@ -63,10 +63,10 @@
           "titulo": "Render",
           "sub": "editor o agente",
           "icone": "play",
-          "detalhe": "Sin terminal: keyframes de escala y posición en el editor (movimiento 2D, estilo Ken Burns). Con terminal: las skills pixflow y diretor-animacao de INEMA hacen el parallax 2.5D y el look."
+          "detalhe": "Sin terminal: keyframes de escala y posición en el editor (movimiento 2D, estilo Ken Burns). Con terminal: las skills pixflow y diretor-animacao de ARCKHÉ hacen el parallax 2.5D y el look."
         }
       ],
-      "legenda": "Reglas de diretor-animacao de INEMA: nunca dos movimientos iguales seguidos, el movimiento dramático solo una o dos veces en la película, y el último plano es el más calmado."
+      "legenda": "Reglas de diretor-animacao de ARCKHÉ: nunca dos movimientos iguales seguidos, el movimiento dramático solo una o dos veces en la película, y el último plano es el más calmado."
     },
     {
       "tipo": "passos",
@@ -105,7 +105,7 @@
           "titulo": "Ejecutar con agente",
           "sub": "pixflow y diretor-animacao",
           "texto": [
-            "Quien usa Claude Code tiene las skills de INEMA: diretor-animacao analiza cada imagen, propone el desglose de planos para que lo apruebes y renderiza con pixflow, que hace el parallax 2.5D, 18 movimientos de cámara y looks listos.",
+            "Quien usa Claude Code tiene las skills de ARCKHÉ: diretor-animacao analiza cada imagen, propone el desglose de planos para que lo apruebes y renderiza con pixflow, que hace el parallax 2.5D, 18 movimientos de cámara y looks listos.",
             "Corren en el computador con Node, FFmpeg y Chromium; sin tarjeta de video dedicada, renderizan por software, más despacio. Ninguna de las dos usa IA de video."
           ]
         }
@@ -320,16 +320,16 @@
       "titulo": "Para ir más allá",
       "links": [
         {
-          "t": "pixflow: imágenes fijas se vuelven película con cámara 2.5D, sin IA de video (guía de INEMA)",
-          "href": "https://inematds.github.io/pixflow/"
+          "t": "pixflow: imágenes fijas se vuelven película con cámara 2.5D, sin IA de video (guía de ARCKHÉ)",
+          "href": "https://linnoff88-dev.github.io/
         },
         {
-          "t": "diretor-animacao: fotos y narración se vuelven una película dirigida (guía de INEMA)",
-          "href": "https://inematds.github.io/diretor-animacao/"
+          "t": "diretor-animacao: fotos y narración se vuelven una película dirigida (guía de ARCKHÉ)",
+          "href": "https://linnoff88-dev.github.io/
         },
         {
           "t": "Curso 0 · La cámara como verbo: cada movimiento cuenta algo",
-          "href": "https://inematds.github.io/formacao-cinema-ia-direcao-v72/es/aulas/camera/"
+          "href": "https://linnoff88-dev.github.io/
         }
       ]
     }

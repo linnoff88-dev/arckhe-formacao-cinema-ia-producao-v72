@@ -66,7 +66,7 @@
           "detalhe": "Cierre suave, sin venta agresiva. Y la etiqueta: video hecho con IA, persona ficticia cuando sea el caso."
         }
       ],
-      "legenda": "Esqueleto y reglas de la skill ugc-seedance25 de INEMA (sep/2026); la etiqueta es un añadido de este curso."
+      "legenda": "Esqueleto y reglas de la skill ugc-seedance25 de ARCKHÉ (sep/2026); la etiqueta es un añadido de este curso."
     },
     {
       "tipo": "passos",
@@ -85,7 +85,7 @@
           "titulo": "Diálogo con tiempo",
           "sub": "70 a 80 palabras en 30 s",
           "texto": [
-            "Escribe el diálogo de cada bloque entre comillas, con el tiempo al lado. La skill de INEMA usa de 70 a 80 palabras habladas en 30 segundos: más que eso, el diálogo se atropella.",
+            "Escribe el diálogo de cada bloque entre comillas, con el tiempo al lado. La skill de ARCKHÉ usa de 70 a 80 palabras habladas en 30 segundos: más que eso, el diálogo se atropella.",
             "Sonido: anota lo que no puede aparecer (música alta bajo el diálogo, por ejemplo). La estética es de celular: luz de casa, sin texto en pantalla durante la generación."
           ]
         },
@@ -314,12 +314,12 @@
       "titulo": "Para ir más allá",
       "links": [
         {
-          "t": "ugc-seedance25: app en el navegador que arma el guion de UGC en cinco bloques (guía de INEMA)",
-          "href": "https://inematds.github.io/ugc-seedance25/guia/"
+          "t": "ugc-seedance25: app en el navegador que arma el guion de UGC en cinco bloques (guía de ARCKHÉ)",
+          "href": "https://linnoff88-dev.github.io/
         },
         {
           "t": "Clase 7 · Ética y ley: etiqueta, derechos de imagen y voz, licencia del modelo",
-          "href": "https://inematds.github.io/formacao-cinema-ia-producao-v72/es/aulas/etica/"
+          "href": "https://linnoff88-dev.github.io/
         }
       ]
     }

@@ -109,7 +109,7 @@
           "titulo": "Pace and deliverables",
           "sub": "the format changes the shot",
           "texto": [
-            "As a starting point, INEMA's video-plan-editor skill uses cuts of 0.8 to 1.5 s for viral video, 2 to 3 s for promotional, and 4 to 6 s for corporate. Adjust to your film.",
+            "As a starting point, ARCKHÉ's video-plan-editor skill uses cuts of 0.8 to 1.5 s for viral video, 2 to 3 s for promotional, and 4 to 6 s for corporate. Adjust to your film.",
             "List the deliverables on the first line. If there will be a 9:16 cut, keep the subject of each shot in the center of the frame."
           ]
         }
@@ -328,11 +328,11 @@
       "links": [
         {
           "t": "Course 0 · Shot list with sound (the list of shots this plan organizes)",
-          "href": "https://inematds.github.io/formacao-cinema-ia-direcao-v72/en/aulas/decupagem/"
+          "href": "https://linnoff88-dev.github.io/
         },
         {
           "t": "Course 1 · Generation: images and video with AI in Oct/2026 (the \"generate\" source)",
-          "href": "https://inematds.github.io/formacao-cinema-ia-geracao-v72/en/"
+          "href": "https://linnoff88-dev.github.io/
         }
       ]
     }

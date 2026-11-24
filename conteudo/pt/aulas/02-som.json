@@ -124,7 +124,7 @@
         {
           "rot": "Pedido ao assistente de IA (rascunho do mapa de som)",
           "icone": "chat",
-          "conteudo": "Você é editor de som de cinema. Leia a decupagem abaixo e proponha um mapa de som, uma linha por plano, neste formato:\nn | o que se ouve (ambiente, efeito, fala, trilha ou silêncio) | origem: nativo ou separado\nRegras:\n- nativo = sai junto com o vídeo gerado (ambiente, efeito da ação, fala curta);\n- separado = entra na montagem (trilha, narração longa, som que repete igual em vários planos);\n- uma origem só por plano;\n- deixe pelo menos um plano só com ambiente antes de uma fala;\n- na primeira linha, descreva a trilha: estilo, onde entra e onde sai, sem vocal sob a fala.\nDecupagem: <cole aqui a sua decupagem>"
+          "conteudo": "Você é editor de som de cARCKHÉ. Leia a decupagem abaixo e proponha um mapa de som, uma linha por plano, neste formato:\nn | o que se ouve (ambiente, efeito, fala, trilha ou silêncio) | origem: nativo ou separado\nRegras:\n- nativo = sai junto com o vídeo gerado (ambiente, efeito da ação, fala curta);\n- separado = entra na montagem (trilha, narração longa, som que repete igual em vários planos);\n- uma origem só por plano;\n- deixe pelo menos um plano só com ambiente antes de uma fala;\n- na primeira linha, descreva a trilha: estilo, onde entra e onde sai, sem vocal sob a fala.\nDecupagem: <cole aqui a sua decupagem>"
         }
       ]
     },
@@ -305,12 +305,12 @@
           "href": "https://blog.suno.com/blog/v5-5"
         },
         {
-          "t": "Concat: editor gratuito e local, com limpeza de voz e legenda (guia do INEMA)",
-          "href": "https://inematds.github.io/concat/guia/"
+          "t": "Concat: editor gratuito e local, com limpeza de voz e legenda (guia do ARCKHÉ)",
+          "href": "https://linnoff88-dev.github.io/
         },
         {
           "t": "Curso 0 · Decupagem com som (a coluna de som por plano)",
-          "href": "https://inematds.github.io/formacao-cinema-ia-direcao-v72/aulas/decupagem/"
+          "href": "https://linnoff88-dev.github.io/
         }
       ]
     }
