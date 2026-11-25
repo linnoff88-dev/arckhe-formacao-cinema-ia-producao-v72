@@ -5,7 +5,7 @@
   "titulo": "Seu curta de 30–60 s: do plano ao arquivo final conferido",
   "titulo_curto": "Seu curta",
   "minutos": 20,
-  "lead": "Hora de juntar tudo: o plano de edição, o mapa de som, a montagem, a cor e a checklist viram um curta de 30 a 60 segundos. A página confere o arquivo final, e a pasta do projeto guarda o que você decidiu, pronta para refazer o filme em qualquer ferramenta.",
+  "lead": "Hora de juntar tudo: o plano de ediçêo, o mapa de som, a montagem, a cor e a checklist viram um curta de 30 a 60 segundos. A página confere o arquivo final, e a pasta do projeto guarda o que você decidiu, pronta para refazer o filme em qualquer ferramenta.",
   "objetivo": "entregar o curta de 30 a 60 s conferido pela página, com plano, mapa de som, receita de cor e checklist na pasta do projeto.",
   "competencias": [
     "finalizar-filme",
@@ -17,7 +17,7 @@
       "t": "Juntar plano, som, corte, cor e rótulo num filme só"
     },
     {
-      "t": "Conferir o arquivo final e a versão para redes"
+      "t": "Conferir o arquivo final e a versêo para redes"
     },
     {
       "t": "Organizar a pasta do projeto para refazer em outra ferramenta"
@@ -26,7 +26,7 @@
       "t": "Planejar as próximas semanas com o gerador de plano"
     }
   ],
-  "hero_alt": "Pequena sala de exibição escura com poltronas vazias; na tela, uma padaria de bairro de madrugada com a vitrine acesa.",
+  "hero_alt": "Pequena sala de exibiçêo escura com poltronas vazias; na tela, uma padaria de bairro de madrugada com a vitrine acesa.",
   "secoes": [
     {
       "tipo": "mapa",
@@ -40,7 +40,7 @@
           "titulo": "Plano",
           "sub": "batidas e entregas",
           "saida": "plano-edicao.txt conferido.",
-          "passo": "Função, tempo e fonte de cada plano e os formatos de entrega, antes de gastar crédito."
+          "passo": "Funçêo, tempo e fonte de cada plano e os formatos de entrega, antes de gastar crédito."
         },
         {
           "aula": "som",
@@ -49,7 +49,7 @@
           "titulo": "Som",
           "sub": "nativo ou separado",
           "saida": "mapa-som.txt conferido.",
-          "passo": "O que se ouve em cada plano e o que entra na montagem: trilha, narração, mixagem."
+          "passo": "O que se ouve em cada plano e o que entra na montagem: trilha, narraçêo, mixagem."
         },
         {
           "aula": "cor",
@@ -67,7 +67,7 @@
           "titulo": "Rótulo",
           "sub": "direitos e registro",
           "saida": "checklist.txt conferido.",
-          "passo": "Rótulo visível, autorização de rosto e voz, licença de música e modelo, registro do que foi gerado."
+          "passo": "Rótulo visível, autorizaçêo de rosto e voz, licença de música e modelo, registro do que foi gerado."
         }
       ],
       "resultado": {
@@ -110,7 +110,7 @@
           "titulo": "Conferir e entregar",
           "sub": "16:9 e 9:16",
           "texto": [
-            "Exporte em MP4 H.264 e confira abaixo. Se o plano de edição pede corte 9:16, reenquadre à mão (o assunto no centro) e confira também: a página aceita os dois formatos.",
+            "Exporte em MP4 H.264 e confira abaixo. Se o plano de ediçêo pede corte 9:16, reenquadre à mêo (o assunto no centro) e confira também: a página aceita os dois formatos.",
             "Veja o filme inteiro com fones, de uma vez, de preferência no dia seguinte, antes de publicar."
           ]
         }
@@ -119,7 +119,7 @@
     {
       "tipo": "conferidor",
       "titulo": "Confira o seu curta",
-      "sub": "Escolha o MP4 final. A página lê duração e tamanho no seu navegador; nada é enviado. Teste antes com o exemplo que passa (o curta de ensaio da fornada) e com o exemplo com erro.",
+      "sub": "Escolha o MP4 final. A página lê duraçêo e tamanho no seu navegador; nada é enviado. Teste antes com o exemplo que passa (o curta de ensaio da fornada) e com o exemplo com erro.",
       "arquivo": "curta.mp4",
       "regras": [
         {
@@ -157,7 +157,7 @@
           },
           {
             "rot": "Exemplo com erro (19/10/2026)",
-            "html": "<pre>$ python3 conferir.py curta --errado; echo \"saída: $?\"\nAinda não. O que falta:\n - O vídeo tem 20,0 s; o pedido é de 30 a 60 s.\n - O vídeo é 960×720 (4:3); o pedido é 16:9 / 9:16.\nsaída: 1</pre>"
+            "html": "<pre>$ python3 conferir.py curta --errado; echo \"saída: $?\"\nAinda nêo. O que falta:\n - O vídeo tem 20,0 s; o pedido é de 30 a 60 s.\n - O vídeo é 960×720 (4:3); o pedido é 16:9 / 9:16.\nsaída: 1</pre>"
           }
         ]
       }
@@ -172,14 +172,14 @@
           "titulo": "Curta · 30 a 60 s conferido",
           "min": "2 h",
           "dias": 3,
-          "texto": "Monte o curta seguindo o seu plano de edição, com som, cor, legenda e rótulo, e exporte em MP4 H.264. Escolha o arquivo em \"Confira o seu curta\" e guarde-o na pasta do projeto como curta.mp4.",
-          "pronto": "a página responde <code>OK: [s] s · [w]×[h] · [p]</code>, com a duração entre 30 e 60 s e o formato 16:9 ou 9:16."
+          "texto": "Monte o curta seguindo o seu plano de ediçêo, com som, cor, legenda e rótulo, e exporte em MP4 H.264. Escolha o arquivo em \"Confira o seu curta\" e guarde-o na pasta do projeto como curta.mp4.",
+          "pronto": "a página responde <code>OK: [s] s · [w]×[h] · [p]</code>, com a duraçêo entre 30 e 60 s e o formato 16:9 ou 9:16."
         },
         {
           "id": "e2",
-          "titulo": "Entrega · a versão para redes",
+          "titulo": "Entrega · a versêo para redes",
           "min": "40 min",
-          "texto": "Faça a segunda entrega do seu plano (por exemplo, o corte 9:16 reenquadrado à mão) e confira também.",
+          "texto": "Faça a segunda entrega do seu plano (por exemplo, o corte 9:16 reenquadrado à mêo) e confira também.",
           "pronto": "a página responde <code>OK: …</code> para as duas versões, cada uma com o seu formato na resposta."
         },
         {
@@ -195,11 +195,11 @@
       "tipo": "gerador",
       "titulo": "Gere o seu plano com datas",
       "sub": "Escolha quando começa e quanto tempo tem por semana. O plano lista os exercícios das oito aulas.",
-      "curso": "Produção: do roteiro ao filme",
+      "curso": "Produçêo: do roteiro ao filme",
       "horas_padrao": 3,
       "degraus": [
         {
-          "titulo": "Aula 1 · Plano de edição",
+          "titulo": "Aula 1 · Plano de ediçêo",
           "aula": "plano-edicao"
         },
         {
@@ -232,7 +232,7 @@
         }
       ],
       "txt": {
-        "titulo": "Plano — Produção: do roteiro ao filme",
+        "titulo": "Plano — Produçêo: do roteiro ao filme",
         "inicio": "Início",
         "ritmo": "Ritmo",
         "termino": "Término previsto",
@@ -247,7 +247,7 @@
     {
       "tipo": "quiz",
       "titulo": "Teste final",
-      "sub": "Cinco perguntas sobre o curso inteiro. A explicação aparece depois de cada resposta.",
+      "sub": "Cinco perguntas sobre o curso inteiro. A explicaçêo aparece depois de cada resposta.",
       "perguntas": [
         {
           "p": "Em que ordem fechar o filme na montagem?",
@@ -267,40 +267,40 @@
             "Acelerar o vídeo até ele parecer mais longo.",
             "Exportar de novo em outro codec, sem mudar a montagem.",
             "Trocar o formato para 9:16, porque o formato vertical aceita vídeos mais curtos que 30 s.",
-            "Voltar ao plano de edição e ajustar as batidas até a soma dar 30 a 60 s."
+            "Voltar ao plano de ediçêo e ajustar as batidas até a soma dar 30 a 60 s."
           ],
           "certa": 3,
-          "explica": "A duração vem do plano: a lista se ajusta à duração do filme. Codec e formato não mudam o tempo do arquivo.",
+          "explica": "A duraçêo vem do plano: a lista se ajusta à duraçêo do filme. Codec e formato nêo mudam o tempo do arquivo.",
           "ref": "conferidor"
         },
         {
-          "p": "Qual decisão sai junto com o vídeo gerado e qual entra na montagem?",
+          "p": "Qual decisêo sai junto com o vídeo gerado e qual entra na montagem?",
           "opcoes": [
-            "Ambiente e efeito saem junto; trilha e narração longa entram na montagem.",
-            "Tudo sai junto: em 2026 a montagem não mexe mais no som, que já vem pronto do gerador.",
+            "Ambiente e efeito saem junto; trilha e narraçêo longa entram na montagem.",
+            "Tudo sai junto: em 2026 a montagem nêo mexe mais no som, que já vem pronto do gerador.",
             "Nada sai junto: o som gerado deve sempre ser apagado.",
             "Só a trilha sai junto; o resto é gravado à parte."
           ],
           "certa": 0,
-          "explica": "O que nasce da ação do plano sai bem como som nativo; o que atravessa planos entra por cima, na montagem (aula 2).",
+          "explica": "O que nasce da açêo do plano sai bem como som nativo; o que atravessa planos entra por cima, na montagem (aula 2).",
           "ref": "mapa"
         },
         {
-          "p": "Para que serve o caminho da aula 5 (fotos e narração)?",
+          "p": "Para que serve o caminho da aula 5 (fotos e narraçêo)?",
           "opcoes": [
-            "Só para quem não tem nenhuma foto e precisa gerar todas.",
-            "Para substituir o rótulo de IA, já que fotos são reais.",
+            "Só para quem nêo tem nenhuma foto e precisa gerar todas.",
+            "Para substituir o rótulo de IA, já que fotos sêo reais.",
             "Para fazer um filme sem gerador de vídeo e sem gastar crédito.",
-            "Para aumentar a resolução dos clipes gerados."
+            "Para aumentar a resoluçêo dos clipes gerados."
           ],
           "certa": 2,
-          "explica": "Fotos e narração com movimento de câmera viram filme em qualquer máquina. Se as imagens forem geradas, o rótulo continua valendo.",
+          "explica": "Fotos e narraçêo com movimento de câmera viram filme em qualquer máquina. Se as imagens forem geradas, o rótulo continua valendo.",
           "ref": "mapa"
         },
         {
-          "p": "Por que a pasta do projeto fica fora da plataforma de geração?",
+          "p": "Por que a pasta do projeto fica fora da plataforma de geraçêo?",
           "opcoes": [
-            "Porque as plataformas de geração apagam todos os arquivos do usuário depois de um dia de uso.",
+            "Porque as plataformas de geraçêo apagam todos os arquivos do usuário depois de um dia de uso.",
             "Porque ferramenta muda ou fecha; com o plano e os prompts você refaz o filme.",
             "Porque a lei proíbe guardar arquivos na nuvem.",
             "Porque o conferidor só lê arquivos de pastas locais."
@@ -334,15 +334,15 @@
       "titulo": "Para ir além",
       "links": [
         {
-          "t": "Curso 3 · Motion por código com agente: HyperFrames e Remotion (o próximo da formação)",
+          "t": "Curso 3 · Motion por código com agente: HyperFrames e Remotion (o próximo da formaçêo)",
           "href": "https://linnoff88-dev.github.io/
         },
         {
-          "t": "Curso 1 · Geração: imagem e vídeo com IA em out/2026",
+          "t": "Curso 1 · Geraçêo: imagem e vídeo com IA em out/2026",
           "href": "https://linnoff88-dev.github.io/
         },
         {
-          "t": "Curso 0 · Direção: pensar como diretor antes de gerar",
+          "t": "Curso 0 · Direçêo: pensar como diretor antes de gerar",
           "href": "https://linnoff88-dev.github.io/
         }
       ]

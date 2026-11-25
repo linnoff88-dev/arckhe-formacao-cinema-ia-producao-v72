@@ -153,8 +153,8 @@
               "variar": 4,
               "termos": [
                 "gancho / hook",
-                "o que é / apresentação / what it is / qué es / presentación / introduction",
-                "demonstração / demonstration / demo / demostración",
+                "o que é / apresentaçêo / what it is / qué es / presentación / introduction",
+                "demonstraçêo / demonstration / demo / demostración",
                 "resultado / result / results / prova / proof / prueba",
                 "fecho / final / ending / cierre / remate / cta"
               ]
@@ -210,7 +210,7 @@
           },
           {
             "rot": "Example with an error (10/19/2026)",
-            "html": "<pre>$ python3 conferir.py anuncio --errado; echo \"saída: $?\"\nAinda não. O que falta:\n - Falta a linha Rótulo: com a descrição (pelo menos 8 letras).\n - Plano 3: falta a fala.\n - Falta citar o aviso de vídeo feito com IA (no Rótulo).\nsaída: 1</pre>"
+            "html": "<pre>$ python3 conferir.py anuncio --errado; echo \"saída: $?\"\nAinda nêo. O que falta:\n - Falta a linha Rótulo: com a descriçêo (pelo menos 8 letras).\n - Plano 3: falta a fala.\n - Falta citar o aviso de vídeo feito com IA (no Rótulo).\nsaída: 1</pre>"
           }
         ]
       }

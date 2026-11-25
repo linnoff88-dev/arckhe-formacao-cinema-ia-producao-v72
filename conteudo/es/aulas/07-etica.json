@@ -171,7 +171,7 @@
           },
           {
             "rot": "Ejemplo con error (19/10/2026)",
-            "html": "<pre>$ python3 conferir.py etica --errado; echo \"saída: $?\"\nAinda não. O que falta:\n - Falta a linha Rótulo: com a descrição (pelo menos 6 letras).\n - Falta a linha Voz: com a descrição (pelo menos 6 letras).\n - Falta a linha Marcas: com a descrição (pelo menos 6 letras).\n - Falta a linha Plataforma: com a descrição (pelo menos 6 letras).\nsaída: 1</pre>"
+            "html": "<pre>$ python3 conferir.py etica --errado; echo \"saída: $?\"\nAinda nêo. O que falta:\n - Falta a linha Rótulo: com a descriçêo (pelo menos 6 letras).\n - Falta a linha Voz: com a descriçêo (pelo menos 6 letras).\n - Falta a linha Marcas: com a descriçêo (pelo menos 6 letras).\n - Falta a linha Plataforma: com a descriçêo (pelo menos 6 letras).\nsaída: 1</pre>"
           }
         ]
       }

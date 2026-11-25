@@ -157,7 +157,7 @@
           },
           {
             "rot": "Example with an error (10/19/2026)",
-            "html": "<pre>$ python3 conferir.py curta --errado; echo \"saída: $?\"\nAinda não. O que falta:\n - O vídeo tem 20,0 s; o pedido é de 30 a 60 s.\n - O vídeo é 960×720 (4:3); o pedido é 16:9 / 9:16.\nsaída: 1</pre>"
+            "html": "<pre>$ python3 conferir.py curta --errado; echo \"saída: $?\"\nAinda nêo. O que falta:\n - O vídeo tem 20,0 s; o pedido é de 30 a 60 s.\n - O vídeo é 960×720 (4:3); o pedido é 16:9 / 9:16.\nsaída: 1</pre>"
           }
         ]
       }

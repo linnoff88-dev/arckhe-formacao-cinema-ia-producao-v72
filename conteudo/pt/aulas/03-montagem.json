@@ -14,13 +14,13 @@
   ],
   "aprende": [
     {
-      "t": "Ordenar e aparar os clipes seguindo o plano de edição"
+      "t": "Ordenar e aparar os clipes seguindo o plano de ediçêo"
     },
     {
-      "t": "Usar o corte seco como padrão e a transição só quando ela conta algo"
+      "t": "Usar o corte seco como padrêo e a transiçêo só quando ela conta algo"
     },
     {
-      "t": "Legendar com transcrição feita no próprio computador"
+      "t": "Legendar com transcriçêo feita no próprio computador"
     },
     {
       "t": "Exportar no formato que a página e as redes leem"
@@ -44,35 +44,35 @@
           "titulo": "Ordenar",
           "sub": "pelo plano",
           "icone": "lista",
-          "detalhe": "Ponha os clipes na ordem do plano de edição (aula 1). A ordem já é metade do ritmo; mudar depois é barato, gerar de novo não é."
+          "detalhe": "Ponha os clipes na ordem do plano de ediçêo (aula 1). A ordem já é metade do ritmo; mudar depois é barato, gerar de novo nêo é."
         },
         {
           "titulo": "Aparar",
           "sub": "início e fim",
           "icone": "relogio",
           "forte": true,
-          "detalhe": "Corte o começo e o fim de cada clipe gerado: é onde costumam aparecer tremidas e deformações. Cada plano dura só o tempo de o olho ler a ação."
+          "detalhe": "Corte o começo e o fim de cada clipe gerado: é onde costumam aparecer tremidas e deformações. Cada plano dura só o tempo de o olho ler a açêo."
         },
         {
-          "titulo": "Transição",
+          "titulo": "Transiçêo",
           "sub": "corte seco",
           "icone": "seta",
-          "detalhe": "O corte seco é a grande maioria e o mais invisível. Fusão para passagem de tempo; match cut para ligar formas parecidas. Transição serve a história, não enfeita."
+          "detalhe": "O corte seco é a grande maioria e o mais invisível. Fusêo para passagem de tempo; match cut para ligar formas parecidas. Transiçêo serve a história, nêo enfeita."
         },
         {
           "titulo": "Legenda",
-          "sub": "transcrição local",
+          "sub": "transcriçêo local",
           "icone": "chat",
-          "detalhe": "Muita gente assiste sem som. A legenda sai da transcrição da fala; revise as palavras antes de queimar no vídeo."
+          "detalhe": "Muita gente assiste sem som. A legenda sai da transcriçêo da fala; revise as palavras antes de queimar no vídeo."
         },
         {
           "titulo": "Exportar",
           "sub": "MP4 H.264",
           "icone": "baixar",
-          "detalhe": "Exporte no formato da entrega (16:9 aqui) em MP4 H.264, o que mais lugares abrem. Depois confira o arquivo na seção abaixo."
+          "detalhe": "Exporte no formato da entrega (16:9 aqui) em MP4 H.264, o que mais lugares abrem. Depois confira o arquivo na seçêo abaixo."
         }
       ],
-      "legenda": "Problema de montagem se corrige no editor, não gerando de novo: reordenar, aparar e trocar a transição não gastam crédito."
+      "legenda": "Problema de montagem se corrige no editor, nêo gerando de novo: reordenar, aparar e trocar a transiçêo nêo gastam crédito."
     },
     {
       "tipo": "passos",
@@ -84,22 +84,22 @@
           "sub": "gratuito e no seu computador",
           "texto": [
             "O exemplo usa o Concat (0.2.7 beta, out/2026): editor de vídeo de código aberto (licença AGPL-3.0), instalado no computador, sem conta, sem assinatura e sem marca d'água. Roda em Windows, macOS, Linux e Android.",
-            "Por ser beta, ainda tem arestas, e os instaladores não são assinados: no Windows, o aviso pede \"Mais informações › Executar assim mesmo\". Se você já usa outro editor, os passos são os mesmos."
+            "Por ser beta, ainda tem arestas, e os instaladores nêo sêo assinados: no Windows, o aviso pede \"Mais informações › Executar assim mesmo\". Se você já usa outro editor, os passos sêo os mesmos."
           ]
         },
         {
           "titulo": "Ordenar e aparar",
           "sub": "o plano manda",
           "texto": [
-            "Arraste os clipes na ordem do seu plano de edição. Apare meio segundo no começo e no fim de cada clipe gerado e veja a sequência inteira de uma vez, para sentir o ritmo.",
-            "Se um plano parece longo, ele é: corte até a ação ficar clara e nada mais. Varie o tamanho de plano entre vizinhos, como a decupagem pediu."
+            "Arraste os clipes na ordem do seu plano de ediçêo. Apare meio segundo no começo e no fim de cada clipe gerado e veja a sequência inteira de uma vez, para sentir o ritmo.",
+            "Se um plano parece longo, ele é: corte até a açêo ficar clara e nada mais. Varie o tamanho de plano entre vizinhos, como a decupagem pediu."
           ]
         },
         {
           "titulo": "Transições que contam algo",
-          "sub": "corte seco, fusão, J e L",
+          "sub": "corte seco, fusêo, J e L",
           "texto": [
-            "Corte seco por padrão. Fusão curta quando o tempo passa. Match on action: corte no meio de um movimento e continue o movimento no plano seguinte.",
+            "Corte seco por padrêo. Fusêo curta quando o tempo passa. Match on action: corte no meio de um movimento e continue o movimento no plano seguinte.",
             "J-cut: o som do próximo plano entra antes da imagem (as batidas na porta antes de ver a porta). L-cut: o som do plano continua depois do corte. Os dois ligam planos sem efeito visual."
           ],
           "exemplo": {
@@ -131,14 +131,14 @@
         {
           "rot": "cortes.txt (lista de decisões)",
           "icone": "arquivo",
-          "conteudo": "Montagem: <nome> (<duração alvo> s, 16:9)\n# n | clipe | entra em | sai em | transição para o próximo | som\n1 | plano-1 | <s> | <s> | corte seco | ambiente do clipe\n2 | plano-2 | <s> | <s> | J-cut (o som do 3 entra antes) | <...>\nLegenda: <sim ou não; revisada?>\nExportação: MP4 H.264, <largura>×<altura>"
+          "conteudo": "Montagem: <nome> (<duraçêo alvo> s, 16:9)\n# n | clipe | entra em | sai em | transiçêo para o próximo | som\n1 | plano-1 | <s> | <s> | corte seco | ambiente do clipe\n2 | plano-2 | <s> | <s> | J-cut (o som do 3 entra antes) | <...>\nLegenda: <sim ou nêo; revisada?>\nExportaçêo: MP4 H.264, <largura>×<altura>"
         }
       ]
     },
     {
       "tipo": "conferidor",
       "titulo": "Confira a sua montagem",
-      "sub": "Escolha o MP4 exportado. A página lê duração e tamanho no seu navegador; nada é enviado. Teste antes com o exemplo que passa e com o exemplo com erro.",
+      "sub": "Escolha o MP4 exportado. A página lê duraçêo e tamanho no seu navegador; nada é enviado. Teste antes com o exemplo que passa e com o exemplo com erro.",
       "arquivo": "montagem.mp4",
       "regras": [
         {
@@ -173,7 +173,7 @@
           },
           {
             "rot": "Exemplo com erro (19/10/2026)",
-            "html": "<pre>$ python3 conferir.py montagem --errado; echo \"saída: $?\"\nAinda não. O que falta:\n - O vídeo tem 8,0 s; o pedido é de 12 a 20 s.\n - O vídeo é 720×1280 (9:16); o pedido é 16:9.\n - O vídeo tem 720 px de largura; o mínimo é 1280 px.\nsaída: 1</pre>"
+            "html": "<pre>$ python3 conferir.py montagem --errado; echo \"saída: $?\"\nAinda nêo. O que falta:\n - O vídeo tem 8,0 s; o pedido é de 12 a 20 s.\n - O vídeo é 720×1280 (9:16); o pedido é 16:9.\n - O vídeo tem 720 px de largura; o mínimo é 1280 px.\nsaída: 1</pre>"
           }
         ]
       }
@@ -188,13 +188,13 @@
           "titulo": "Montagem · os quatro clipes em 12 a 20 s",
           "min": "30 min",
           "texto": "Monte os quatro clipes de ensaio (ou os seus) em 16:9, com cortes secos e pelo menos um J-cut ou L-cut, e exporte em MP4 H.264. Escolha o arquivo em \"Confira a sua montagem\" e guarde-o na pasta do projeto como montagem.mp4.",
-          "pronto": "a página responde <code>OK: [s] s · [w]×[h] · 16:9</code>, com a duração entre 12 e 20 s e a largura de pelo menos 1280 px."
+          "pronto": "a página responde <code>OK: [s] s · [w]×[h] · 16:9</code>, com a duraçêo entre 12 e 20 s e a largura de pelo menos 1280 px."
         },
         {
           "id": "e2",
           "titulo": "Legenda · queimada e revisada",
           "min": "20 min",
-          "texto": "Escreva uma frase de narração para a montagem, grave com a sua voz e gere a legenda no editor. Revise e exporte de novo com a legenda queimada; no filme final (aula 8), a legenda entra depois da cor.",
+          "texto": "Escreva uma frase de narraçêo para a montagem, grave com a sua voz e gere a legenda no editor. Revise e exporte de novo com a legenda queimada; no filme final (aula 8), a legenda entra depois da cor.",
           "pronto": "a página continua respondendo <code>OK: …</code> para o novo arquivo e, ao tocar o vídeo, a legenda aparece no quadro com as palavras que você gravou."
         }
       ]
@@ -202,18 +202,18 @@
     {
       "tipo": "quiz",
       "titulo": "Teste rápido",
-      "sub": "Quatro perguntas. A explicação aparece depois de cada resposta.",
+      "sub": "Quatro perguntas. A explicaçêo aparece depois de cada resposta.",
       "perguntas": [
         {
-          "p": "Um plano gerado tem uma deformação nos últimos 10 quadros. O que fazer primeiro?",
+          "p": "Um plano gerado tem uma deformaçêo nos últimos 10 quadros. O que fazer primeiro?",
           "opcoes": [
             "Gerar o plano de novo até sair sem nenhum defeito.",
-            "Pôr uma fusão longa por cima do fim do plano para esconder o defeito do olhar.",
+            "Pôr uma fusêo longa por cima do fim do plano para esconder o defeito do olhar.",
             "Trocar o plano inteiro por uma tela preta com texto.",
             "Aparar o fim do clipe na montagem antes de pensar em gerar de novo."
           ],
           "certa": 3,
-          "explica": "Começo e fim de clipe gerado são onde o defeito costuma aparecer; aparar não gasta crédito. Fusão para esconder defeito chama atenção para ele.",
+          "explica": "Começo e fim de clipe gerado sêo onde o defeito costuma aparecer; aparar nêo gasta crédito. Fusêo para esconder defeito chama atençêo para ele.",
           "ref": "diagrama"
         },
         {
@@ -222,7 +222,7 @@
             "J-cut: o som do próximo plano entra antes da imagem dele.",
             "L-cut: o som do plano anterior continua tocando por cima do plano seguinte, depois do corte.",
             "Match cut: duas formas parecidas ligadas pelo corte.",
-            "Fusão: uma imagem se dissolve na outra aos poucos."
+            "Fusêo: uma imagem se dissolve na outra aos poucos."
           ],
           "certa": 0,
           "explica": "No J-cut o som chega primeiro e puxa o olhar para o próximo plano. No L-cut é o contrário: o som fica depois do corte.",
@@ -245,11 +245,11 @@
           "opcoes": [
             "O arquivo está corrompido e precisa ser exportado de novo em H.264, com outro nome de arquivo.",
             "O projeto do editor está em vertical; mude para 16:9 e exporte de novo.",
-            "O vídeo tem duração demais para a prática desta aula.",
-            "A legenda queimada mudou a proporção do vídeo."
+            "O vídeo tem duraçêo demais para a prática desta aula.",
+            "A legenda queimada mudou a proporçêo do vídeo."
           ],
           "certa": 1,
-          "explica": "A página leu o tamanho do arquivo: ele saiu em pé. O formato vem do projeto no editor, não do codec, da duração ou da legenda.",
+          "explica": "A página leu o tamanho do arquivo: ele saiu em pé. O formato vem do projeto no editor, nêo do codec, da duraçêo ou da legenda.",
           "ref": "conferidor"
         }
       ]
@@ -263,12 +263,12 @@
           "texto": "Começo e fim de clipe gerado saem na montagem, sem gastar crédito."
         },
         {
-          "t": "Corte seco por padrão",
-          "texto": "Fusão, match cut, J-cut e L-cut só quando contam algo."
+          "t": "Corte seco por padrêo",
+          "texto": "Fusêo, match cut, J-cut e L-cut só quando contam algo."
         },
         {
           "t": "Conferir o arquivo",
-          "texto": "MP4 H.264 no formato da entrega; a página lê duração e tamanho."
+          "texto": "MP4 H.264 no formato da entrega; a página lê duraçêo e tamanho."
         }
       ]
     },

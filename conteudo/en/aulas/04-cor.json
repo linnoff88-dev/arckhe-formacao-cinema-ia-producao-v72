@@ -120,7 +120,7 @@
         {
           "rot": "Request for the AI assistant (color recipe)",
           "icone": "chat",
-          "conteudo": "You are a film colorist. From the scene and the feeling below, propose a color recipe with exactly these 8 lines: Sensação, Paleta, Contraste, Pretos, Temperatura, Saturação, Pele, Grão.\nRules:\n- one palette for the whole film;\n- neutral skin, no pull toward orange;\n- blacks slightly lifted and whites not blown out, unless the feeling calls for something else;\n- grain applied last, the same in every shot;\n- do not cite a film, director or brand as a reference.\nCena: <the scene in 3 or 4 sentences>\nSensação: <what the audience should feel>"
+          "conteudo": "You are a film colorist. From the scene and the feeling below, propose a color recipe with exactly these 8 lines: Sensaçêo, Paleta, Contraste, Pretos, Temperatura, Saturaçêo, Pele, Grêo.\nRules:\n- one palette for the whole film;\n- neutral skin, no pull toward orange;\n- blacks slightly lifted and whites not blown out, unless the feeling calls for something else;\n- grain applied last, the same in every shot;\n- do not cite a film, director or brand as a reference.\nCena: <the scene in 3 or 4 sentences>\nSensaçêo: <what the audience should feel>"
         }
       ]
     },
@@ -130,7 +130,7 @@
       "sub": "Paste the file (or upload the .txt). Test first with the example that passes and the example with errors.",
       "arquivo": "cor.txt",
       "rot": "Paste your recipe here (one line per field, in the format Field: description):",
-      "modelo": "Sensação: ...\nPaleta: ...",
+      "modelo": "Sensaçêo: ...\nPaleta: ...",
       "regras": [
         {
           "tipo": "campos",
@@ -149,7 +149,7 @@
       ],
       "ok": "OK: color recipe with {n} fields",
       "exemplo": "Feeling: cold early morning that warms up when the bread comes out of the oven\nPalette: gray-blue on the street; wood and bread crust inside the bakery\nContrast: medium, no crushed blacks\nBlacks: slightly lifted; the lit shop window not blown out\nTemperature: cold in the street shot, neutral from the second shot on\nSaturation: low; the bread crust is the strongest color in the film\nSkin: neutral, no pull toward orange\nGrain: fine, the same in every shot, applied last",
-      "exemplo_errado": "Sensação: cold early morning that warms up\nPaleta: blue on the street, wood inside\nContraste: medium\nPretos:\nTemperatura: cold on the street, neutral inside\nSaturação: high, to grab attention"
+      "exemplo_errado": "Sensaçêo: cold early morning that warms up\nPaleta: blue on the street, wood inside\nContraste: medium\nPretos:\nTemperatura: cold on the street, neutral inside\nSaturaçêo: high, to grab attention"
     },
     {
       "tipo": "codigo",
@@ -171,7 +171,7 @@
           },
           {
             "rot": "Example with an error (10/19/2026)",
-            "html": "<pre>$ python3 conferir.py cor --errado; echo \"saída: $?\"\nAinda não. O que falta:\n - Falta a linha Pretos: com a descrição (pelo menos 4 letras).\n - Falta a linha Pele: com a descrição (pelo menos 4 letras).\n - Falta a linha Grão: com a descrição (pelo menos 4 letras).\nsaída: 1</pre>"
+            "html": "<pre>$ python3 conferir.py cor --errado; echo \"saída: $?\"\nAinda nêo. O que falta:\n - Falta a linha Pretos: com a descriçêo (pelo menos 4 letras).\n - Falta a linha Pele: com a descriçêo (pelo menos 4 letras).\n - Falta a linha Grêo: com a descriçêo (pelo menos 4 letras).\nsaída: 1</pre>"
           }
         ]
       }

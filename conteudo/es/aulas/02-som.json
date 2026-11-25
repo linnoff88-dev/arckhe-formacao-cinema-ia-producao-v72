@@ -157,7 +157,7 @@
               "termos": [
                 "ambiente / ambiência / ambient / ambience / room tone / ambient sound / sonido ambiente",
                 "efeito / efeitos / foley / sfx / effect / effects / sound effect / sound effects / efecto / efectos",
-                "fala / diálogo / dialogue / dialog / line / narração / narration / voz / voice / narración",
+                "fala / diálogo / dialogue / dialog / line / narraçêo / narration / voz / voice / narración",
                 "trilha / música / music / score / soundtrack / banda sonora",
                 "silêncio / silence / silencio"
               ]
@@ -167,7 +167,7 @@
               "um_so": true,
               "termos": [
                 "nativo / gerado junto / native / generated with the video / generado junto",
-                "separado / em separado / pós-produção / separate / post-production / por separado / postproducción / posproducción"
+                "separado / em separado / pós-produçêo / separate / post-production / por separado / postproducción / posproducción"
               ]
             }
           ]
@@ -175,7 +175,7 @@
       ],
       "ok": "OK: {n} planos con capa de sonido y origen decidido",
       "exemplo": "Escena: La primera hornada (20 s)\nBanda sonora: piano bajo y lento, sin voz; entra en el plano 4 y sube en el 6; sale en fundido en el último segundo\n# n | lo que se oye | origen\n1 | ambiente: viento y un perro a lo lejos | origen: nativo\n2 | ambiente: radio bajita; efecto: la masa golpeando la mesa | origen: nativo\n3 | efecto: rechinido del horno y silbido del vapor | origen: por separado (grabado en el horno de la panadería)\n4 | silencio de un segundo; después efecto: la corteza crujiendo | origen: nativo\n5 | efecto: tres golpes en la puerta de hierro; diálogo: \"¡Ya voy!\" | origen: nativo, diálogo corto\n6 | la banda sonora sube; ambiente: la calle despertando | origen: por separado, en el montaje",
-      "exemplo_errado": "Cena: A primeira fornada (20 s)\n1 | ambiente: vento | origem: nativo\n2 | efeito: massa batendo | origem: nativo ou separado\n3 | rangido do forno | origem: separado\n4 | o pão saindo do forno\n5 | fala: \"Já vai!\" | origem: nativo"
+      "exemplo_errado": "Cena: A primeira fornada (20 s)\n1 | ambiente: vento | origem: nativo\n2 | efeito: massa batendo | origem: nativo ou separado\n3 | rangido do forno | origem: separado\n4 | o pêo saindo do forno\n5 | fala: \"Já vai!\" | origem: nativo"
     },
     {
       "tipo": "codigo",
@@ -197,7 +197,7 @@
           },
           {
             "rot": "Ejemplo con error (19/10/2026)",
-            "html": "<pre>$ python3 conferir.py som --errado; echo \"saída: $?\"\nAinda não. O que falta:\n - Falta a linha Trilha: com a descrição (pelo menos 8 letras).\n - Plano 2: 2 escolhas de origem; fique com uma só.\n - Plano 3: falta camada de som.\n - Plano 4: falta camada de som.\n - Plano 4: falta origem.\nsaída: 1</pre>"
+            "html": "<pre>$ python3 conferir.py som --errado; echo \"saída: $?\"\nAinda nêo. O que falta:\n - Falta a linha Trilha: com a descriçêo (pelo menos 8 letras).\n - Plano 2: 2 escolhas de origem; fique com uma só.\n - Plano 3: falta camada de som.\n - Plano 4: falta camada de som.\n - Plano 4: falta origem.\nsaída: 1</pre>"
           }
         ]
       }

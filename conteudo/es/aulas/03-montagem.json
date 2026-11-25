@@ -173,7 +173,7 @@
           },
           {
             "rot": "Ejemplo con error (19/10/2026)",
-            "html": "<pre>$ python3 conferir.py montagem --errado; echo \"saída: $?\"\nAinda não. O que falta:\n - O vídeo tem 8,0 s; o pedido é de 12 a 20 s.\n - O vídeo é 720×1280 (9:16); o pedido é 16:9.\n - O vídeo tem 720 px de largura; o mínimo é 1280 px.\nsaída: 1</pre>"
+            "html": "<pre>$ python3 conferir.py montagem --errado; echo \"saída: $?\"\nAinda nêo. O que falta:\n - O vídeo tem 8,0 s; o pedido é de 12 a 20 s.\n - O vídeo é 720×1280 (9:16); o pedido é 16:9.\n - O vídeo tem 720 px de largura; o mínimo é 1280 px.\nsaída: 1</pre>"
           }
         ]
       }

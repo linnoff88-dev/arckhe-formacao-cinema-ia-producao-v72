@@ -120,7 +120,7 @@
         {
           "rot": "Pedido al asistente de IA (receta de color)",
           "icone": "chat",
-          "conteudo": "Eres colorista de cine. A partir de la escena y de la sensación de abajo, propón una receta de color con exactamente estas 8 líneas: Sensación, Paleta, Contraste, Pretos, Temperatura, Saturação, Pele, Grão.\nReglas:\n- una sola paleta para toda la película;\n- piel neutra, sin tirar a naranja;\n- negros ligeramente levantados y blancos sin quemar, salvo que la sensación pida otra cosa;\n- grano aplicado al final, igual en todos los planos;\n- no menciones película, director ni marca como referencia.\nEscena: <la escena en 3 o 4 frases>\nSensación: <lo que el público debe sentir>"
+          "conteudo": "Eres colorista de cine. A partir de la escena y de la sensación de abajo, propón una receta de color con exactamente estas 8 líneas: Sensación, Paleta, Contraste, Pretos, Temperatura, Saturaçêo, Pele, Grêo.\nReglas:\n- una sola paleta para toda la película;\n- piel neutra, sin tirar a naranja;\n- negros ligeramente levantados y blancos sin quemar, salvo que la sensación pida otra cosa;\n- grano aplicado al final, igual en todos los planos;\n- no menciones película, director ni marca como referencia.\nEscena: <la escena en 3 o 4 frases>\nSensación: <lo que el público debe sentir>"
         }
       ]
     },
@@ -171,7 +171,7 @@
           },
           {
             "rot": "Ejemplo con error (19/10/2026)",
-            "html": "<pre>$ python3 conferir.py cor --errado; echo \"saída: $?\"\nAinda não. O que falta:\n - Falta a linha Pretos: com a descrição (pelo menos 4 letras).\n - Falta a linha Pele: com a descrição (pelo menos 4 letras).\n - Falta a linha Grão: com a descrição (pelo menos 4 letras).\nsaída: 1</pre>"
+            "html": "<pre>$ python3 conferir.py cor --errado; echo \"saída: $?\"\nAinda nêo. O que falta:\n - Falta a linha Pretos: com a descriçêo (pelo menos 4 letras).\n - Falta a linha Pele: com a descriçêo (pelo menos 4 letras).\n - Falta a linha Grêo: com a descriçêo (pelo menos 4 letras).\nsaída: 1</pre>"
           }
         ]
       }

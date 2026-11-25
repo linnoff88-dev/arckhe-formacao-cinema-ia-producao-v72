@@ -156,7 +156,7 @@
               "um_so": true,
               "variar": 3,
               "termos": [
-                "push in / push-in / push_in / aproximação lenta / aproximação / aproximar / dolly in / zoom in / acercamiento lento / acercamiento",
+                "push in / push-in / push_in / aproximaçêo lenta / aproximaçêo / aproximar / dolly in / zoom in / acercamiento lento / acercamiento",
                 "pull out / pull-out / pull_out / afastamento lento / afastamento / afastar / dolly out / zoom out / alejamiento lento / alejamiento",
                 "ken burns / ken_burns",
                 "panorâmica / panorámica / panning shot / pan left / pan right / paneo",
@@ -165,7 +165,7 @@
                 "pedestal / grua / crane / grúa",
                 "órbita / orbit / orbit shot",
                 "flutuar / float / flotación",
-                "câmera na mão / handheld / handheld camera / cámara en mano",
+                "câmera na mêo / handheld / handheld camera / cámara en mano",
                 "câmera parada / câmera fixa / static camera / static shot / cámara fija / plano fijo",
                 "aéreo / plano aéreo / aerial shot / aerial",
                 "dolly zoom / efeito vertigo / vertigo effect / efecto vértigo",
@@ -178,7 +178,7 @@
               "um_so": true,
               "termos": [
                 "corte seco / hard cut / corte directo / straight cut",
-                "fusão / crossfade / dissolve / fundido encadenado / encadenado / disolvencia",
+                "fusêo / crossfade / dissolve / fundido encadenado / encadenado / disolvencia",
                 "fade para preto / dip to black / dip_to_black / fade to black / fundido a negro",
                 "chicote / whip transition / transición de barrido",
                 "zoom blur / zoom_blur / desfoque de zoom / desenfoque de zoom"
@@ -212,11 +212,11 @@
         "abas": [
           {
             "rot": "Salida capturada (19/10/2026)",
-            "html": "<pre>$ python3 conferir.py fotos --exemplo; echo \"saída: $?\"\nOK: 5 fotos com movimento, transição e tempo · 30 s\nsaída: 0</pre>"
+            "html": "<pre>$ python3 conferir.py fotos --exemplo; echo \"saída: $?\"\nOK: 5 fotos com movimento, transiçêo e tempo · 30 s\nsaída: 0</pre>"
           },
           {
             "rot": "Ejemplo con error (19/10/2026)",
-            "html": "<pre>$ python3 conferir.py fotos --errado; echo \"saída: $?\"\nAinda não. O que falta:\n - Achei 3 planos numerados; o pedido é de 4 a 12. Comece cada plano pelo número (1 | ...).\n - Plano 1: 2 escolhas de movimento; fique com uma só.\n - Plano 2: falta transição.\n - Plano 3: falta a foto.\n - Os planos somam 18 s; o pedido é de 30 a 60 s.\nsaída: 1</pre>"
+            "html": "<pre>$ python3 conferir.py fotos --errado; echo \"saída: $?\"\nAinda nêo. O que falta:\n - Achei 3 planos numerados; o pedido é de 4 a 12. Comece cada plano pelo número (1 | ...).\n - Plano 1: 2 escolhas de movimento; fique com uma só.\n - Plano 2: falta transiçêo.\n - Plano 3: falta a foto.\n - Os planos somam 18 s; o pedido é de 30 a 60 s.\nsaída: 1</pre>"
           }
         ]
       }
@@ -230,8 +230,8 @@
           "id": "e1",
           "titulo": "Hoja de dirección · 4 a 12 fotos, 30 a 60 s",
           "min": "20 min",
-          "texto": "Escribe la narración, marca el tiempo de cada frase y completa una línea por foto con movimiento, duración y transición. Pégala en \"Confira a sua folha de direção\" y descarga el direcao-fotos.txt a la carpeta del proyecto.",
-          "pronto": "la página responde <code>OK: [n] fotos com movimento, transição e tempo · [s] s</code>, con la suma entre 30 y 60 s, y el archivo está en la carpeta del proyecto."
+          "texto": "Escribe la narración, marca el tiempo de cada frase y completa una línea por foto con movimiento, duración y transición. Pégala en \"Confira a sua folha de direçêo\" y descarga el direcao-fotos.txt a la carpeta del proyecto.",
+          "pronto": "la página responde <code>OK: [n] fotos com movimento, transiçêo e tempo · [s] s</code>, con la suma entre 30 y 60 s, y el archivo está en la carpeta del proyecto."
         },
         {
           "id": "e2",
